@@ -27,17 +27,16 @@
     <h1>Monitoring AIS Data</h1>
     <div id="log"></div>
 
-    <script src="/socket.io/socket.io.js"></script>
     <script>
         const logElement = document.getElementById('log');
-        const socket = io();
+        const socket = new WebSocket(`ws://${window.location.hostname}:${window.location.port}`);
 
-        socket.on('aisData', (data) => {
+        socket.addEventListener('message', (event) => {
             const entry = document.createElement('div');
             entry.classList.add('log-entry');
-            entry.textContent = data;
+            entry.textContent = event.data;
             logElement.appendChild(entry);
-            logElement.scrollTop = logElement.scrollHeight; // Scroll otomatis ke bawah
+            logElement.scrollTop = logElement.scrollHeight;
         });
     </script>
 </body>
