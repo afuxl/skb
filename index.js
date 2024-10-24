@@ -5,7 +5,7 @@ const socketIo = require('socket.io');
 const path = require('path');
 
 // Konfigurasi server AIS
-const AIS_PORT = process.env.AIS_PORT || 3000;
+const AIS_PORT = process.env.AIS_PORT || 80;
 const AIS_HOST = process.env.AIS_HOST || '0.0.0.0';
 const DESTINATION_URL = process.env.DESTINATION_URL || '5.9.207.224';
 const DESTINATION_PORT = process.env.DESTINATION_PORT || 12930;
