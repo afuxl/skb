@@ -1005,5 +1005,165 @@ const questions = [
       "Teknologi informasi digunakan untuk memfasilitasi pendaftaran online, mengelola database peserta seleksi, menyediakan platform ujian berbasis komputer, dan mempublikasikan hasil seleksi secara transparan. Hal ini bertujuan untuk meningkatkan efisiensi, akuntabilitas, dan keandalan proses seleksi."
     ],
     "answer": 3
+  },
+  {
+    "question": "Apa yang dimaksud dengan ASN?",
+    "options": ["Aparatur Sipil Negara", "Pegawai Negeri Sipil", "Jabatan Fungsional", "Pejabat yang Berwenang", "Koperasi"],
+    "answer": 1
+  },
+  {
+    "question": "Siapa yang berwenang mengangkat Pengawas Koperasi Ahli Utama?",
+    "options": ["Presiden", "Pejabat Pembina Kepegawaian", "Pejabat Administrator", "Pejabat Pengawas", "Pejabat Tinggi Pratama"],
+    "answer": 1
+  },
+  {
+    "question": "Apa yang menjadi dasar penetapan kebutuhan PNS dalam Jabatan Fungsional Pengawas Koperasi?",
+    "options": ["Jumlah koperasi", "Volume usaha koperasi", "Tipologi wilayah koperasi", "Ruang lingkup pengawasan koperasi", "Semua jawaban benar"],
+    "answer": 5
+  },
+  {
+    "question": "Apa yang dimaksud dengan Angka Kredit?",
+    "options": ["Satuan nilai dari tiap butir kegiatan", "Jumlah koperasi", "Pangkat dan golongan ruang", "Jabatan Fungsional", "Pejabat yang Berwenang"],
+    "answer": 1
+  },
+  {
+    "question": "Apa syarat minimal pendidikan untuk pengangkatan pertama dalam Jabatan Fungsional Pengawas Koperasi?",
+    "options": ["S-1/D-4 bidang manajemen, ekonomi, akuntansi, atau hukum", "SMA", "D-3", "S-2", "S-1 bidang apa saja"],
+    "answer": 1
+  },
+  {
+    "question": "Berapa target Angka Kredit minimal untuk Pengawas Koperasi Ahli Pertama setiap tahun?",
+    "options": ["12,5", "25", "37,5", "50", "100"],
+    "answer": 1
+  },
+  {
+    "question": "Apa yang dimaksud dengan Pengawasan Koperasi?",
+    "options": ["Kegiatan mengawasi dan memeriksa koperasi", "Pendidikan dan pelatihan", "Pembuatan karya tulis", "Pengembangan sistem pengawasan", "Penerjemahan buku"],
+    "answer": 1
+  },
+  {
+    "question": "Siapa yang menetapkan Angka Kredit untuk Pengawas Koperasi?",
+    "options": ["Pejabat yang Berwenang", "Pejabat Pembina Kepegawaian", "Pejabat Administrator", "Pejabat Pengawas", "Pejabat Tinggi Pratama"],
+    "answer": 1
+  },
+  {
+    "question": "Apa yang terjadi jika Pengawas Koperasi tidak lulus pendidikan dan pelatihan fungsional?",
+    "options": ["Diberhentikan dari jabatannya", "Diberikan kesempatan kedua", "Dipindahkan ke jabatan lain", "Diberikan pelatihan tambahan", "Tidak ada tindakan"],
+    "answer": 1
+  },
+  {
+    "question": "Apa yang dimaksud dengan SKP?",
+    "options": ["Sasaran Kerja Pegawai", "Surat Keputusan Pegawai", "Sistem Kerja Pegawai", "Satuan Kerja Pegawai", "Sasaran Kinerja Pegawai"],
+    "answer": 1
+  },
+  {
+    "question": "Bagaimana cara menghitung rasio Rentabilitas Aset (ROA)?",
+    "options": [
+      "Laba bersih dibagi total aset",
+      "Laba bersih dibagi total ekuitas",
+      "Laba bersih dibagi total penjualan",
+      "Laba bersih dibagi total modal",
+      "Laba bersih dibagi total investasi"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Sebutkan komponen yang dinilai dalam Profil Risiko Koperasi!",
+    "options": [
+      "Risiko kredit, risiko pasar, risiko operasional, risiko likuiditas",
+      "Risiko kredit, risiko pasar, risiko operasional, risiko reputasi",
+      "Risiko kredit, risiko pasar, risiko operasional, risiko hukum",
+      "Risiko kredit, risiko pasar, risiko operasional, risiko strategis",
+      "Risiko kredit, risiko pasar, risiko operasional, risiko kepatuhan"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Apa saja kategori tingkat kesehatan Koperasi berdasarkan skor?",
+    "options": [
+      "Sehat, cukup sehat, kurang sehat, tidak sehat",
+      "Sehat, cukup sehat, kurang sehat, sangat tidak sehat",
+      "Sehat, cukup sehat, kurang sehat, tidak sehat, sangat tidak sehat",
+      "Sehat, cukup sehat, kurang sehat, tidak sehat, kritis",
+      "Sehat, cukup sehat, kurang sehat, tidak sehat, sangat kritis"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Bagaimana cara menghitung rasio Likuiditas?",
+    "options": [
+      "Aset lancar dibagi kewajiban lancar",
+      "Aset tetap dibagi kewajiban lancar",
+      "Aset lancar dibagi kewajiban jangka panjang",
+      "Aset tetap dibagi kewajiban jangka panjang",
+      "Aset lancar dibagi total kewajiban"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Sebutkan langkah-langkah dalam prosedur pelaporan hasil Pemeriksaan Kesehatan Koperasi!",
+    "options": [
+      "Pengumpulan data, analisis data, penyusunan laporan, presentasi hasil",
+      "Pengumpulan data, analisis data, penyusunan laporan, verifikasi hasil",
+      "Pengumpulan data, analisis data, penyusunan laporan, validasi hasil",
+      "Pengumpulan data, analisis data, penyusunan laporan, evaluasi hasil",
+      "Pengumpulan data, analisis data, penyusunan laporan, publikasi hasil"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Apa yang dimaksud dengan rasio Solvabilitas?",
+    "options": [
+      "Kemampuan koperasi memenuhi kewajiban jangka panjang",
+      "Kemampuan koperasi memenuhi kewajiban jangka pendek",
+      "Kemampuan koperasi menghasilkan laba dari aset",
+      "Kemampuan koperasi menghasilkan laba dari modal",
+      "Kemampuan koperasi menghasilkan laba dari penjualan"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Bagaimana cara menghitung rasio Rentabilitas Ekuitas (ROE)?",
+    "options": [
+      "Laba bersih dibagi total ekuitas",
+      "Laba bersih dibagi total aset",
+      "Laba bersih dibagi total penjualan",
+      "Laba bersih dibagi total modal",
+      "Laba bersih dibagi total investasi"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Apa yang dimaksud dengan rasio Efisiensi Operasional?",
+    "options": [
+      "Efisiensi operasional koperasi dalam menghasilkan laba",
+      "Efisiensi operasional koperasi dalam mengelola aset",
+      "Efisiensi operasional koperasi dalam mengelola modal",
+      "Efisiensi operasional koperasi dalam mengelola penjualan",
+      "Efisiensi operasional koperasi dalam mengelola ekuitas"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Bagaimana cara menghitung rasio Pertumbuhan Pendapatan?",
+    "options": [
+      "Pendapatan tahun ini dikurangi pendapatan tahun lalu dibagi pendapatan tahun lalu",
+      "Pendapatan tahun ini dibagi pendapatan tahun lalu",
+      "Pendapatan tahun ini dikurangi pendapatan tahun lalu dibagi total aset",
+      "Pendapatan tahun ini dikurangi pendapatan tahun lalu dibagi total ekuitas",
+      "Pendapatan tahun ini dikurangi pendapatan tahun lalu dibagi total penjualan"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Apa yang dimaksud dengan rasio Pertumbuhan Laba?",
+    "options": [
+      "Pertumbuhan laba koperasi dari tahun ke tahun",
+      "Pertumbuhan laba koperasi dari penjualan",
+      "Pertumbuhan laba koperasi dari investasi",
+      "Pertumbuhan laba koperasi dari modal",
+      "Pertumbuhan laba koperasi dari aset"
+    ],
+    "answer": 1
   }
   ]
