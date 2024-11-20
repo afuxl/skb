@@ -950,5 +950,60 @@ const questions = [
       "Meningkatkan transparansi jumlah simpanan wajib anggota"
     ],
     answer: 3
+  },
+    {
+    "question": "Dalam konteks Peraturan BKN Nomor 10 Tahun 2019, apa saja langkah-langkah yang harus diambil oleh instansi pemerintah untuk memastikan transparansi dan akuntabilitas dalam proses pengangkatan PNS?",
+    "options": [
+      "Instansi pemerintah harus menyusun dan mempublikasikan jadwal seleksi secara terbuka, memastikan semua tahapan seleksi diumumkan secara transparan, serta menyediakan mekanisme pengaduan bagi peserta seleksi yang merasa dirugikan.",
+      "Instansi pemerintah harus melakukan seleksi tertutup untuk menjaga kerahasiaan data peserta, mengadakan rapat internal untuk menentukan kelulusan peserta, dan menyusun laporan hasil seleksi yang hanya dapat diakses oleh pejabat terkait.",
+      "Instansi pemerintah harus mengadakan pelatihan khusus bagi panitia seleksi, memastikan semua anggota panitia memahami peraturan yang berlaku, serta menyusun laporan hasil seleksi yang disimpan dalam arsip instansi.",
+      "Instansi pemerintah harus mengundang pihak ketiga untuk melakukan audit terhadap proses seleksi, menyusun laporan hasil audit yang dipublikasikan secara terbuka, dan memberikan kesempatan bagi peserta seleksi untuk memberikan masukan.",
+      "Instansi pemerintah harus menyusun dan mempublikasikan jadwal seleksi secara terbuka, mengadakan pelatihan khusus bagi panitia seleksi, serta menyusun laporan hasil seleksi yang hanya dapat diakses oleh pejabat terkait."
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Apa saja kriteria yang harus dipenuhi oleh calon PNS menurut Peraturan BKN Nomor 10 Tahun 2019, dan bagaimana instansi pemerintah memastikan bahwa semua kriteria tersebut telah terpenuhi?",
+    "options": [
+      "Calon PNS harus memiliki kualifikasi pendidikan yang sesuai, lulus dari seleksi administrasi, dan mengikuti tes kompetensi dasar serta tes kompetensi bidang. Instansi pemerintah memastikan kriteria ini terpenuhi dengan melakukan verifikasi dokumen, mengadakan tes tertulis, dan melakukan wawancara.",
+      "Calon PNS harus memiliki kualifikasi pendidikan yang sesuai, lulus dari seleksi administrasi, mengikuti tes kompetensi dasar, dan memiliki pengalaman kerja minimal 2 tahun di bidang terkait. Instansi pemerintah memastikan kriteria ini terpenuhi dengan melakukan verifikasi dokumen, mengadakan tes tertulis, dan melakukan wawancara.",
+      "Calon PNS harus memiliki kualifikasi pendidikan yang sesuai, lulus dari seleksi administrasi, mengikuti tes kompetensi dasar serta tes kompetensi bidang, dan memiliki sertifikat pelatihan terkait. Instansi pemerintah memastikan kriteria ini terpenuhi dengan melakukan verifikasi dokumen, mengadakan tes tertulis, dan melakukan wawancara.",
+      "Calon PNS harus memiliki kualifikasi pendidikan yang sesuai, lulus dari seleksi administrasi, mengikuti tes kompetensi dasar serta tes kompetensi bidang, dan memiliki pengalaman kerja minimal 2 tahun di bidang terkait. Instansi pemerintah memastikan kriteria ini terpenuhi dengan melakukan verifikasi dokumen, mengadakan tes tertulis, dan melakukan wawancara.",
+      "Calon PNS harus memiliki kualifikasi pendidikan yang sesuai, lulus dari seleksi administrasi, mengikuti tes kompetensi dasar serta tes kompetensi bidang, dan memiliki pengalaman kerja minimal 1 tahun di bidang terkait. Instansi pemerintah memastikan kriteria ini terpenuhi dengan melakukan verifikasi dokumen, mengadakan tes tertulis, dan melakukan wawancara."
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Bagaimana mekanisme pengawasan yang diterapkan oleh BKN untuk memastikan bahwa proses pengangkatan PNS sesuai dengan Peraturan BKN Nomor 10 Tahun 2019?",
+    "options": [
+      "BKN melakukan pengawasan dengan cara mengadakan inspeksi mendadak ke instansi pemerintah, meminta laporan berkala dari instansi terkait, dan menyediakan mekanisme pengaduan bagi masyarakat yang merasa dirugikan oleh proses seleksi.",
+      "BKN melakukan pengawasan dengan cara mengadakan inspeksi mendadak ke instansi pemerintah, meminta laporan berkala dari instansi terkait, dan mengadakan rapat koordinasi dengan instansi pemerintah untuk membahas hasil seleksi.",
+      "BKN melakukan pengawasan dengan cara mengadakan inspeksi mendadak ke instansi pemerintah, meminta laporan berkala dari instansi terkait, dan mengundang pihak ketiga untuk melakukan audit terhadap proses seleksi.",
+      "BKN melakukan pengawasan dengan cara mengadakan inspeksi mendadak ke instansi pemerintah, meminta laporan berkala dari instansi terkait, dan menyediakan mekanisme pengaduan bagi peserta seleksi yang merasa dirugikan.",
+      "BKN melakukan pengawasan dengan cara mengadakan inspeksi mendadak ke instansi pemerintah, meminta laporan berkala dari instansi terkait, dan mengadakan rapat koordinasi dengan instansi pemerintah untuk membahas hasil seleksi serta menyediakan mekanisme pengaduan bagi masyarakat yang merasa dirugikan oleh proses seleksi."
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Apa saja sanksi yang dapat dikenakan kepada instansi pemerintah atau pejabat yang melanggar ketentuan dalam Peraturan BKN Nomor 10 Tahun 2019, dan bagaimana proses penegakan sanksi tersebut?",
+    "options": [
+      "Sanksi yang dapat dikenakan meliputi teguran tertulis, penundaan kenaikan pangkat, penurunan pangkat, pemberhentian sementara, dan pemberhentian tetap. Proses penegakan sanksi dilakukan melalui investigasi oleh BKN, pemberian rekomendasi sanksi, dan pelaksanaan sanksi oleh instansi terkait.",
+      "Sanksi yang dapat dikenakan meliputi teguran tertulis, penundaan kenaikan pangkat, penurunan pangkat, pemberhentian sementara, dan pemberhentian tetap. Proses penegakan sanksi dilakukan melalui investigasi oleh BKN, pemberian rekomendasi sanksi, dan pelaksanaan sanksi oleh BKN.",
+      "Sanksi yang dapat dikenakan meliputi teguran tertulis, penundaan kenaikan pangkat, penurunan pangkat, pemberhentian sementara, dan pemberhentian tetap. Proses penegakan sanksi dilakukan melalui investigasi oleh BKN, pemberian rekomendasi sanksi, dan pelaksanaan sanksi oleh instansi terkait serta BKN.",
+      "Sanksi yang dapat dikenakan meliputi teguran tertulis, penundaan kenaikan pangkat, penurunan pangkat, pemberhentian sementara, dan pemberhentian tetap. Proses penegakan sanksi dilakukan melalui investigasi oleh BKN, pemberian rekomendasi sanksi, dan pelaksanaan sanksi oleh instansi terkait serta BKN dengan pengawasan dari pihak ketiga.",
+      "Sanksi yang dapat dikenakan meliputi teguran tertulis, penundaan kenaikan pangkat, penurunan pangkat, pemberhentian sementara, dan pemberhentian tetap. Proses penegakan sanksi dilakukan melalui investigasi oleh BKN, pemberian rekomendasi sanksi, dan pelaksanaan sanksi oleh instansi terkait dengan pengawasan dari pihak ketiga."
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Bagaimana peran teknologi informasi dalam mendukung pelaksanaan Peraturan BKN Nomor 10 Tahun 2019, khususnya dalam proses pengangkatan PNS?",
+    "options": [
+      "Teknologi informasi digunakan untuk memfasilitasi pendaftaran online, mengelola database peserta seleksi, menyediakan platform ujian berbasis komputer, dan mempublikasikan hasil seleksi secara transparan. Hal ini bertujuan untuk meningkatkan efisiensi dan akuntabilitas proses seleksi.",
+      "Teknologi informasi digunakan untuk memfasilitasi pendaftaran online, mengelola database peserta seleksi, menyediakan platform ujian berbasis komputer, dan mempublikasikan hasil seleksi secara transparan. Hal ini bertujuan untuk meningkatkan efisiensi, akuntabilitas, dan keamanan data peserta seleksi.",
+      "Teknologi informasi digunakan untuk memfasilitasi pendaftaran online, mengelola database peserta seleksi, menyediakan platform ujian berbasis komputer, dan mempublikasikan hasil seleksi secara transparan. Hal ini bertujuan untuk meningkatkan efisiensi, akuntabilitas, dan transparansi proses seleksi.",
+      "Teknologi informasi digunakan untuk memfasilitasi pendaftaran online, mengelola database peserta seleksi, menyediakan platform ujian berbasis komputer, dan mempublikasikan hasil seleksi secara transparan. Hal ini bertujuan untuk meningkatkan efisiensi, akuntabilitas, dan kecepatan proses seleksi.",
+      "Teknologi informasi digunakan untuk memfasilitasi pendaftaran online, mengelola database peserta seleksi, menyediakan platform ujian berbasis komputer, dan mempublikasikan hasil seleksi secara transparan. Hal ini bertujuan untuk meningkatkan efisiensi, akuntabilitas, dan keandalan proses seleksi."
+    ],
+    "answer": 3
   }
   ]
