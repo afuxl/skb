@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CAT SKB PENGAWAS KOPERASI AHLI PERTAMA</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="sidebar">
+        <div id="question-list" class="question-list"></div>
+    </div>
+    <div class="content">
+        <!-- Progress bar -->
+        <div class="progress-container">
+            <div class="progress-bar" id="progress-bar"></div>
+            <div class="progress-percentage" id="progress-percentage">0%</div>
+        </div>
+        
+        <div id="quiz-container"></div>
+
+        <!-- Tombol Simpan Jawaban dan Lewati di sebelah kiri -->
+        <div class="nav-buttons">
+            <button id="save-answer">SIMPAN DAN LANJUTKAN</button>
+            <button id="skip-answer">LEWATKAN</button>
+        </div>
+
+        <!-- Tombol Selesai di sebelah kanan -->
+        
+        <div class="nav-buttons-right">
+          <div class="timer" id="timer">1:30:00</div>
+            <button id="end-quiz">SELESAI</button>
+        </div>
+    </div>
+
+    <script src="soal.js"></script>
+    <script>
+        let currentQuestionIndex = 0;
+        const userAnswers = [];
+        const totalPoints = 0;
+        let timerSeconds = 90 * 60; // 90 minutes in seconds
+        
+
+        const quizContainer = document.getElementById('quiz-container');
+        const questionList = document.getElementById('question-list');
+        const timerElement = document.getElementById('timer');
+        const saveButton = document.getElementById('save-answer');
+        const skipButton = document.getElementById('skip-answer');
+        const endQuizButton = document.getElementById('end-quiz');
+        const progressBar = document.getElementById('progress-bar');
+        const progressPercentage = document.getElementById('progress-percentage');
+
+        function renderQuestion(index) {
+        const questionData = questions[index];
+        quizContainer.innerHTML = `
+            <div class="question-box">
+                <h4>${index + 1}. ${questionData.question}</h4>
+                <ul class="options">
+                    ${questionData.options.map((option, i) => `
+                        <li>
+                            <label>
+                                ${String.fromCharCode(65 + i)}. 
+                                <input type="radio" name="answer" value="${i + 1}" ${userAnswers[index] === (i + 1) ? 'checked' : ''}> 
+                                ${option}
+                            </label>
+                        </li>
+                    `).join('')}
+                </ul>
+            </div>
+        `;
+    }
+
+    // Render daftar soal
+    function renderQuestionList() {
+        questionList.innerHTML = '';
+        questions.forEach((_, index) => {
+            const listItem = document.createElement('div');
+            listItem.classList.add('question-item');
+            listItem.classList.add(userAnswers[index] !== undefined ? 'answered' : 'unanswered');
+            listItem.textContent = index + 1;
+            listItem.addEventListener('click', () => {
+                currentQuestionIndex = index;
+                renderQuestion(index);
+            });
+            questionList.appendChild(listItem);
+        });
+    }
+
+        function startTimer() {
+    const interval = setInterval(() => {
+        if (timerSeconds <= 0) {
+            clearInterval(interval);
+            endQuiz();
+        } else {
+            timerSeconds--;
+
+            // Menghitung jam, menit, dan detik
+            const hours = Math.floor(timerSeconds / 3600); // 1 jam = 3600 detik
+            const minutes = Math.floor((timerSeconds % 3600) / 60); // Sisa menit setelah jam
+            const seconds = timerSeconds % 60; // Sisa detik setelah menit
+
+            // Menampilkan dalam format HH:MM:SS (misal: 01:30:00)
+            timerElement.textContent = `${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
+        }
+    }, 1000);
+}
+
+function updateProgressBar() {
+            const completedQuestions = userAnswers.filter(answer => answer !== undefined).length;
+            const totalQuestions = questions.length;
+            const progressPercentageValue = (completedQuestions / totalQuestions) * 100;
+            progressBar.style.width = `${progressPercentageValue}%`;
+            progressPercentage.textContent = `${Math.round(progressPercentageValue)}%`;
+        }
+
+        function endQuiz() {
+            const correctAnswers = questions.filter((q, i) => userAnswers[i] === q.answer).length;
+            const score = correctAnswers * 5;
+            const maxScore = questions.length * 5;
+            alert(`Kuis selesai! Skor Anda: ${score} / ${maxScore}`);
+        }
+
+        saveButton.addEventListener('click', () => {
+            const selectedOption = document.querySelector('input[name="answer"]:checked');
+            if (selectedOption) {
+                userAnswers[currentQuestionIndex] = parseInt(selectedOption.value, 10);
+                renderQuestionList();
+                updateProgressBar();
+                if (currentQuestionIndex < questions.length - 1) {
+                    currentQuestionIndex++;
+                    renderQuestion(currentQuestionIndex);
+                }
+            } else {
+                alert('Silakan pilih jawaban sebelum menyimpan.');
+            }
+        });
+
+        skipButton.addEventListener('click', () => {
+            if (currentQuestionIndex < questions.length - 1) {
+                currentQuestionIndex++;
+                renderQuestion(currentQuestionIndex);
+            }
+        });
+
+        endQuizButton.addEventListener('click', endQuiz);
+
+        renderQuestion(currentQuestionIndex);
+        renderQuestionList();
+        startTimer();
+    </script>
+</body>
+</html>
