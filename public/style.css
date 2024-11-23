@@ -1,3 +1,4 @@
+/* Layout default */
 body {
     font-family: Arial, sans-serif;
     display: flex;
@@ -11,6 +12,8 @@ body {
     border-right: 1px solid #ccc;
     padding: 10px;
     overflow-y: auto;
+    flex-shrink: 0;
+    order: 0; /* Posisi default di samping */
 }
 
 .content {
@@ -18,6 +21,8 @@ body {
     padding: 20px;
     display: flex;
     flex-direction: column;
+    overflow-y: auto;
+    order: 1; /* Tetap di posisi utama */
 }
 
 .question-box {
@@ -45,6 +50,7 @@ body {
     right: 20px;
     font-size: 18px;
     border-radius: 5px;
+    z-index: 1000;
 }
 
 .nav-buttons {
@@ -52,6 +58,7 @@ body {
     justify-content: flex-start;
     gap: 10px;
     margin-top: 20px;
+    flex-wrap: wrap;
 }
 
 .nav-buttons-right {
@@ -59,6 +66,7 @@ body {
     justify-content: flex-end;
     gap: 10px;
     margin-top: 20px;
+    flex-wrap: wrap;
 }
 
 .question-list {
@@ -158,4 +166,72 @@ body {
 
 #end-quiz:hover {
     background-color: #c82333;
+}
+.score-container {
+    margin-top: 10px;
+    color: #333;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: right;
+    position: relative;
+    right: 0;
+}
+
+
+/* Responsivitas */
+@media (max-width: 768px) {
+    body {
+        flex-direction: column; /* Layout menjadi kolom */
+    }
+
+    .sidebar {
+        width: 100%; /* Sidebar menempati seluruh lebar layar */
+        height: auto;
+        border-right: none; /* Hilangkan garis samping */
+        border-top: 1px solid #ccc; /* Tambahkan garis atas */
+        order: 2; /* Pindahkan sidebar ke bawah */
+    }
+
+    .content {
+        order: 1; /* Konten tetap di atas */
+        padding: 10px;
+        width: 100%;
+    }
+
+    .progress-container {
+        width: 100%; /* Progress bar lebar penuh */
+    }
+
+    .timer {
+        top: 10px;
+        right: 10px;
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    .question-box {
+        width: 100%; /* Soal menggunakan lebar penuh */
+    }
+
+    .nav-buttons, .nav-buttons-right {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .timer {
+        font-size: 14px;
+        padding: 5px;
+    }
+
+    #save-answer, #skip-answer, #end-quiz {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    .question-item {
+        width: 30px;
+        height: 25px;
+        line-height: 25px;
+    }
 }
