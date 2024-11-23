@@ -23,10 +23,18 @@
     </div>
     <div class="content">
         <!-- Progress bar -->
-        <div class="progress-container">
-            <div class="progress-bar" id="progress-bar"></div>
-            <div class="progress-percentage" id="progress-percentage">0%</div>
+        <div class="progress-button">
+            <div class="progress-container">
+                <div class="progress-bar" id="progress-bar"></div>
+                <div class="progress-percentage" id="progress-percentage">0%</div>
+            </div>
+            <div class="nav-buttons-right">
+                <div class="timer" id="timer">1:29:49</div>
+                <button id="end-quiz">SELESAI</button>
+                <div id="score-container" class="score-container" style="display: none;"></div>
+            </div>
         </div>
+        
         
         <div id="quiz-container"></div>
 
@@ -37,11 +45,7 @@
         </div>
 
         <!-- Tombol Selesai di sebelah kanan -->
-        <div class="nav-buttons-right">
-            <div class="timer" id="timer">1:30:00</div>
-            <button id="end-quiz">SELESAI</button>
-            <div id="score-container" class="score-container" style="display: none;"></div>
-        </div>
+
     </div>
 
     <script src="soal.js"></script>
