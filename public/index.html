@@ -5,6 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CAT SKB PENGAWAS KOPERASI AHLI PERTAMA</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        /* Warna untuk jawaban benar dan salah */
+        .correct-answer {
+            color: green;
+            font-weight: bold;
+        }
+        .wrong-answer {
+            color: red;
+            font-weight: bold;
+        }
+    </style>
 </head>
 <body>
     <div class="sidebar">
@@ -26,10 +37,10 @@
         </div>
 
         <!-- Tombol Selesai di sebelah kanan -->
-        
         <div class="nav-buttons-right">
-          <div class="timer" id="timer">1:30:00</div>
+            <div class="timer" id="timer">1:30:00</div>
             <button id="end-quiz">SELESAI</button>
+            <div id="score-container" class="score-container" style="display: none;"></div>
         </div>
     </div>
 
@@ -37,10 +48,7 @@
     <script>
         let currentQuestionIndex = 0;
         const userAnswers = [];
-        const totalPoints = 0;
         let timerSeconds = 90 * 60; // 90 minutes in seconds
-        
-
         const quizContainer = document.getElementById('quiz-container');
         const questionList = document.getElementById('question-list');
         const timerElement = document.getElementById('timer');
@@ -49,63 +57,83 @@
         const endQuizButton = document.getElementById('end-quiz');
         const progressBar = document.getElementById('progress-bar');
         const progressPercentage = document.getElementById('progress-percentage');
+        const scoreContainer = document.getElementById('score-container');
+        let quizEnded = false; // Flag untuk mendeteksi apakah kuis sudah selesai
 
+        // Render satu pertanyaan
         function renderQuestion(index) {
-        const questionData = questions[index];
-        quizContainer.innerHTML = `
-            <div class="question-box">
-                <h4>${index + 1}. ${questionData.question}</h4>
-                <ul class="options">
-                    ${questionData.options.map((option, i) => `
-                        <li>
-                            <label>
-                                ${String.fromCharCode(65 + i)}. 
-                                <input type="radio" name="answer" value="${i + 1}" ${userAnswers[index] === (i + 1) ? 'checked' : ''}> 
-                                ${option}
-                            </label>
-                        </li>
-                    `).join('')}
-                </ul>
-            </div>
-        `;
-    }
+            const questionData = questions[index];
+            const userAnswer = userAnswers[index];
+            const correctAnswer = questionData.answer;
+            const correctAnswerText = questionData.options[correctAnswer - 1]; // Ambil teks dari jawaban benar
 
-    // Render daftar soal
-    function renderQuestionList() {
-        questionList.innerHTML = '';
-        questions.forEach((_, index) => {
-            const listItem = document.createElement('div');
-            listItem.classList.add('question-item');
-            listItem.classList.add(userAnswers[index] !== undefined ? 'answered' : 'unanswered');
-            listItem.textContent = index + 1;
-            listItem.addEventListener('click', () => {
-                currentQuestionIndex = index;
-                renderQuestion(index);
-            });
-            questionList.appendChild(listItem);
-        });
-    }
+            let answerFeedback = '';
+            if (quizEnded) {
+                if (userAnswer === correctAnswer) {
+                    answerFeedback = `<p class="correct-answer">Jawaban Anda: ${String.fromCharCode(65 + userAnswer - 1)}. ${questionData.options[userAnswer - 1]}</p>`;
+                } else if (userAnswer) {
+                    answerFeedback = `<p class="wrong-answer">Jawaban Anda: ${String.fromCharCode(65 + userAnswer - 1)}. ${questionData.options[userAnswer - 1]}</p>`;
+                } else {
+                    answerFeedback = `<p class="wrong-answer">Jawaban Anda: Tidak Dijawab</p>`;
+                }
 
-        function startTimer() {
-    const interval = setInterval(() => {
-        if (timerSeconds <= 0) {
-            clearInterval(interval);
-            endQuiz();
-        } else {
-            timerSeconds--;
+                answerFeedback += `<p>Jawaban Benar: ${String.fromCharCode(65 + correctAnswer - 1)}. ${correctAnswerText}</p>`;
+            }
 
-            // Menghitung jam, menit, dan detik
-            const hours = Math.floor(timerSeconds / 3600); // 1 jam = 3600 detik
-            const minutes = Math.floor((timerSeconds % 3600) / 60); // Sisa menit setelah jam
-            const seconds = timerSeconds % 60; // Sisa detik setelah menit
-
-            // Menampilkan dalam format HH:MM:SS (misal: 01:30:00)
-            timerElement.textContent = `${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
+            quizContainer.innerHTML = `
+                <div class="question-box">
+                    <h4>${index + 1}. ${questionData.question}</h4>
+                    <ul class="options">
+                        ${questionData.options.map((option, i) => `
+                            <li>
+                                <label>
+                                    ${String.fromCharCode(65 + i)}. 
+                                    <input type="radio" name="answer" value="${i + 1}" 
+                                        ${userAnswer === (i + 1) ? 'checked' : ''} ${quizEnded ? 'disabled' : ''}> 
+                                    ${option}
+                                </label>
+                            </li>
+                        `).join('')}
+                    </ul>
+                    ${answerFeedback}
+                </div>
+            `;
         }
-    }, 1000);
-}
 
-function updateProgressBar() {
+        // Render daftar soal
+        function renderQuestionList() {
+            questionList.innerHTML = '';
+            questions.forEach((_, index) => {
+                const listItem = document.createElement('div');
+                listItem.classList.add('question-item');
+                listItem.classList.add(userAnswers[index] !== undefined ? 'answered' : 'unanswered');
+                listItem.textContent = index + 1;
+                listItem.addEventListener('click', () => {
+                    currentQuestionIndex = index;
+                    renderQuestion(index);
+                });
+                questionList.appendChild(listItem);
+            });
+        }
+
+        // Mulai timer
+        function startTimer() {
+            const interval = setInterval(() => {
+                if (timerSeconds <= 0) {
+                    clearInterval(interval);
+                    endQuiz();
+                } else {
+                    timerSeconds--;
+                    const hours = Math.floor(timerSeconds / 3600);
+                    const minutes = Math.floor((timerSeconds % 3600) / 60);
+                    const seconds = timerSeconds % 60;
+                    timerElement.textContent = `${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
+                }
+            }, 1000);
+        }
+
+        // Perbarui progress bar
+        function updateProgressBar() {
             const completedQuestions = userAnswers.filter(answer => answer !== undefined).length;
             const totalQuestions = questions.length;
             const progressPercentageValue = (completedQuestions / totalQuestions) * 100;
@@ -113,13 +141,29 @@ function updateProgressBar() {
             progressPercentage.textContent = `${Math.round(progressPercentageValue)}%`;
         }
 
+        // Akhiri kuis
         function endQuiz() {
+            quizEnded = true;
             const correctAnswers = questions.filter((q, i) => userAnswers[i] === q.answer).length;
             const score = correctAnswers * 5;
             const maxScore = questions.length * 5;
-            alert(`Kuis selesai! Skor Anda: ${score} / ${maxScore}`);
+
+            // Tampilkan skor
+            const scoreContainer = document.getElementById('score-container');
+    scoreContainer.innerHTML = `Skor Anda: <strong>${score} / ${maxScore}</strong>`;
+    scoreContainer.style.display = 'block'; // Tampilkan elemen skor
+
+            // Sembunyikan tombol dan ubah teks tombol Lewatkan
+            saveButton.style.display = 'none';
+            endQuizButton.style.display = 'none';
+            timerElement.style.display = 'none';
+            skipButton.textContent = 'LANJUTKAN';
+
+            // Render ulang soal aktif dengan jawaban benar
+            renderQuestion(currentQuestionIndex);
         }
 
+        // Event listeners
         saveButton.addEventListener('click', () => {
             const selectedOption = document.querySelector('input[name="answer"]:checked');
             if (selectedOption) {
