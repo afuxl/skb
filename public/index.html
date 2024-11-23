@@ -22,45 +22,44 @@
         <div id="question-list" class="question-list"></div>
     </div>
     <div class="content">
-        <!-- Progress bar -->
-        <div class="progress-button">
-            <div class="progress-container">
-                <div class="progress-bar" id="progress-bar"></div>
-                <div class="progress-percentage" id="progress-percentage">0%</div>
-            </div>
-            <div class="nav-buttons-right">
-                <div class="timer" id="timer">1:29:49</div>
-                <button id="end-quiz">SELESAI</button>
-                <!-- Tombol End Quiz -->
-
-                <!-- Modal Konfirmasi -->
-                <div id="confirm-modal" class="modal">
-                    <div class="modal-content">
-                        <h2>Apakah anda ingin mengakhiri ujian?</h2>
-                        <p>Jawaban anda akan tersimpan, dan tidak dapat mengubah jawaban.</p>
-                        <div class="modal-buttons">
-                            <button id="confirm-end" class="confirm-btn">Ya, Akhiri Ujian</button>
-                            <button id="cancel-end" class="cancel-btn">Batalkan</button>
-                        </div>
+                <!-- Progress bar -->
+                <div class="progress-button">
+                    <div class="progress-container">
+                        <div class="progress-bar" id="progress-bar"></div>
+                        <div class="progress-percentage" id="progress-percentage">0%</div>
                     </div>
+                    <div class="timer-quiz">
+                    <div class="timer" id="timer">1:29:49</div>
+                    <!-- Tombol Selesai di sebelah kanan -->
+                    <button id="end-quiz">SELESAI</button>
+                    <!-- Tombol End Quiz -->
+                    </div>
+                    <!-- Modal Konfirmasi -->
                 </div>
-
-                <div id="score-container" class="score-container" style="display: none;"></div>
-            </div>
-        </div>
-        
-        
+                <div class="sub" id="subquestion">-</div>
+        <div class="main-content">
         <div id="quiz-container"></div>
-
+    </div>
         <!-- Tombol Simpan Jawaban dan Lewati di sebelah kiri -->
         <div class="nav-buttons">
             <button id="save-answer">SIMPAN DAN LANJUTKAN</button>
             <button id="skip-answer">LEWATKAN</button>
-        </div>
-
-        <!-- Tombol Selesai di sebelah kanan -->
-
+        </div>         
+        <div class="nav-buttons-right">
+            <div id="confirm-modal" class="modal">
+                <div class="modal-content">
+                    <h2>Apakah anda ingin mengakhiri ujian?</h2>
+                    <p>Jawaban anda akan tersimpan, dan tidak dapat mengubah jawaban.</p>
+                    <div class="modal-buttons">
+                        <button id="confirm-end" class="confirm-btn">Ya, Akhiri Ujian</button>
+                        <button id="cancel-end" class="cancel-btn">Batalkan</button>
+                    </div>
+                </div>
+            </div>
+            <div id="score-container" class="score-container" style="display: none;"></div>
+        </div>   
     </div>
+
 
     <script src="soal.js"></script>
     <script>
@@ -88,6 +87,8 @@
         const confirmModal = document.getElementById("confirm-modal");
         const confirmEndButton = document.getElementById("confirm-end");
         const cancelEndButton = document.getElementById("cancel-end");
+        const subsub = document.getElementById("subquestion");
+
 
         // Tampilkan modal saat tombol "End Quiz" ditekan
         endQuizButton.addEventListener("click", () => {
@@ -119,6 +120,7 @@
             const userAnswer = userAnswers[index];
             const correctAnswer = questionData.answer;
             const correctAnswerText = questionData.options[correctAnswer - 1]; // Ambil teks dari jawaban benar
+            const subquestion = questionData.sub ? questionData.sub : "-";
 
             let answerFeedback = '';
             if (quizEnded) {
@@ -130,9 +132,9 @@
                     answerFeedback = `<p class="wrong-answer">Jawaban Anda: Tidak Dijawab</p>`;
                 }
 
-                answerFeedback += `<p class="correct-answer">Jawaban Benar: ${String.fromCharCode(65 + correctAnswer - 1)}. ${correctAnswerText}</p>`;
+                answerFeedback += `<p class="">Jawaban Benar: ${String.fromCharCode(65 + correctAnswer - 1)}. ${correctAnswerText}</p>`;
             }
-
+            subsub.innerHTML=`${subquestion}`;
             quizContainer.innerHTML = `
                 <div class="question-box">
                     <h4>${index + 1}. ${questionData.question}</h4>
