@@ -1,36 +1,59 @@
 /* Layout default */
-body {
+/*body {
     font-family: Arial, sans-serif;
     display: flex;
     flex-direction: row;
-    height: 100vh;
     margin: 0;
+    background: linear-gradient(to bottom, white 60%, #B5B7B8 40%);
+}*/
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif; /* Sesuai preferensi font Anda */
+    background: linear-gradient(180deg, #ffffff, #B5B7B8); /* Gradient dari biru muda ke biru */
+    min-height: 100vh; /* Pastikan body mengambil tinggi penuh viewport */
+    display: flex; /* Untuk memastikan konten dapat diatur dengan fleksibel */
+    flex-direction: row;
+    overflow: hidden; /* Mencegah scrollbar di body */
 }
+
+
 
 /* Sidebar */
 .sidebar {
-    width: 250px;
-    border-right: 1px solid #ccc;
-    padding: 10px;
-    overflow-y: auto;
+    width: 190px;
+    padding: 10px 10px 10px 10px;
     flex-shrink: 0;
     order: 0;
+    height: 100vh; /* Membuat sidebar mengikuti tinggi viewport */
+    overflow-y: auto; /* Tambahkan scrollbar vertikal jika konten meluap */
 }
+
 
 /* Konten utama */
 .content {
     flex: 1;
-    padding: 20px;
     display: flex;
     flex-direction: column;
     overflow-y: auto;
-    order: 1;
+    order: 2;
+    background: linear-gradient(180deg, #ffffff, #B5B7B8)
+    margin-bottom: 20px;
+    flex-grow: 1;
+    padding: 20px;
+    overflow-y: auto; /* Scrollbar hanya muncul jika konten meluap */
+    height: 100vh; /* Pastikan menggunakan tinggi penuh viewport */
+    box-sizing: border-box; /* Untuk memastikan padding tidak memengaruhi tinggi total */
 }
+.main-content{
+    padding: 0 20px;
+    border: 1px solid #00000029;
+    background-color: white;
+}
+
 
 /* Kotak pertanyaan */
 .question-box {
-    margin-top: 40px;
-    margin-bottom: 20px;
     width: 80%;
 }
 
@@ -51,18 +74,16 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 20px;
-    width: 100%;
+    margin-bottom: 10px;
 }
 
 .progress-container {
     flex: 1;
-    max-width: 70%;
-    background-color: #e0e0e0;
+    max-width: 100%;
+    background-color: #DCDCEF;
     height: 20px;
     border-radius: 5px;
     position: relative;
-    margin-right: 10px;
 }
 
 .progress-bar {
@@ -84,13 +105,22 @@ body {
 }
 
 /* Tombol di kanan progress */
-/*.nav-buttons-right {
+.nav-buttons-right {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
     gap: 10px;
-}*/
+}
 
+.nav-buttons {
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 10px;
+    background-color: #dfe0e0;
+    padding: 10px; /* Memberikan jarak antara tombol */
+    border: 1px solid #00000029;
+
+}
 /* Tombol utama */
 #end-quiz {
     background-color: #dc3545;
@@ -99,12 +129,15 @@ body {
     padding: 10px;
     font-size: 16px;
     border-radius: 5px;
-    position: fixed;
-    top: 52px;
-    right: 20px;
     z-index: 1000;
+    disp
 }
 
+.timer-quiz {
+    display: flex;
+    flex-direction: column; /* Elemen tersusun secara vertikal */
+    align-items: center; /* Rata tengah secara horizontal */
+}
 /* Timer */
 .timer {
     font-weight: bold;
@@ -113,9 +146,6 @@ body {
     padding: 10px;
     font-size: 18px;
     border-radius: 5px;
-    position: fixed;
-    top: 10px;
-    right: 20px;
     z-index: 1000;
 }
 #end-quiz:hover {
@@ -167,16 +197,18 @@ body {
 .question-list {
     display: flex;
     flex-wrap: wrap;
-    gap: 3px;
-    padding-right: 2px;
+    gap: 1px;
+    padding-bottom: 20px;
     height: auto;
     overflow-y: auto;
+    font-size: small;
 }
+
 
 .question-item {
     display: inline-block;
-    width: 40px;
-    height: 30px;
+    width: 35px;
+    height: 25px;
     line-height: 30px;
     text-align: center;
     font-weight: bold;
@@ -222,10 +254,17 @@ body {
     background-color: #e0a800;
 }
 
+.sub {
+    padding: 10px;
+    background-color: #0F3D99;
+    color: #E9D55B;
+}
+
 /* Responsivitas */
 @media (max-width: 768px) {
     body {
         flex-direction: column;
+        overflow-y:auto;
     }
 
     .sidebar {
