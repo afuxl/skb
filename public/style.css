@@ -122,14 +122,46 @@ body {
     background-color: #c82333;
 }
 
-/* Kontainer skor */
 .score-container {
-    font-weight: bold;
-    font-size: 14px;
-    color: #333;
-    text-align: right;
-    margin-top: 10px;
+    margin: 20px auto;
+    padding: 15px;
+    max-width: 600px;
+    background-color: #f9f9f9;
+    border: 2px solid #4caf50; /* Warna hijau untuk memberikan kesan positif */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sedikit bayangan untuk efek melayang */
+    text-align: center;
+    font-family: Arial, sans-serif; /* Sesuai dengan preferensi font Anda */
 }
+
+.score-container p {
+    font-size: 18px;
+    color: #333;
+    margin: 10px 0;
+}
+
+.score-container ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.score-container li {
+    font-size: 16px;
+    margin: 5px 0;
+    color: #555; /* Warna abu-abu gelap */
+}
+
+.score-container strong {
+    color: #000; /* Mempertegas angka dengan warna hitam */
+}
+
+.score-container p:first-child {
+    font-size: 20px;
+    font-weight: bold;
+    color: #4caf50; /* Warna hijau untuk skor total */
+}
+
 
 /* Daftar pertanyaan */
 .question-list {
@@ -230,4 +262,72 @@ body {
         height: 25px;
         line-height: 25px;
     }
+}
+/* Modal */
+.modal {
+    display: none; /* Awalnya modal tersembunyi */
+    position: fixed;
+    z-index: 1001; /* Pastikan modal berada di atas semua elemen */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Latar belakang gelap transparan */
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    width: 90%;
+    max-width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.modal-content h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.modal-content p {
+    font-size: 14px;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+/* Tombol dalam modal */
+.modal-buttons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.confirm-btn {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.confirm-btn:hover {
+    background-color: #c82333;
+}
+
+.cancel-btn {
+    background-color: #6c757d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.cancel-btn:hover {
+    background-color: #5a6268;
 }
