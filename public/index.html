@@ -31,6 +31,20 @@
             <div class="nav-buttons-right">
                 <div class="timer" id="timer">1:29:49</div>
                 <button id="end-quiz">SELESAI</button>
+                <!-- Tombol End Quiz -->
+
+                <!-- Modal Konfirmasi -->
+                <div id="confirm-modal" class="modal">
+                    <div class="modal-content">
+                        <h2>Apakah anda ingin mengakhiri ujian?</h2>
+                        <p>Jawaban anda akan tersimpan, dan tidak dapat mengubah jawaban.</p>
+                        <div class="modal-buttons">
+                            <button id="confirm-end" class="confirm-btn">Ya, Akhiri Ujian</button>
+                            <button id="cancel-end" class="cancel-btn">Batalkan</button>
+                        </div>
+                    </div>
+                </div>
+
                 <div id="score-container" class="score-container" style="display: none;"></div>
             </div>
         </div>
@@ -50,6 +64,17 @@
 
     <script src="soal.js"></script>
     <script>
+        // Fungsi untuk mengacak array secara acak
+        function shuffleArray(array) {
+            for (let i = array.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [array[i], array[j]] = [array[j], array[i]]; // Tukar elemen
+            }
+        }
+
+        // Acak soal setelah soal diambil dari soal.js
+        shuffleArray(questions); // Mengacak urutan soal
+
         let currentQuestionIndex = 0;
         const userAnswers = [];
         let timerSeconds = 90 * 60; // 90 minutes in seconds
@@ -58,10 +83,34 @@
         const timerElement = document.getElementById('timer');
         const saveButton = document.getElementById('save-answer');
         const skipButton = document.getElementById('skip-answer');
-        const endQuizButton = document.getElementById('end-quiz');
+        // Ambil elemen-elemen dari DOM
+        const endQuizButton = document.getElementById("end-quiz");
+        const confirmModal = document.getElementById("confirm-modal");
+        const confirmEndButton = document.getElementById("confirm-end");
+        const cancelEndButton = document.getElementById("cancel-end");
+
+        // Tampilkan modal saat tombol "End Quiz" ditekan
+        endQuizButton.addEventListener("click", () => {
+            confirmModal.style.display = "flex"; // Tampilkan modal
+        });
+
+        // Jika pengguna menekan tombol "Ya, Akhiri Ujian"
+        // Jika pengguna menekan tombol "Ya, Akhiri Ujian"
+        confirmEndButton.addEventListener("click", () => {
+            confirmModal.style.display = "none"; // Sembunyikan modal
+            endQuiz(); // Jalankan logika mengakhiri kuis
+        });
+
+        // Jika pengguna menekan tombol "Batalkan"
+        cancelEndButton.addEventListener("click", () => {
+            confirmModal.style.display = "none"; // Sembunyikan modal
+            // Tombol "SELESAI" tidak diubah karena quiz tidak diakhiri
+        });
+
         const progressBar = document.getElementById('progress-bar');
         const progressPercentage = document.getElementById('progress-percentage');
         const scoreContainer = document.getElementById('score-container');
+        
         let quizEnded = false; // Flag untuk mendeteksi apakah kuis sudah selesai
 
         // Render satu pertanyaan
@@ -81,7 +130,7 @@
                     answerFeedback = `<p class="wrong-answer">Jawaban Anda: Tidak Dijawab</p>`;
                 }
 
-                answerFeedback += `<p>Jawaban Benar: ${String.fromCharCode(65 + correctAnswer - 1)}. ${correctAnswerText}</p>`;
+                answerFeedback += `<p class="correct-answer">Jawaban Benar: ${String.fromCharCode(65 + correctAnswer - 1)}. ${correctAnswerText}</p>`;
             }
 
             quizContainer.innerHTML = `
@@ -147,25 +196,39 @@
 
         // Akhiri kuis
         function endQuiz() {
-            quizEnded = true;
-            const correctAnswers = questions.filter((q, i) => userAnswers[i] === q.answer).length;
-            const score = correctAnswers * 5;
-            const maxScore = questions.length * 5;
+    quizEnded = true;
 
-            // Tampilkan skor
-            const scoreContainer = document.getElementById('score-container');
-    scoreContainer.innerHTML = `Skor Anda: <strong>${score} / ${maxScore}</strong>`;
+    const totalQuestions = questions.length;
+    const correctAnswers = questions.filter((q, i) => userAnswers[i] === q.answer).length;
+    const wrongAnswers = userAnswers.filter((answer, i) => answer !== undefined && answer !== questions[i].answer).length;
+    const unanswered = totalQuestions - (correctAnswers + wrongAnswers);
+
+    const score = correctAnswers * 5;
+    const maxScore = totalQuestions * 5;
+
+    // Tampilkan skor
+    scoreContainer.innerHTML = `
+        <p>Skor Anda: <strong>${score} / ${maxScore}</strong></p>
+        <p>Analisis Jawaban:</p>
+        <ul>
+            <li>Benar: <strong>${correctAnswers}</strong></li>
+            <li>Salah: <strong>${wrongAnswers}</strong></li>
+            <li>Tidak Dijawab: <strong>${unanswered}</strong></li>
+        </ul>
+    `;
     scoreContainer.style.display = 'block'; // Tampilkan elemen skor
 
-            // Sembunyikan tombol dan ubah teks tombol Lewatkan
-            saveButton.style.display = 'none';
-            endQuizButton.style.display = 'none';
-            timerElement.style.display = 'none';
-            skipButton.textContent = 'LANJUTKAN';
+    // Sembunyikan tombol dan elemen lain yang tidak relevan
+    saveButton.style.display = 'none';
+    endQuizButton.style.display = 'none'; // Tombol SELESAI hanya disembunyikan saat quiz selesai
+    timerElement.style.display = 'none';
+    skipButton.textContent = 'LANJUTKAN';
 
-            // Render ulang soal aktif dengan jawaban benar
-            renderQuestion(currentQuestionIndex);
-        }
+    // Render ulang soal aktif dengan jawaban benar
+    renderQuestion(currentQuestionIndex);
+}
+
+
 
         // Event listeners
         saveButton.addEventListener('click', () => {
@@ -190,7 +253,7 @@
             }
         });
 
-        endQuizButton.addEventListener('click', endQuiz);
+       // endQuizButton.addEventListener('click', endQuiz);
 
         renderQuestion(currentQuestionIndex);
         renderQuestionList();
