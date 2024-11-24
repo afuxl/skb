@@ -226,6 +226,19 @@
     timerElement.style.display = 'none';
     skipButton.textContent = 'LANJUTKAN';
 
+    questions.forEach((_, index) => {
+        const listItem = document.querySelector(`.question-list .question-item:nth-child(${index + 1})`);
+        if (userAnswers[index] !== undefined) {
+            if (userAnswers[index] === questions[index].answer) {
+                listItem.classList.add('answered');
+                listItem.classList.remove('wrong-answer');
+            } else {
+                listItem.classList.add('wrong-answer');
+                listItem.classList.remove('answered');
+            }
+        }
+    });
+
     // Render ulang soal aktif dengan jawaban benar
     renderQuestion(currentQuestionIndex);
 }
