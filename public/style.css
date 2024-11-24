@@ -91,7 +91,7 @@ body {
     white-space: normal;
     display: flex; /* Gunakan flexbox untuk menyelaraskan elemen */
     align-items: flex-start;
-    text-align: justify;
+
 }
 
 .options label {
@@ -103,7 +103,11 @@ body {
     display: inline-block; /* Pastikan teks terbungkus dengan benar */
     text-align: left;
     white-space: normal; /* Bungkus teks panjang */
-    line-height: 1.5; /* Tambahkan spasi antar baris untuk keterbacaan */
+    text-align: justify;
+}
+
+.options input[type="radio"] {
+    flex-shrink: 0; /* Jangan mengecilkan ukuran radio button */
 }
 
 h4 span  {
