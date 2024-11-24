@@ -155,9 +155,9 @@
                             <li>
                                 <label>
                                     ${String.fromCharCode(65 + i)}. 
-                                    <input type="radio" name="answer" value="${i + 1}" />
-                                        <span>${userAnswer === (i + 1) ? 'checked' : ''} ${quizEnded ? 'disabled' : ''}</span> 
-                                    ${option}
+                                    <input type="radio" name="answer" value="${i + 1}" 
+                                        ${userAnswer === (i + 1) ? 'checked' : ''} ${quizEnded ? 'disabled' : ''}/>
+                                    <span>${option}</span>
                                 </label>
                             </li>
                         `).join('')}
