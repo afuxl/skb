@@ -1,11 +1,4 @@
 /* Layout default */
-/*body {
-    font-family: Arial, sans-serif;
-    display: flex;
-    flex-direction: row;
-    margin: 0;
-    background: linear-gradient(to bottom, white 60%, #B5B7B8 40%);
-}*/
 
 body {
     margin: 0;
@@ -16,9 +9,6 @@ body {
     flex-direction: row;
     overflow: hidden; /* Mencegah scrollbar di body */
 }
-
-
-
 /* Sidebar */
 .sidebar {
     width: 190px;
@@ -28,7 +18,6 @@ body {
     height: 100vh; /* Membuat sidebar mengikuti tinggi viewport */
     overflow-y: auto; /* Tambahkan scrollbar vertikal jika konten meluap */
 }
-
 
 /* Konten utama */
 .content {
@@ -60,11 +49,11 @@ body {
 /* Opsi jawaban */
 .options {
     list-style: none;
-    padding: 0;
+    padding: 0 0 0 20px;
 }
 
 .options li {
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 
@@ -369,4 +358,10 @@ body {
 
 .cancel-btn:hover {
     background-color: #5a6268;
+}
+
+.question-item.wrong-answer {
+    background-color: orange;
+    color: white; /* Agar teks tetap terlihat */
+    border-radius: 13px; /* Sama seperti answered */
 }
