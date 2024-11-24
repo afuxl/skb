@@ -91,6 +91,7 @@ body {
     white-space: normal;
     display: flex; /* Gunakan flexbox untuk menyelaraskan elemen */
     align-items: flex-start;
+    text-align: justify;
 }
 
 .options label {
