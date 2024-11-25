@@ -210,6 +210,8 @@ h4 span  {
     font-size: 18px;
     border-radius: 5px;
     z-index: 1000;
+    width: 71px;
+    text-align: center;
 }
 #end-quiz:hover {
     background-color: #c82333;
@@ -354,9 +356,19 @@ h4 span  {
 @media (max-width: 480px) {
 
 
-    #save-answer, #skip-answer, #end-quiz {
+    #save-answer, #skip-answer {
         font-size: 12px;
-        padding: 8px;
+
+    }
+
+    #end-quiz {
+        font-size: 12px;
+
+    }
+    .timer {
+        font-size: 14px;
+        width: 55px;
+
     }
 
     .question-item {
@@ -439,46 +451,45 @@ h4 span  {
     color: white; /* Agar teks tetap terlihat */
     border-radius: 13px; /* Sama seperti answered */
 }
+ /* Welcome Screen Style */
+ .welcome-screen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(180deg, #ffffff, #B5B7B8);
+}
 
-            /* Welcome Screen Style */
-            .welcome-screen {
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                height: 100vh;
-                background: linear-gradient(180deg, #ffffff, #B5B7B8);
-            }
-    
-            .welcome-container {
-                text-align: center;
-                background: #fff;
-                padding: 30px;
-                border-radius: 10px;
-                box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            }
-    
-            .welcome-title {
-                font-size: 24px;
-                margin-bottom: 20px;
-                color: #4140CD;
-            }
-    
-            .welcome-button {
-                display: block;
-                margin: 10px auto;
-                padding: 10px 20px;
-                font-size: 18px;
-                background-color: #3E36B9;
-                color: white;
-                border: none;
-                border-radius: 5px;
-                cursor: pointer;
-            }
-    
-            .welcome-button:hover {
-                background-color: #0056b3;
-            }
-    
-            .hidden {
-                display: none;
-            }
+.welcome-container {
+    text-align: center;
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.welcome-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #4140CD;
+}
+
+.welcome-button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #3E36B9;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.welcome-button:hover {
+    background-color: #0056b3;
+}
+
+.hidden {
+    display: none;
+}
