@@ -1145,32 +1145,38 @@ sub: "Permenpan No 43 tahun 2018"
 {
   question: "Apa syarat minimal pendidikan untuk pengangkatan pertama dalam Jabatan Fungsional Pengawas Koperasi?",
   options: ["S-1/D-4 bidang manajemen, ekonomi, akuntansi, atau hukum", "SMA", "D-3", "S-2", "S-1 bidang apa saja"],
-  answer: 1
+  answer: 1,
+  sub: "Peraturan BKN Nomor 10 Tahun 2019"
 },
 {
   question: "Berapa target Angka Kredit minimal untuk Pengawas Koperasi Ahli Pertama setiap tahun?",
   options: ["12,5", "25", "37,5", "50", "100"],
-  answer: 1
+  answer: 1,
+  sub: "Peraturan BKN Nomor 10 Tahun 2019"
 },
 {
   question: "Apa yang dimaksud dengan Pengawasan Koperasi?",
   options: ["Kegiatan mengawasi dan memeriksa koperasi", "Pendidikan dan pelatihan", "Pembuatan karya tulis", "Pengembangan sistem pengawasan", "Penerjemahan buku"],
-  answer: 1
+  answer: 1,
+  sub: "Peraturan BKN Nomor 10 Tahun 2019"
 },
 {
   question: "Siapa yang menetapkan Angka Kredit untuk Pengawas Koperasi?",
   options: ["Pejabat yang Berwenang", "Pejabat Pembina Kepegawaian", "Pejabat Administrator", "Pejabat Pengawas", "Pejabat Tinggi Pratama"],
-  answer: 1
+  answer: 1,
+  sub: "Peraturan BKN Nomor 10 Tahun 2019"
 },
 {
   question: "Apa yang terjadi jika Pengawas Koperasi tidak lulus pendidikan dan pelatihan fungsional?",
   options: ["Diberhentikan dari jabatannya", "Diberikan kesempatan kedua", "Dipindahkan ke jabatan lain", "Diberikan pelatihan tambahan", "Tidak ada tindakan"],
-  answer: 1
+  answer: 1,
+  sub: "Peraturan BKN Nomor 10 Tahun 2019"
 },
 {
   question: "Apa yang dimaksud dengan SKP?",
   options: ["Sasaran Kerja Pegawai", "Surat Keputusan Pegawai", "Sistem Kerja Pegawai", "Satuan Kerja Pegawai", "Sasaran Kinerja Pegawai"],
-  answer: 1
+  answer: 1,
+  sub: "Peraturan BKN Nomor 10 Tahun 2019"
 },
 {
   question: "Bagaimana cara menghitung rasio Rentabilitas Aset (ROA)?",
@@ -1181,7 +1187,8 @@ sub: "Permenpan No 43 tahun 2018"
     "Laba bersih dibagi total modal",
     "Laba bersih dibagi total investasi"
   ],
-  answer: 1
+  answer: 1,
+  sub: "Petunjuk Teknis Deputi Bidang Perkoperasian No. 15 Tahun 2021 tentang KKPKK"
 },
 {
   question: "Sebutkan komponen yang dinilai dalam Profil Risiko Koperasi!",
@@ -1192,7 +1199,8 @@ sub: "Permenpan No 43 tahun 2018"
     "Risiko kredit, risiko pasar, risiko operasional, risiko strategis",
     "Risiko kredit, risiko pasar, risiko operasional, risiko kepatuhan"
   ],
-  answer: 1
+  answer: 1,
+  sub: "Petunjuk Teknis Deputi Bidang Perkoperasian No. 15 Tahun 2021 tentang KKPKK"
 },
 {
   question: "Apa saja kategori tingkat kesehatan Koperasi berdasarkan skor?",
@@ -1203,7 +1211,8 @@ sub: "Permenpan No 43 tahun 2018"
     "Sehat, cukup sehat, kurang sehat, tidak sehat, kritis",
     "Sehat, cukup sehat, kurang sehat, tidak sehat, sangat kritis"
   ],
-  answer: 3
+  answer: 3,
+  sub: "Petunjuk Teknis Deputi Bidang Perkoperasian No. 15 Tahun 2021 tentang KKPKK"
 },
 {
   question: "Bagaimana cara menghitung rasio Likuiditas?",
@@ -1214,7 +1223,8 @@ sub: "Permenpan No 43 tahun 2018"
     "Aset tetap dibagi kewajiban jangka panjang",
     "Aset lancar dibagi total kewajiban"
   ],
-  answer: 1
+  answer: 1,
+  sub: "Petunjuk Teknis Deputi Bidang Perkoperasian No. 15 Tahun 2021 tentang KKPKK"
 },
 {
   question: "Sebutkan langkah-langkah dalam prosedur pelaporan hasil Pemeriksaan Kesehatan Koperasi!",
@@ -1225,7 +1235,8 @@ sub: "Permenpan No 43 tahun 2018"
     "Pengumpulan data, analisis data, penyusunan laporan, evaluasi hasil",
     "Pengumpulan data, analisis data, penyusunan laporan, publikasi hasil"
   ],
-  answer: 1
+  answer: 1,
+  sub: "Petunjuk Teknis Deputi Bidang Perkoperasian No. 15 Tahun 2021 tentang KKPKK"
 },
 {
   question: "Apa yang dimaksud dengan rasio Solvabilitas?",
@@ -1236,7 +1247,8 @@ sub: "Permenpan No 43 tahun 2018"
     "Kemampuan koperasi menghasilkan laba dari modal",
     "Kemampuan koperasi menghasilkan laba dari penjualan"
   ],
-  answer: 1
+  answer: 1,
+  sub: "Petunjuk Teknis Deputi Bidang Perkoperasian No. 15 Tahun 2021 tentang KKPKK"
 },
 {
   question: "Bagaimana cara menghitung rasio Rentabilitas Ekuitas (ROE)?",
@@ -1247,7 +1259,8 @@ sub: "Permenpan No 43 tahun 2018"
     "Laba bersih dibagi total modal",
     "Laba bersih dibagi total investasi"
   ],
-  answer: 1
+  answer: 1,
+  sub: "Petunjuk Teknis Deputi Bidang Perkoperasian No. 15 Tahun 2021 tentang KKPKK"
 },
 {
   question: "Apa yang dimaksud dengan rasio Efisiensi Operasional?",
@@ -1258,7 +1271,8 @@ sub: "Permenpan No 43 tahun 2018"
     "Efisiensi operasional koperasi dalam mengelola penjualan",
     "Efisiensi operasional koperasi dalam mengelola ekuitas"
   ],
-  answer: 1
+  answer: 1,
+  sub: "Petunjuk Teknis Deputi Bidang Perkoperasian No. 15 Tahun 2021 tentang KKPKK"
 },
 {
   question: "Bagaimana cara menghitung rasio Pertumbuhan Pendapatan?",
@@ -1269,7 +1283,8 @@ sub: "Permenpan No 43 tahun 2018"
     "Pendapatan tahun ini dikurangi pendapatan tahun lalu dibagi total ekuitas",
     "Pendapatan tahun ini dikurangi pendapatan tahun lalu dibagi total penjualan"
   ],
-  answer: 1
+  answer: 1,
+  sub: "Petunjuk Teknis Deputi Bidang Perkoperasian No. 15 Tahun 2021 tentang KKPKK"
 },
 {
   question: "Apa yang dimaksud dengan rasio Pertumbuhan Laba?",
@@ -1280,6 +1295,7 @@ sub: "Permenpan No 43 tahun 2018"
     "Pertumbuhan laba koperasi dari modal",
     "Pertumbuhan laba koperasi dari aset"
   ],
-  answer: 1
+  answer: 1,
+  sub: "Petunjuk Teknis Deputi Bidang Perkoperasian No. 15 Tahun 2021 tentang KKPKK"
 }
 ]
