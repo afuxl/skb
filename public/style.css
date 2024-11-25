@@ -108,8 +108,11 @@ body {
 
 .options input[type="radio"] {
     flex-shrink: 0; /* Jangan mengecilkan ukuran radio button */
+    color:#22973B;
 }
-
+.options input[type='radio']:checked:after {
+    background-color: #ffa500;
+}
 h4 span  {
     display: inline-block; /* Pastikan teks terbungkus dengan benar */
     text-align: left;
@@ -117,6 +120,15 @@ h4 span  {
     line-height: 1.5; /* Tambahkan spasi antar baris untuk keterbacaan */
 }
 
+        /* Warna untuk jawaban benar dan salah */
+        .correct-answer {
+            color: green;
+            font-weight: bold;
+        }
+        .wrong-answer {
+            color: red;
+            font-weight: bold;
+        }
 
 
 /* Progress bar dan tombol */
