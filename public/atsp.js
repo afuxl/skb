@@ -9,7 +9,7 @@ const questions = [
       "Mengurangi peran masyarakat dalam kontrol sosial",
     ],
     answer: 2,
-    sub: "BAB II Asas, Tujuan, Fungsi, dan Arah"
+    sub: "Undang-Undang Nomor 32 Tahun 2002 tentang Penyiaran BAB II Asas, Tujuan, Fungsi, dan Arah"
   },
   {
     question: "Menurut UU Nomor 32 Tahun 2002, apa yang menjadi dasar pelaksanaan penyiaran di Indonesia?",
@@ -21,7 +21,7 @@ const questions = [
       "Kebutuhan pemilik modal",
     ],
     answer: 3,
-    sub: "BAB II Asas, Tujuan, Fungsi, dan Arah"
+    sub: "Undang-Undang Nomor 32 Tahun 2002 tentang Penyiaran BAB II Asas, Tujuan, Fungsi, dan Arah"
   },
   {
     question: "Apa fungsi ekonomi dalam kegiatan penyiaran yang diatur dalam UU Nomor 32 Tahun 2002 Pasal 4 ayat (2)?",
@@ -33,7 +33,7 @@ const questions = [
       "Menjamin penyiaran gratis untuk semua masyarakat",
     ],
     answer: 4,
-    sub: "BAB II Asas, Tujuan, Fungsi, dan Arah"
+    sub: " Undang-Undang Nomor 32 Tahun 2002 tentang Penyiaran BAB II Asas, Tujuan, Fungsi, dan Arah"
   },
   {
     question: "Siapa yang memiliki wewenang untuk menetapkan standar program siaran sesuai UU Nomor 32 Tahun 2002?",
@@ -45,7 +45,7 @@ const questions = [
       "Asosiasi Lembaga Penyiaran",
     ],
     answer: 2,
-    sub: "BAB III Penyelenggaraan Penyiaran"
+    sub: "Undang-Undang Nomor 32 Tahun 2002 tentang Penyiaran BAB III Penyelenggaraan Penyiaran"
   },
   {
     question: "Menurut UU Nomor 32 Tahun 2002 Pasal 35, apa yang wajib dicantumkan oleh lembaga penyiaran terkait isi siaran?",
@@ -57,7 +57,7 @@ const questions = [
       "Lisensi penyiaran",
     ],
     answer: 4,
-    sub: "BAB IV Pelaksanaan Siaran"
+    sub: "Undang-Undang Nomor 32 Tahun 2002 tentang Penyiaran BAB IV Pelaksanaan Siaran"
   },
   {
     question: "Apa yang dilarang dalam isi siaran menurut UU Nomor 32 Tahun 2002 Pasal 36 ayat (5)?",
@@ -69,7 +69,7 @@ const questions = [
       "Menggunakan bahasa Indonesia yang baik dan benar",
     ],
     answer: 4,
-    sub: "BAB IV Pelaksanaan Siaran"
+    sub: "Undang-Undang Nomor 32 Tahun 2002 tentang Penyiaran BAB IV Pelaksanaan Siaran"
   },
   {
     question: "Apa syarat utama anggota Komisi Penyiaran Indonesia (KPI) sesuai UU Nomor 32 Tahun 2002?",
@@ -81,7 +81,7 @@ const questions = [
       "Memiliki usaha di bidang teknologi informasi",
     ],
     answer: 3,
-    sub: "BAB III Penyelenggaraan Penyiaran"
+    sub: "Undang-Undang Nomor 32 Tahun 2002 tentang Penyiaran BAB III Penyelenggaraan Penyiaran"
   },
   {
     question: "Bagaimana mekanisme pemberian izin penyelenggaraan penyiaran menurut UU Nomor 32 Tahun 2002 Pasal 33?",
@@ -93,7 +93,7 @@ const questions = [
       "Mengikuti peraturan internasional",
     ],
     answer: 3,
-    sub: "BAB III Penyelenggaraan Penyiaran"
+    sub: "Undang-Undang Nomor 32 Tahun 2002 tentang Penyiaran BAB III Penyelenggaraan Penyiaran"
   },
   {
     question: "Apa fungsi Lembaga Penyiaran Komunitas menurut UU Nomor 32 Tahun 2002 Pasal 21?",
@@ -105,7 +105,7 @@ const questions = [
       "Mengganti peran lembaga penyiaran swasta",
     ],
     answer: 2,
-    sub: "BAB III Penyelenggaraan Penyiaran"
+    sub: "Undang-Undang Nomor 32 Tahun 2002 tentang Penyiaran BAB III Penyelenggaraan Penyiaran"
   },
   {
     question: "Apa pembatasan utama dalam kepemilikan lembaga penyiaran swasta berdasarkan Pasal 18 UU Nomor 32 Tahun 2002?",
@@ -117,7 +117,7 @@ const questions = [
       "Dibatasi berdasarkan lokasi geografis",
     ],
     answer: 3,
-    sub: "BAB III Penyelenggaraan Penyiaran"
+    sub: "Undang-Undang Nomor 32 Tahun 2002 tentang Penyiaran BAB III Penyelenggaraan Penyiaran"
   },
   {
     question: "Apa yang menjadi tanggung jawab utama lembaga penyiaran terkait iklan layanan masyarakat?",
@@ -129,7 +129,7 @@ const questions = [
       "Mengutamakan iklan layanan masyarakat di luar negeri",
     ],
     answer: 3,
-    sub: "BAB IV Pelaksanaan Siaran"
+    sub: "Undang-Undang Nomor 32 Tahun 2002 tentang Penyiaran BAB IV Pelaksanaan Siaran"
   },
   {
     question: "Apa peran KPI dalam memastikan pedoman perilaku penyiaran?",
@@ -141,7 +141,7 @@ const questions = [
       "Mengelola pendapatan lembaga penyiaran publik",
     ],
     answer: 2,
-    sub: "BAB V Pedoman Perilaku Penyiaran"
+    sub: "Undang-Undang Nomor 32 Tahun 2002 tentang Penyiaran BAB V Pedoman Perilaku Penyiaran"
   },
   {
     question: "Bagaimana aturan penggunaan bahasa daerah dalam siaran berdasarkan UU Nomor 32 Tahun 2002 Pasal 38?",
@@ -153,7 +153,7 @@ const questions = [
       "Menggantikan bahasa Indonesia dalam program nasional",
     ],
     answer: 3,
-    sub: "BAB IV Pelaksanaan Siaran"
+    sub: "Undang-Undang Nomor 32 Tahun 2002 tentang Penyiaran BAB IV Pelaksanaan Siaran"
   },
   {
     question: "Apa yang harus dilakukan lembaga penyiaran jika terdapat kesalahan dalam isi siaran menurut Pasal 44?",
@@ -165,7 +165,7 @@ const questions = [
       "Mengganti program siaran dengan konten baru",
     ],
     answer: 3,
-    sub: "BAB IV Pelaksanaan Siaran"
+    sub: "Undang-Undang Nomor 32 Tahun 2002 tentang Penyiaran BAB IV Pelaksanaan Siaran"
   },
   {
     question: "Apa sanksi administratif terberat yang dapat dikenakan kepada lembaga penyiaran menurut UU Nomor 32 Tahun 2002?",
@@ -177,7 +177,7 @@ const questions = [
       "Pembatasan durasi siaran",
     ],
     answer: 4,
-    sub: "BAB VIII Sanksi Administratif"
+    sub: "Undang-Undang Nomor 32 Tahun 2002 tentang Penyiaran BAB VIII Sanksi Administratif"
   },
   {
     question: "Apa asas utama yang harus dijunjung tinggi dalam penyiaran menurut UU Nomor 32 Tahun 2002 Pasal 2?",
@@ -189,7 +189,7 @@ const questions = [
       "Kontrol penuh oleh pemerintah",
     ],
     answer: 3,
-    sub: "BAB II Asas, Tujuan, Fungsi, dan Arah"
+    sub: "Undang-Undang Nomor 32 Tahun 2002 tentang Penyiaran BAB II Asas, Tujuan, Fungsi, dan Arah"
   },
   {
     question: "Apa yang dimaksud dengan 'tatanan informasi nasional yang adil, merata, dan seimbang' dalam UU ini?",
@@ -201,7 +201,7 @@ const questions = [
       "Arus informasi dipusatkan di daerah tertentu",
     ],
     answer: 2,
-    sub: "BAB I Ketentuan Umum"
+    sub: "Undang-Undang Nomor 32 Tahun 2002 tentang Penyiaran BAB I Ketentuan Umum"
   },
   {
     question: "Apa batas kepemilikan modal asing dalam Lembaga Penyiaran Swasta menurut Pasal 17 ayat (2)?",
@@ -213,7 +213,7 @@ const questions = [
       "50%",
     ],
     answer: 2,
-    sub: "BAB III Penyelenggaraan Penyiaran"
+    sub: "Undang-Undang Nomor 32 Tahun 2002 tentang Penyiaran BAB III Penyelenggaraan Penyiaran"
   },
   {
     question: "Apa fungsi utama Komisi Penyiaran Indonesia (KPI) sebagaimana tercantum dalam Pasal 8 ayat (1)?",
@@ -225,7 +225,7 @@ const questions = [
       "Mengelola infrastruktur penyiaran nasional",
     ],
     answer: 2,
-    sub: "BAB III Penyelenggaraan Penyiaran"
+    sub: "Undang-Undang Nomor 32 Tahun 2002 tentang Penyiaran BAB III Penyelenggaraan Penyiaran"
   },
   {
     question: "Apa tujuan penyiaran dalam membangun masyarakat sebagaimana diatur dalam Pasal 3 UU ini?",
@@ -237,7 +237,7 @@ const questions = [
       "Memonopoli informasi secara nasional",
     ],
     answer: 2,
-    sub: "BAB II Asas, Tujuan, Fungsi, dan Arah"
+    sub: "Undang-Undang Nomor 32 Tahun 2002 tentang Penyiaran BAB II Asas, Tujuan, Fungsi, dan Arah"
   },
   {
     question: "Apa saja yang wajib dimiliki lembaga penyiaran asing untuk melakukan kegiatan jurnalistik di Indonesia?",
@@ -249,7 +249,7 @@ const questions = [
       "Kerjasama dengan Lembaga Penyiaran Swasta",
     ],
     answer: 3,
-    sub: "BAB III Penyelenggaraan Penyiaran"
+    sub: "Undang-Undang Nomor 32 Tahun 2002 tentang Penyiaran BAB III Penyelenggaraan Penyiaran"
   },
   {
     question: "Apa konsekuensi yang dihadapi lembaga penyiaran jika memindahtangankan izin penyelenggaraan penyiarannya?",
@@ -261,7 +261,7 @@ const questions = [
       "Peringatan tertulis dari KPI",
     ],
     answer: 3,
-    sub: "BAB III Penyelenggaraan Penyiaran"
+    sub: "Undang-Undang Nomor 32 Tahun 2002 tentang Penyiaran BAB III Penyelenggaraan Penyiaran"
   },
   {
     question: "Apa syarat utama agar anggota KPI dapat diangkat, sesuai Pasal 10 ayat (1)?",
@@ -273,7 +273,7 @@ const questions = [
       "Memiliki lisensi sebagai penyiar",
     ],
     answer: 3,
-    sub: "BAB III Penyelenggaraan Penyiaran"
+    sub: "Undang-Undang Nomor 32 Tahun 2002 tentang Penyiaran BAB III Penyelenggaraan Penyiaran"
   },
   {
     question: "Apa aturan khusus tentang penggunaan bahasa asing dalam program penyiaran di Indonesia?",
@@ -285,7 +285,7 @@ const questions = [
       "Dibatasi hanya untuk siaran iklan",
     ],
     answer: 3,
-    sub: "BAB IV Pelaksanaan Siaran"
+    sub: "Undang-Undang Nomor 32 Tahun 2002 tentang Penyiaran BAB IV Pelaksanaan Siaran"
   },
   {
     question: "Apa batasan waktu siaran iklan niaga untuk lembaga penyiaran swasta, sesuai Pasal 46 ayat (8)?",
@@ -297,7 +297,7 @@ const questions = [
       "30% dari seluruh waktu siaran",
     ],
     answer: 3,
-    sub: "BAB IV Pelaksanaan Siaran"
+    sub: "Undang-Undang Nomor 32 Tahun 2002 tentang Penyiaran BAB IV Pelaksanaan Siaran"
   },
   {
     question: "Apa kewajiban lembaga penyiaran terkait penyimpanan bahan siaran, sesuai Pasal 45?",
@@ -309,7 +309,7 @@ const questions = [
       "Mengirimkan bahan siaran kepada KPI setiap bulan",
     ],
     answer: 2,
-    sub: "BAB IV Pelaksanaan Siaran"
+    sub: "Undang-Undang Nomor 32 Tahun 2002 tentang Penyiaran BAB IV Pelaksanaan Siaran"
   },
   {
     question: "Apa yang harus dilakukan jika terdapat pelanggaran terhadap pedoman perilaku penyiaran?",
@@ -321,7 +321,7 @@ const questions = [
       "Memberikan sanksi denda langsung kepada pengiklan",
     ],
     answer: 3,
-    sub: "BAB V Pedoman Perilaku Penyiaran"
+    sub: "Undang-Undang Nomor 32 Tahun 2002 tentang Penyiaran BAB V Pedoman Perilaku Penyiaran"
   },
   {
     question: "Apa pembatasan terhadap siaran iklan niaga dalam mata acara untuk anak-anak sesuai Pasal 46 ayat (6)?",
@@ -333,7 +333,7 @@ const questions = [
       "Iklan tidak boleh lebih dari 5 menit",
     ],
     answer: 2,
-    sub: "BAB IV Pelaksanaan Siaran"
+    sub: "Undang-Undang Nomor 32 Tahun 2002 tentang Penyiaran BAB IV Pelaksanaan Siaran"
   },
   {
     question: "Apa hukuman untuk pelanggaran terkait izin penyelenggaraan penyiaran menurut Pasal 58?",
@@ -345,7 +345,7 @@ const questions = [
       "Penghapusan hak untuk memperpanjang izin",
     ],
     answer: 2,
-    sub: "BAB X Ketentuan Pidana"
+    sub: "Undang-Undang Nomor 32 Tahun 2002 tentang Penyiaran BAB X Ketentuan Pidana"
   },
   {
     question: "Apa persyaratan minimal untuk perpanjangan izin penyiaran sesuai Pasal 34?",
@@ -357,7 +357,7 @@ const questions = [
       "Memperluas jaringan penyiaran secara nasional",
     ],
     answer: 2,
-    sub: "BAB III Penyelenggaraan Penyiaran"
+    sub: "Undang-Undang Nomor 32 Tahun 2002 tentang Penyiaran BAB III Penyelenggaraan Penyiaran"
   },
     {
       question: "Menurut Pasal 4 ayat (1), apa fungsi utama penyiaran sebagai kegiatan komunikasi massa?",
@@ -369,7 +369,7 @@ const questions = [
         "Memengaruhi opini publik demi kepentingan ekonomi",
       ],
       answer: 3,
-      sub: "BAB II Asas, Tujuan, Fungsi, dan Arah"
+      sub: "Undang-Undang Nomor 32 Tahun 2002 tentang Penyiaran BAB II Asas, Tujuan, Fungsi, dan Arah"
     },
     {
       question: "Apa yang dilarang dalam iklan niaga menurut Pasal 46 ayat (3)?",
@@ -381,7 +381,7 @@ const questions = [
         "Mengacu pada ideologi negara",
       ],
       answer: 2,
-      sub: "BAB IV Pelaksanaan Siaran"
+      sub: "Undang-Undang Nomor 32 Tahun 2002 tentang Penyiaran BAB IV Pelaksanaan Siaran"
     },
     {
       question: "Apa peran utama Lembaga Penyiaran Publik sesuai Pasal 14 ayat (1)?",
@@ -393,7 +393,7 @@ const questions = [
         "Menggantikan peran lembaga penyiaran swasta",
       ],
       answer: 3,
-      sub: "BAB III Penyelenggaraan Penyiaran"
+      sub: "Undang-Undang Nomor 32 Tahun 2002 tentang Penyiaran BAB III Penyelenggaraan Penyiaran"
     },
     {
       question: "Apa batas waktu penyelenggaraan uji coba siaran untuk lembaga penyiaran televisi sebagaimana diatur dalam Pasal 34 ayat (3)?",
@@ -405,7 +405,7 @@ const questions = [
         "Tidak ada batas waktu",
       ],
       answer: 3,
-      sub: "BAB III Penyelenggaraan Penyiaran"
+      sub: "Undang-Undang Nomor 32 Tahun 2002 tentang Penyiaran BAB III Penyelenggaraan Penyiaran"
     },
     {
       question: "Apa kewajiban utama lembaga penyiaran terhadap anak-anak dan remaja sesuai Pasal 36 ayat (3)?",
@@ -417,7 +417,7 @@ const questions = [
         "Menyediakan program siaran berbahasa asing",
       ],
       answer: 2,
-      sub: "BAB IV Pelaksanaan Siaran"
+      sub: "Undang-Undang Nomor 32 Tahun 2002 tentang Penyiaran BAB IV Pelaksanaan Siaran"
     },
     {
       question: "Apa yang menjadi tanggung jawab KPI dalam melaksanakan pengawasan, sebagaimana tercantum dalam Pasal 8 ayat (2)?",
@@ -429,7 +429,7 @@ const questions = [
         "Menghapus siaran iklan niaga dari semua saluran",
       ],
       answer: 1,
-      sub: "BAB III Penyelenggaraan Penyiaran"
+      sub: "Undang-Undang Nomor 32 Tahun 2002 tentang Penyiaran BAB III Penyelenggaraan Penyiaran"
     },
     {
       question: "Apa pembatasan untuk stasiun penyiaran lokal sesuai Pasal 31 ayat (5)?",
@@ -441,7 +441,7 @@ const questions = [
         "Tidak boleh menjalin kerjasama dengan lembaga asing",
       ],
       answer: 2,
-      sub: "BAB III Penyelenggaraan Penyiaran"
+      sub: "Undang-Undang Nomor 32 Tahun 2002 tentang Penyiaran BAB III Penyelenggaraan Penyiaran"
     },
     {
       question: "Apa konsekuensi jika lembaga penyiaran melanggar ketentuan isi siaran sesuai Pasal 36 ayat (6)?",
@@ -453,7 +453,7 @@ const questions = [
         "Dihapus dari daftar penyiaran nasional",
       ],
       answer: 3,
-      sub: "BAB IV Pelaksanaan Siaran"
+      sub: "Undang-Undang Nomor 32 Tahun 2002 tentang Penyiaran BAB IV Pelaksanaan Siaran"
     },
     {
       question: "Apa definisi 'lembaga penyiaran komunitas' menurut Pasal 21 ayat (1)?",
@@ -465,7 +465,7 @@ const questions = [
         "Lembaga penyiaran yang dikelola pemerintah daerah",
       ],
       answer: 2,
-      sub: "BAB III Penyelenggaraan Penyiaran"
+      sub: "Undang-Undang Nomor 32 Tahun 2002 tentang Penyiaran BAB III Penyelenggaraan Penyiaran"
     },
     {
       question: "Apa sanksi administratif yang dapat dikenakan jika lembaga penyiaran tidak memenuhi kewajiban sebagaimana tercantum dalam Pasal 55 ayat (2)?",
@@ -489,7 +489,7 @@ const questions = [
           "Menyediakan akses penuh kepada lembaga swasta untuk memproduksi siaran",
         ],
         answer: 3,
-        sub: "PP No. 11 Tahun 2005"
+        sub: "PP No. 11 Tahun 2005 tentang Penyelenggaraan Penyiaran Lembaga Penyiaran Publik"
       },
       {
         question: "Menurut Pasal 5, apa kewajiban RRI dan TVRI dalam menyelenggarakan sistem jaringan siaran?",
@@ -501,7 +501,7 @@ const questions = [
           "Mengutamakan siaran berbasis satelit internasional",
         ],
         answer: 3,
-        sub: "PP No. 11 Tahun 2005"
+        sub: "PP No. 11 Tahun 2005 tentang Penyelenggaraan Penyiaran Lembaga Penyiaran Publik"
       },
       {
         question: "Apa kriteria utama yang harus dipenuhi untuk mendirikan Lembaga Penyiaran Publik Lokal sebagaimana diatur dalam Pasal 7?",
@@ -513,7 +513,7 @@ const questions = [
           "Beroperasi selama 24 jam penuh tanpa gangguan",
         ],
         answer: 3,
-        sub: "PP No. 11 Tahun 2005"
+        sub: "PP No. 11 Tahun 2005 tentang Penyelenggaraan Penyiaran Lembaga Penyiaran Publik"
       },
       {
         question: "Bagaimana mekanisme penetapan izin penyelenggaraan penyiaran untuk Lembaga Penyiaran Publik Lokal menurut Pasal 9?",
@@ -525,7 +525,7 @@ const questions = [
           "Bergantung pada persetujuan publik melalui referendum",
         ],
         answer: 3,
-        sub: "PP No. 11 Tahun 2005"
+        sub: "PP No. 11 Tahun 2005 tentang Penyelenggaraan Penyiaran Lembaga Penyiaran Publik"
       },
       {
         question: "Apa yang menjadi batasan untuk siaran iklan rokok pada Lembaga Penyiaran Publik sebagaimana diatur dalam Pasal 25?",
@@ -537,7 +537,7 @@ const questions = [
           "Hanya diperbolehkan di wilayah tertentu dengan izin khusus",
         ],
         answer: 3,
-        sub: "PP No. 11 Tahun 2005"
+        sub: "PP No. 11 Tahun 2005 tentang Penyelenggaraan Penyiaran Lembaga Penyiaran Publik"
       },
       {
         question: "Apa sanksi administratif bagi Lembaga Penyiaran Publik Lokal yang tidak memenuhi kewajiban menyimpan bahan siaran selama 1 tahun?",
@@ -549,7 +549,7 @@ const questions = [
           "Larangan menyelenggarakan siaran iklan komersial",
         ],
         answer: 2,
-        sub: "PP No. 11 Tahun 2005"
+        sub: "PP No. 11 Tahun 2005 tentang Penyelenggaraan Penyiaran Lembaga Penyiaran Publik"
       },
       {
         question: "Apa yang diatur dalam Pasal 18 tentang netralitas isi siaran RRI dan TVRI?",
@@ -561,7 +561,7 @@ const questions = [
           "Harus mengutamakan program pendidikan sepanjang hari",
         ],
         answer: 2,
-        sub: "PP No. 11 Tahun 2005"
+        sub: "PP No. 11 Tahun 2005 tentang Penyelenggaraan Penyiaran Lembaga Penyiaran Publik"
       },
       {
         question: "Menurut Pasal 13, apa keunikan penyelenggaraan multipleksing oleh Lembaga Penyiaran Publik?",
@@ -573,7 +573,7 @@ const questions = [
           "Dibatasi untuk program pendidikan saja",
         ],
         answer: 2,
-        sub: "PP No. 11 Tahun 2005"
+        sub: "PP No. 11 Tahun 2005 tentang Penyelenggaraan Penyiaran Lembaga Penyiaran Publik"
       },
       {
         question: "Apa batas waktu untuk masa uji coba siaran sebelum izin tetap diberikan kepada Lembaga Penyiaran Publik Lokal televisi?",
@@ -585,7 +585,7 @@ const questions = [
           "Tidak ada batas waktu yang ditentukan",
         ],
         answer: 3,
-        sub: "PP No. 11 Tahun 2005"
+        sub: "PP No. 11 Tahun 2005 tentang Penyelenggaraan Penyiaran Lembaga Penyiaran Publik"
       },
       {
         question: "Bagaimana tanggung jawab Dewan Pengawas sesuai Pasal 5?",
@@ -597,7 +597,7 @@ const questions = [
           "Menetapkan batasan frekuensi siaran regional",
         ],
         answer: 3,
-        sub: "PP No. 11 Tahun 2005"
+        sub: "PP No. 11 Tahun 2005 tentang Penyelenggaraan Penyiaran Lembaga Penyiaran Publik"
       },
       {
         question: "Menurut Pasal 15, berapa persen alokasi frekuensi radio untuk RRI dan TVRI di setiap wilayah layanan siaran?",
@@ -609,7 +609,7 @@ const questions = [
           "30%",
         ],
         answer: 3,
-        sub: "PP No. 11 Tahun 2005"
+        sub: "PP No. 11 Tahun 2005 tentang Penyelenggaraan Penyiaran Lembaga Penyiaran Publik"
       },
       {
         question: "Apa kewajiban utama lembaga penyiaran terkait ralat siaran menurut Pasal 23?",
@@ -621,7 +621,7 @@ const questions = [
           "Menghapus rekaman siaran yang keliru tanpa pemberitahuan",
         ],
         answer: 3,
-        sub: "PP No. 11 Tahun 2005"
+        sub: "PP No. 11 Tahun 2005 tentang Penyelenggaraan Penyiaran Lembaga Penyiaran Publik"
       },
       {
         question: "Apa yang diatur dalam Pasal 19 mengenai klasifikasi acara siaran?",
@@ -633,7 +633,7 @@ const questions = [
           "Menentukan jadwal siaran berdasarkan preferensi lembaga penyiaran",
         ],
         answer: 2,
-        sub: "PP No. 11 Tahun 2005"
+        sub: "PP No. 11 Tahun 2005 tentang Penyelenggaraan Penyiaran Lembaga Penyiaran Publik"
       },
       {
         question: "Apa tanggung jawab Dewan Direksi terhadap keuangan lembaga penyiaran sebagaimana diatur dalam Pasal 32?",
@@ -645,7 +645,7 @@ const questions = [
           "Mengelola dana hanya untuk siaran regional",
         ],
         answer: 2,
-        sub: "PP No. 11 Tahun 2005"
+        sub: "PP No. 11 Tahun 2005 tentang Penyelenggaraan Penyiaran Lembaga Penyiaran Publik"
       },
       {
         question: "Apa batas maksimal siaran iklan niaga dalam sehari untuk Lembaga Penyiaran Publik menurut Pasal 25?",
@@ -657,7 +657,7 @@ const questions = [
           "30%",
         ],
         answer: 2,
-        sub: "PP No. 11 Tahun 2005"
+        sub: "PP No. 11 Tahun 2005 tentang Penyelenggaraan Penyiaran Lembaga Penyiaran Publik"
       }
     ];
     
