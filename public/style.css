@@ -9,12 +9,13 @@
 
 body {
     margin: 0;
-    font-family: Arial, sans-serif; /* Sesuai preferensi font Anda */
-    background: linear-gradient(180deg, #ffffff, #B5B7B8); /* Gradient dari biru muda ke biru */
-    min-height: 100vh; /* Pastikan body mengambil tinggi penuh viewport */
-    display: flex; /* Untuk memastikan konten dapat diatur dengan fleksibel */
+    font-family: Arial, sans-serif;
+    background: linear-gradient(180deg, #ffffff, #B5B7B8);
+    min-height: 100vh;
+    display: flex;
     flex-direction: row;
-    overflow: hidden; /* Mencegah scrollbar di body */
+    overflow: hidden;
+    justify-content: center;
 }
 
 
