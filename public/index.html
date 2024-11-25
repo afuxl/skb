@@ -1,66 +1,114 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CAT SKB PENGAWAS KOPERASI AHLI PERTAMA</title>
-    <link rel="stylesheet" href="style.css">
-    <style>
-        /* Warna untuk jawaban benar dan salah */
-        .correct-answer {
-            color: green;
-            font-weight: bold;
-        }
-        .wrong-answer {
-            color: red;
-            font-weight: bold;
-        }
-    </style>
-</head>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CAT SKB</title>
+        <link rel="stylesheet" href="style.css">
+        <style>
+            /* Welcome Screen Style */
+            .welcome-screen {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                background: linear-gradient(180deg, #ffffff, #B5B7B8);
+            }
+    
+            .welcome-container {
+                text-align: center;
+                background: #fff;
+                padding: 30px;
+                border-radius: 10px;
+                box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            }
+    
+            .welcome-title {
+                font-size: 24px;
+                margin-bottom: 20px;
+                color: #4140CD;
+            }
+    
+            .welcome-button {
+                display: block;
+                margin: 10px auto;
+                padding: 10px 20px;
+                font-size: 18px;
+                background-color: #3E36B9;
+                color: white;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+    
+            .welcome-button:hover {
+                background-color: #0056b3;
+            }
+    
+            .hidden {
+                display: none;
+            }
+        </style>
+    </head>
 <body>
-    <div class="sidebar">
+     <!-- Welcome Screen -->
+<div id="welcome-screen" class="welcome-screen">
+    <div class="welcome-container">
+        <h1 class="welcome-title">Pilih Ujian Anda</h1>
+        <button class="welcome-button" data-file="soal.js">1. SKB Pengawas Koperasi Ahli Pertama</button>
+        <button class="welcome-button" data-file="atsp.js">2. SKB Asisten Teknisi Siaran Pemula</button>
+    </div>
+</div>
+
+<!-- Quiz Section -->
+<div id="quiz-section" class="hidden"></div>
+    <div class="sidebar hidden">
         <div id="question-list" class="question-list"></div>
     </div>
-    <div class="content">
-                <!-- Progress bar -->
-                <div class="progress-button">
-                    <div class="progress-container">
-                        <div class="progress-bar" id="progress-bar"></div>
-                        <div class="progress-percentage" id="progress-percentage">0%</div>
-                    </div>
-                    <div class="timer-quiz">
-                    <div class="timer" id="timer">1:29:49</div>
-                    <!-- Tombol Selesai di sebelah kanan -->
-                    <button id="end-quiz">SELESAI</button>
-                    <!-- Tombol End Quiz -->
-                    </div>
-                    <!-- Modal Konfirmasi -->
-                </div>
-                <div class="sub" id="subquestion">-</div>
+    <div class="content hidden">
+        <!-- Progress Bar -->
+        <div class="progress-button">
+            <div class="progress-container">
+                <div class="progress-bar" id="progress-bar"></div>
+                <div class="progress-percentage" id="progress-percentage">0%</div>
+            </div>
+            <div class="timer-quiz">
+                <div class="timer" id="timer">1:29:49</div>
+                <!-- Tombol Selesai -->
+                <button id="end-quiz">SELESAI</button>
+            </div>
+        </div>
+
+        <!-- Subquestion -->
+        <div class="sub" id="subquestion">-</div>
+
+        <!-- Main Quiz Content -->
         <div class="main-content">
-        <div id="quiz-container"></div>
-    </div>
-        <!-- Tombol Simpan Jawaban dan Lewati di sebelah kiri -->
+            <div id="quiz-container"></div>
+        </div>
+
+        <!-- Navigation Buttons -->
         <div class="nav-buttons">
             <button id="save-answer">
                 <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" viewBox="0 0 26 26" style="vertical-align: middle; margin-right: 4px;">
-                    <path d="M3 5.75C3 4.23122 4.23122 3 5.75 3H15.7145C16.5764 3 17.4031 3.34241 18.0126 3.9519L20.0481 5.98744C20.6576 6.59693 21 7.42358 21 8.28553V18.25C21 19.7688 19.7688 21 18.25 21H5.75C4.23122 21 3 19.7688 3 18.25V5.75ZM5.75 4.5C5.05964 4.5 4.5 5.05964 4.5 5.75V18.25C4.5 18.9404 5.05964 19.5 5.75 19.5H6V14.25C6 13.0074 7.00736 12 8.25 12H15.75C16.9926 12 18 13.0074 18 14.25V19.5H18.25C18.9404 19.5 19.5 18.9404 19.5 18.25V8.28553C19.5 7.8214 19.3156 7.37629 18.9874 7.0481L16.9519 5.01256C16.6918 4.75246 16.3582 4.58269 16 4.52344V7.25C16 8.49264 14.9926 9.5 13.75 9.5H9.25C8.00736 9.5 7 8.49264 7 7.25V4.5H5.75ZM16.5 19.5V14.25C16.5 13.8358 16.1642 13.5 15.75 13.5H8.25C7.83579 13.5 7.5 13.8358 7.5 14.25V19.5H16.5ZM8.5 4.5V7.25C8.5 7.66421 8.83579 8 9.25 8H13.75C14.1642 8 14.5 7.66421 14.5 7.25V4.5H8.5Z"/>
+                    <path d="M3 5.75C3 4.23122 4.23122 3 5.75 3H15.7145C16.5764 3 17.4031 3.34241 18.0126 3.9519L20.0481 5.98744C20.6576 6.59693 21 7.42358 21 8.28553V18.25C21 19.7688 19.7688 21 18.25 21H5.75C4.23122 21 3 19.7688 3 18.25V5.75ZM5.75 4.5C5.05964 4.5 4.5 5.05964 4.5 5.75V18.25C4.5 18.9404 5.05964 19.5 5.75 19.5H6V14.25C6 13.0074 7.00736 12 8.25 12H15.75C16.9926 12 18 13.0074 18 14.25V19.5H18.25C18.9404 19.5 19.5 18.9404 19.5 18.25V8.28553C19.5 7.8214 19.3156 7.37629 18.9874 7.0481L16.9519 5.01256C16.6918 4.75246 16.3582 4.58269 16 4.52344V7.25C16 8.49264 14.9926 9.5 13.75 9.5H9.25C8.00736 9.5 7 8.49264 7 7.25V4.5H5.75ZM16.5 19.5V14.25C16.5 13.8358 16.1642 13.5 15.75 13.5H8.25C7.83579 13.5 7.5 13.8358 7.5 14.25V19.5H16.5ZM8.5 4.5V7.25C8.5 7.66421 8.83579 8 9.25 8H13.75C14.1642 8 14.5 7.66421 14.5 7.25V4.5H8.5Z" />
                 </svg>
                 SIMPAN DAN LANJUTKAN
             </button>
             <button id="skip-answer">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16" style="vertical-align: middle; margin-right: 8px;">
-                    <path fill-rule="evenodd" d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm0-1A6 6 0 1 1 8 2a6 6 0 0 1 0 12zm2.146-3.854a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L9.293 10.5H4a.5.5 0 0 1 0-1h5.293L6.44 6.854a.5.5 0 0 1 .708-.708l3 3z"/>
+                    <path fill-rule="evenodd" d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm0-1A6 6 0 1 1 8 2a6 6 0 0 1 0 12zm2.146-3.854a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L9.293 10.5H4a.5.5 0 0 1 0-1h5.293L6.44 6.854a.5.5 0 0 1 .708-.708l3 3z" />
                 </svg>
                 LEWATKAN
             </button>
         </div>
-        
+
+        <!-- Modal Konfirmasi -->
         <div class="nav-buttons-right">
             <div id="confirm-modal" class="modal">
                 <div class="modal-content">
-                    <h2>Apakah anda ingin mengakhiri ujian?</h2>
-                    <p>Jawaban anda akan tersimpan, dan tidak dapat mengubah jawaban.</p>
+                    <h2>Apakah Anda ingin mengakhiri ujian?</h2>
+                    <p>Jawaban Anda akan tersimpan, dan tidak dapat mengubah jawaban.</p>
                     <div class="modal-buttons">
                         <button id="confirm-end" class="confirm-btn">Ya, Akhiri Ujian</button>
                         <button id="cancel-end" class="cancel-btn">Batalkan</button>
@@ -68,22 +116,56 @@
                 </div>
             </div>
             <div id="score-container" class="score-container" style="display: none;"></div>
-        </div>   
+        </div>
     </div>
 
+<script>
+    // Logika Welcome Screen
+    document.querySelectorAll('.welcome-button').forEach(button => {
+        button.addEventListener('click', function () {
+            const selectedFile = this.getAttribute('data-file'); // Ambil file dari tombol
+            loadQuiz(selectedFile); // Panggil fungsi untuk memuat kuis
+        });
+    });
 
-    <script src="soal.js"></script>
-    <script>
-        // Fungsi untuk mengacak array secara acak
-        function shuffleArray(array) {
-            for (let i = array.length - 1; i > 0; i--) {
-                const j = Math.floor(Math.random() * (i + 1));
-                [array[i], array[j]] = [array[j], array[i]]; // Tukar elemen
-            }
+    function loadQuiz(file) {
+        // Sembunyikan Welcome Screen
+        document.getElementById('welcome-screen').classList.add('hidden');
+        
+        // Tampilkan Sidebar dan Konten
+        document.querySelector('.sidebar').classList.remove('hidden');
+        document.querySelector('.content').classList.remove('hidden');
+
+        // Load file soal secara dinamis
+        const script = document.createElement('script');
+        script.src = file;
+        script.onload = () => {
+            initializeQuiz(); // Inisialisasi kuis setelah soal di-load
+        };
+        document.body.appendChild(script);
+    }
+
+    // Inisialisasi Kuis
+    function initializeQuiz() {
+        if (!questions || questions.length === 0) {
+            alert('File soal tidak ditemukan atau kosong!');
+            return;
         }
 
+        shuffleArray(questions); // Acak soal
+        renderQuestion(currentQuestionIndex);
+        renderQuestionList();
+        startTimer();
+    }
+
+    // Fungsi untuk mengacak array
+    function shuffleArray(array) {
+        for (let i = array.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [array[i], array[j]] = [array[j], array[i]]; // Tukar elemen
+        }
+    }
         // Acak soal setelah soal diambil dari soal.js
-        shuffleArray(questions); // Mengacak urutan soal
 
         let currentQuestionIndex = 0;
         const userAnswers = [];
@@ -285,6 +367,7 @@
         renderQuestion(currentQuestionIndex);
         renderQuestionList();
         startTimer();
-    </script>
+</script>
+
 </body>
 </html>
