@@ -919,7 +919,7 @@ const questions = [
        
      ],
      answer :1,
-     sub :("Materi Pokok Seleksi Kompetensi Bidang Asisten Teknisi Siaran Pemula")
+     sub :"Materi Pokok Seleksi Kompetensi Bidang Asisten Teknisi Siaran Pemula"
    },
    {
      question: "'Manajemen waktu' sangat penting dalam dunia penyiaran agar semua segmen acara berjalan sesuai jadwal. Sebutkan tiga teknik manajemen waktu yang efektif bagi seorang Asisten Teknisi Siaran Pemula serta bagaimana penerapan teknik-teknik tersebut dapat mempengaruhi kelancaran siaran secara keseluruhan.", 
@@ -931,7 +931,7 @@ const questions = [
        "'Menggunakan aplikasi pengingat', 'membagi tugas besar menjadi bagian kecil', dan 'memprioritaskan tugas berdasarkan urgensi'. Aplikasi pengingat membantu menjaga fokus pada deadline;, pembagian tugas membuat pekerjaan lebih mudah dikelola;', prioritas memastikan hal-hal penting diselesaikan terlebih dahulu.",
      ],
      answer :1,
-     sub :("Materi Pokok Seleksi Kompetensi Bidang Asisten Teknisi Siaran Pemula")
+     sub :"Materi Pokok Seleksi Kompetensi Bidang Asisten Teknisi Siaran Pemula"
    },
    {
      question: "'Kreativitas' merupakan salah satu aspek penting bagi seorang Asisten Teknisi Siaran Pemula dalam menciptakan konten menarik. Diskusikan dua cara kreatif dalam menyajikan informasi kepada pemirsa melalui media siar serta dampaknya terhadap pengalaman menonton pemirsa secara keseluruhan.", 
@@ -943,6 +943,6 @@ const questions = [
        "'Menggunakan teknik storytelling' dalam setiap segmen sambil 'membagikan tips praktis' terkait topik bahasan sehingga memberikan nilai tambah kepada pemirsa;",
      ],
      answer :1,
-     sub :("Materi Pokok Seleksi Kompetensi Bidang Asisten Teknisi Siaran Pemula")
+     sub :"Materi Pokok Seleksi Kompetensi Bidang Asisten Teknisi Siaran Pemula"
    }
 ]
