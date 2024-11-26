@@ -899,16 +899,11 @@ const questions = [
   {
     question: "Asisten Teknisi Siaran Pemula perlu memahami pentingnya feedback dari audiens setelah acara ditayangkan. Sebutkan tiga metode efektif untuk mengumpulkan feedback dari audiens serta bagaimana informasi tersebut dapat digunakan untuk meningkatkan kualitas acara berikutnya.",
     options: [
-      "'Survei online' setelah acara selesai untuk mendapatkan data kuantitatif tentang kepuasan penonton;, 'diskusi kelompok' dengan beberapa penonton terpilih untuk mendapatkan wawasan kualitatif;, serta 'media sosial' sebagai platform interaksi langsung yang memungkinkan audiens memberikan komentar secara real-time.";
-      
-       "'Polling' selama acara berlangsung;, 'komentar langsung' melalui fitur chat pada platform streaming;, serta 'survei pasca-acara' yang dikirim melalui email.";
-       
-       "'Analisis rating' acara berdasarkan jumlah penonton;, 'feedback dari sponsor' mengenai respons pasar;, serta 'komentar dari kritikus media' sebagai ukuran kualitas tayangan.";
-       
-       "'Wawancara narasumber' setelah acara;, 'analisis data media sosial' mengenai reaksi audiens;, serta 'pengumpulan data rating' sebagai indikator popularitas.";
-       
-       "'Penyebaran kuesioner' melalui email;, 'diskusi terbuka' di forum komunitas;, serta 'tanya jawab langsung' di media sosial setelah acara.";
-      
+      "'Survei online' setelah acara selesai untuk mendapatkan data kuantitatif tentang kepuasan penonton;, 'diskusi kelompok' dengan beberapa penonton terpilih untuk mendapatkan wawasan kualitatif;, serta 'media sosial' sebagai platform interaksi langsung yang memungkinkan audiens memberikan komentar secara real-time.",
+       "'Polling' selama acara berlangsung;, 'komentar langsung' melalui fitur chat pada platform streaming;, serta 'survei pasca-acara' yang dikirim melalui email.",
+       "'Analisis rating' acara berdasarkan jumlah penonton;, 'feedback dari sponsor' mengenai respons pasar;, serta 'komentar dari kritikus media' sebagai ukuran kualitas tayangan.",
+       "'Wawancara narasumber' setelah acara;, 'analisis data media sosial' mengenai reaksi audiens;, serta 'pengumpulan data rating' sebagai indikator popularitas.",
+       "'Penyebaran kuesioner' melalui email;, 'diskusi terbuka' di forum komunitas;, serta 'tanya jawab langsung' di media sosial setelah acara.",
      ],
      answer: 1,
      sub: "Materi Pokok Seleksi Kompetensi Bidang Asisten Teknisi Siaran Pemula"
@@ -916,15 +911,11 @@ const questions = [
    {
      question: "'Penyampaian informasi secara efektif' adalah kunci keberhasilan seorang Asisten Teknisi Siaran Pemula dalam menyampaikan pesan kepada pemirsa. Diskusikan tiga teknik komunikasi efektif yang harus diterapkan oleh seorang teknisi selama proses penyiaran serta bagaimana teknik-teknik ini dapat meningkatkan keterlibatan pemirsa.",
      options:[
-       "'Penggunaan bahasa tubuh yang positif', 'penyampaian pesan secara jelas', dan 'mendengarkan aktif'. Bahasa tubuh positif menarik perhatian audiens;, penyampaian pesan jelas mencegah kebingungan;, mendengarkan aktif menunjukkan bahwa pembicara menghargai audiens.";
-       
-       "'Penggunaan humor', 'penyampaian informasi secara ringkas', dan 'menggunakan contoh konkret'. Humor membuat acara lebih menarik;, penyampaian ringkas menjaga perhatian;, contoh konkret membantu pemirsa memahami konteks.";
-       
-       "'Membuat eye contact', 'menggunakan nada suara bervariasi', dan 'mengajukan pertanyaan retoris'. Eye contact menciptakan kedekatan;, nada suara bervariasi menjaga minat;, pertanyaan retoris merangsang pemikiran kritis.";
-       
-       "'Menjaga kecepatan bicara', 'menggunakan alat bantu visual', dan 'melibatkan audiens dalam diskusi'. Kecepatan bicara mempengaruhi pemahaman;, alat bantu visual memperjelas informasi;, keterlibatan audiens meningkatkan interaksi.";
-       
-       "'Menghindari jargon teknis', 'menggunakan analogi sederhana', dan 'memberikan ringkasan di akhir'. Menghindari jargon membuat informasi lebih mudah dipahami;, analogi membantu menjelaskan konsep sulit;, ringkasan memperkuat ingatan pemirsa.";
+       "'Penggunaan bahasa tubuh yang positif', 'penyampaian pesan secara jelas', dan 'mendengarkan aktif'. Bahasa tubuh positif menarik perhatian audiens;, penyampaian pesan jelas mencegah kebingungan;, mendengarkan aktif menunjukkan bahwa pembicara menghargai audiens.",
+       "'Penggunaan humor', 'penyampaian informasi secara ringkas', dan 'menggunakan contoh konkret'. Humor membuat acara lebih menarik;, penyampaian ringkas menjaga perhatian;, contoh konkret membantu pemirsa memahami konteks.",
+       "'Membuat eye contact', 'menggunakan nada suara bervariasi', dan 'mengajukan pertanyaan retoris'. Eye contact menciptakan kedekatan;, nada suara bervariasi menjaga minat;, pertanyaan retoris merangsang pemikiran kritis.",
+       "'Menjaga kecepatan bicara', 'menggunakan alat bantu visual', dan 'melibatkan audiens dalam diskusi'. Kecepatan bicara mempengaruhi pemahaman;, alat bantu visual memperjelas informasi;, keterlibatan audiens meningkatkan interaksi.",
+       "'Menghindari jargon teknis', 'menggunakan analogi sederhana', dan 'memberikan ringkasan di akhir'. Menghindari jargon membuat informasi lebih mudah dipahami;, analogi membantu menjelaskan konsep sulit;, ringkasan memperkuat ingatan pemirsa.",
        
      ],
      answer :1,
@@ -933,16 +924,11 @@ const questions = [
    {
      question: "'Manajemen waktu' sangat penting dalam dunia penyiaran agar semua segmen acara berjalan sesuai jadwal. Sebutkan tiga teknik manajemen waktu yang efektif bagi seorang Asisten Teknisi Siaran Pemula serta bagaimana penerapan teknik-teknik tersebut dapat mempengaruhi kelancaran siaran secara keseluruhan.", 
      options:[
-       "'Penyusunan jadwal rinci sebelum acara dimulai', 'penetapan waktu buffer antara segmen', dan 'penggunaan timer selama siaran'. Jadwal rinci membantu semua anggota tim mengetahui tugas mereka;, waktu buffer mencegah keterlambatan segmen berikutnya;, timer menjaga setiap segmen tetap pada jalurnya.";
-       
-       "'Membuat daftar tugas harian', 'menghindari multitasking saat live', dan 'melakukan evaluasi waktu setelah acara'. Daftar tugas membantu fokus pada prioritas;, menghindari multitasking mencegah kesalahan saat live;', evaluasi waktu membantu perbaikan ke depan.";
-       
-       "'Menetapkan deadline ketat', 'berkomunikasi terus-menerus dengan tim', dan 'menggunakan perangkat lunak manajemen proyek'. Deadline ketat mendorong disiplin waktu;, komunikasi menjaga semua orang berada pada halaman yang sama;', perangkat lunak membantu melacak kemajuan.";
-       
-       "'Melakukan briefing sebelum acara', 'mengatur ulang jadwal jika diperlukan', dan 'menerapkan sistem rotasi tugas'. Briefing memastikan semua orang siap;, penyesuaian jadwal fleksibel terhadap situasi mendesak;', rotasi tugas mencegah kejenuhan anggota tim.";
-       
-       "'Menggunakan aplikasi pengingat', 'membagi tugas besar menjadi bagian kecil', dan 'memprioritaskan tugas berdasarkan urgensi'. Aplikasi pengingat membantu menjaga fokus pada deadline;, pembagian tugas membuat pekerjaan lebih mudah dikelola;', prioritas memastikan hal-hal penting diselesaikan terlebih dahulu.";
-      
+       "'Penyusunan jadwal rinci sebelum acara dimulai', 'penetapan waktu buffer antara segmen', dan 'penggunaan timer selama siaran'. Jadwal rinci membantu semua anggota tim mengetahui tugas mereka;, waktu buffer mencegah keterlambatan segmen berikutnya;, timer menjaga setiap segmen tetap pada jalurnya.",
+       "'Membuat daftar tugas harian', 'menghindari multitasking saat live', dan 'melakukan evaluasi waktu setelah acara'. Daftar tugas membantu fokus pada prioritas;, menghindari multitasking mencegah kesalahan saat live;', evaluasi waktu membantu perbaikan ke depan.",
+       "'Menetapkan deadline ketat', 'berkomunikasi terus-menerus dengan tim', dan 'menggunakan perangkat lunak manajemen proyek'. Deadline ketat mendorong disiplin waktu;, komunikasi menjaga semua orang berada pada halaman yang sama;', perangkat lunak membantu melacak kemajuan.",
+       "'Melakukan briefing sebelum acara', 'mengatur ulang jadwal jika diperlukan', dan 'menerapkan sistem rotasi tugas'. Briefing memastikan semua orang siap;, penyesuaian jadwal fleksibel terhadap situasi mendesak;', rotasi tugas mencegah kejenuhan anggota tim.",
+       "'Menggunakan aplikasi pengingat', 'membagi tugas besar menjadi bagian kecil', dan 'memprioritaskan tugas berdasarkan urgensi'. Aplikasi pengingat membantu menjaga fokus pada deadline;, pembagian tugas membuat pekerjaan lebih mudah dikelola;', prioritas memastikan hal-hal penting diselesaikan terlebih dahulu.",
      ],
      answer :1,
      sub :("Materi Pokok Seleksi Kompetensi Bidang Asisten Teknisi Siaran Pemula")
@@ -951,15 +937,10 @@ const questions = [
      question: "'Kreativitas' merupakan salah satu aspek penting bagi seorang Asisten Teknisi Siaran Pemula dalam menciptakan konten menarik. Diskusikan dua cara kreatif dalam menyajikan informasi kepada pemirsa melalui media siar serta dampaknya terhadap pengalaman menonton pemirsa secara keseluruhan.", 
      options:[
        "'Menggunakan grafik animasi interaktif' untuk menjelaskan data kompleks secara visual sehingga lebih mudah dipahami oleh pemirsa sambil 'menghadirkan narasumber ahli' secara live untuk memberikan perspektif tambahan sehingga meningkatkan kredibilitas informasi;";
-       
-       "'Menggunakan format dokumenter' dalam menyajikan berita terkini agar lebih mendalam sambil 'menghadirkan elemen cerita' sehingga pemirsa merasa terhubung emosional dengan topik bahasan;";
-       
-       "'Menyajikan berita melalui segmen talk show' agar lebih dinamis sambil 'membuat segmen khusus' tentang kisah inspiratif dari tokoh masyarakat sehingga mendorong partisipasi aktif dari penonton;";
-       
-       "'Menerapkan pendekatan gamifikasi' pada kuis interaktif sambil 'melibatkan influencer' untuk memperluas jangkauan audiens sehingga menciptakan buzz positif tentang program;";
-       
-       "'Menggunakan teknik storytelling' dalam setiap segmen sambil 'membagikan tips praktis' terkait topik bahasan sehingga memberikan nilai tambah kepada pemirsa;";
-      
+       "'Menggunakan format dokumenter' dalam menyajikan berita terkini agar lebih mendalam sambil 'menghadirkan elemen cerita' sehingga pemirsa merasa terhubung emosional dengan topik bahasan;",
+       "'Menyajikan berita melalui segmen talk show' agar lebih dinamis sambil 'membuat segmen khusus' tentang kisah inspiratif dari tokoh masyarakat sehingga mendorong partisipasi aktif dari penonton;",
+       "'Menerapkan pendekatan gamifikasi' pada kuis interaktif sambil 'melibatkan influencer' untuk memperluas jangkauan audiens sehingga menciptakan buzz positif tentang program;",
+       "'Menggunakan teknik storytelling' dalam setiap segmen sambil 'membagikan tips praktis' terkait topik bahasan sehingga memberikan nilai tambah kepada pemirsa;",
      ],
      answer :1,
      sub :("Materi Pokok Seleksi Kompetensi Bidang Asisten Teknisi Siaran Pemula")
