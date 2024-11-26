@@ -127,6 +127,7 @@ const questions = [
       "Badan usaha yang beranggotakan pemerintah",
       "Badan usaha yang beranggotakan masyarakat umum",
       "Badan usaha yang beranggotakan orang seorang atau badan hukum Koperasi dengan melandaskan kegiatannya berdasarkan prinsip Koperasi sekaligus sebagai gerakan ekonomi rakyat yang berdasar atas asas kekeluargaan"
+      ],
     answer: 5,
     sub: "Peraturan Menteri Koperasi dan Usaha Kecil dan Menengah Nomor 09 Tahun 2018"
   },
