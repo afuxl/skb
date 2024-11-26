@@ -964,6 +964,4 @@ const questions = [
      answer :1,
      sub :("Materi Pokok Seleksi Kompetensi Bidang Asisten Teknisi Siaran Pemula")
    }
-];
-
-
+]
