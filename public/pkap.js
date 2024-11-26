@@ -872,6 +872,401 @@ const questions = [
           answer: 1,
           sub: "-",
         },
-      ];
-      
+  {
+    question: "Apa yang dimaksud dengan Jabatan Fungsional Pengawas Koperasi menurut Peraturan BKN Nomor 10 Tahun 2019?",
+    options: [
+      "Jabatan yang bertugas mengelola administrasi koperasi secara umum",
+      "Jabatan yang memiliki tugas dalam pengawasan koperasi melalui penerapan kepatuhan, pemeriksaan kelembagaan, dan penilaian kesehatan usaha simpan pinjam",
+      "Jabatan yang berwenang menetapkan kebijakan koperasi di tingkat nasional",
+      "Jabatan yang bertanggung jawab atas pengelolaan keuangan koperasi",
+      "Jabatan yang hanya berfokus pada pengembangan sistem informasi koperasi",
+    ],
+    answer: 2,
+    sub: "Peraturan BKN Nomor 10 Tahun 2019, BAB I Pasal 1 Ayat (6)"
+  },
+  {
+    question: "Apa saja jenjang jabatan dalam Jabatan Fungsional Pengawas Koperasi?",
+    options: [
+      "Ahli Pertama, Ahli Muda, Ahli Madya, dan Ahli Utama",
+      "Ahli Muda, Ahli Madya, Ahli Senior, dan Ahli Utama",
+      "Ahli Pertama, Ahli Muda, Ahli Madya, dan Ahli Senior",
+      "Ahli Muda, Ahli Madya, Ahli Utama, dan Ahli Spesialis",
+      "Ahli Pertama, Ahli Madya, Ahli Senior, dan Ahli Utama",
+    ],
+    answer: 1,
+    sub: "Peraturan BKN Nomor 10 Tahun 2019, BAB II Pasal 4 Ayat (2)"
+  },
+  {
+    question: "Berdasarkan Peraturan BKN Nomor 10 Tahun 2019, siapa yang berwenang mengangkat Pengawas Koperasi jenjang Ahli Utama?",
+    options: [
+      "Menteri Koperasi dan UKM",
+      "Presiden Republik Indonesia",
+      "Pejabat Pembina Kepegawaian di instansi pusat atau daerah",
+      "Kepala Badan Kepegawaian Negara",
+      "Gubernur atau Bupati sesuai wilayah kerja koperasi",
+    ],
+    answer: 2,
+    sub: "Peraturan BKN Nomor 10 Tahun 2019, BAB IV Pasal 10"
+  },
+  {
+    question: "Apa saja unsur utama kegiatan Jabatan Fungsional Pengawas Koperasi yang dapat dinilai angka kreditnya?",
+    options: [
+      "Pendidikan formal, pengawasan koperasi, pengembangan profesi, dan unsur penunjang lainnya",
+      "Pendidikan formal, perencanaan pengawasan koperasi, pengawasan koperasi, pembinaan sistem pengawasan koperasi, dan pengembangan profesi",
+      "Pendidikan formal, pelatihan teknis koperasi, seminar koperasi, dan perencanaan anggaran koperasi",
+      "Pendidikan formal, penyusunan laporan tahunan koperasi, dan pembinaan sistem informasi koperasi",
+      "Pendidikan formal saja tanpa unsur lainnya",
+    ],
+    answer: 2,
+    sub: "Peraturan BKN Nomor 10 Tahun 2019, BAB III Pasal 7"
+  },
+  {
+    question: "Berapa target angka kredit minimal tahunan untuk Pengawas Koperasi jenjang Ahli Madya?",
+    options: [
+      "12.5 Angka Kredit",
+      "25 Angka Kredit",
+      "37.5 Angka Kredit",
+      "50 Angka Kredit",
+      "Tidak ada target angka kredit minimal untuk jenjang ini",
+    ],
+    answer: 3,
+    sub: "Peraturan BKN Nomor 10 Tahun 2019, BAB VIII Pasal 20 Ayat (1)"
+  },
+  {
+    question: "Apa syarat pendidikan minimal untuk dapat diangkat dalam Jabatan Fungsional Pengawas Koperasi melalui pengangkatan pertama?",
+    options: [
+      "SMA/sederajat dari jurusan apa saja",
+      "Diploma III bidang ekonomi atau hukum saja",
+      "Sarjana (S-1) atau Diploma IV bidang manajemen, ekonomi, akuntansi atau hukum",
+      "Magister (S-2) bidang ekonomi atau hukum dengan pengalaman kerja minimal lima tahun",
+      "Tidak ada syarat pendidikan khusus untuk pengangkatan pertama",
+    ],
+    answer: 3,
+    sub: "Peraturan BKN Nomor 10 Tahun 2019, BAB V Pasal 14 Ayat (1)"
+  },
+  {
+    question: "Apa yang dimaksud dengan 'Angka Kredit' dalam Jabatan Fungsional Pengawas Koperasi?",
+    options: [
+      "Nilai yang diberikan kepada koperasi berdasarkan hasil audit",
+      "Satuan nilai dari tiap butir kegiatan yang harus dicapai oleh Pengawas Koperasi untuk pembinaan karier",
+      "Jumlah kredit usaha simpan pinjam yang diawasi oleh Pengawas Koperasi",
+      "Indikator kinerja koperasi dalam menjalankan prinsip-prinsip ekonomi rakyat",
+      "Skor penilaian kinerja koperasi berdasarkan laporan tahunan",
+    ],
+    answer: 2,
+    sub: "BAB I Pasal 1 Ayat (15)"
+  },
+  {
+    question: "Siapakah yang berwenang menetapkan pengangkatan Pengawas Koperasi Ahli Utama?",
+    options: [
+      "Menteri Koperasi dan UKM",
+      "Presiden Republik Indonesia",
+      "Kepala Badan Kepegawaian Negara",
+      "Pejabat Pembina Kepegawaian di instansi daerah",
+      "Gubernur atau Bupati sesuai wilayah kerja koperasi",
+    ],
+    answer: 2,
+    sub: "BAB IV Pasal 10 Huruf a"
+  },
+  {
+    question: "Apa saja unsur utama kegiatan Jabatan Fungsional Pengawas Koperasi yang dapat dinilai angka kreditnya?",
+    options: [
+      "Pendidikan formal, pengawasan koperasi, pengembangan profesi, dan unsur penunjang lainnya",
+      "Pendidikan formal, perencanaan pengawasan koperasi, pengawasan koperasi, pembinaan sistem pengawasan koperasi, dan pengembangan profesi",
+      "Pendidikan formal, pelatihan teknis koperasi, seminar koperasi, dan perencanaan anggaran koperasi",
+      "Pendidikan formal, penyusunan laporan tahunan koperasi, dan pembinaan sistem informasi koperasi",
+      "Pendidikan formal saja tanpa unsur lainnya",
+    ],
+    answer: 2,
+    sub: "BAB III Pasal 7 Ayat (1)"
+  },
+  {
+    question: "Menurut Peraturan BKN Nomor 10 Tahun 2019, apa syarat minimal pendidikan untuk diangkat menjadi Pengawas Koperasi melalui pengangkatan pertama?",
+    options: [
+      "SMA/sederajat dari jurusan apa saja",
+      "Diploma III bidang ekonomi atau hukum saja",
+      "Sarjana (S-1) atau Diploma IV bidang manajemen, ekonomi, akuntansi atau hukum",
+      "Magister (S-2) bidang ekonomi atau hukum dengan pengalaman kerja minimal lima tahun",
+      "Tidak ada syarat pendidikan khusus untuk pengangkatan pertama",
+    ],
+    answer: 3,
+    sub: "BAB V Pasal 14 Ayat (1)"
+  },
+  {
+    question: "Apa tugas utama Pengawas Koperasi sebagaimana diatur dalam Peraturan BKN Nomor 10 Tahun 2019?",
+    options: [
+      "Melakukan pelatihan kepada anggota koperasi terkait pengelolaan keuangan",
+      "Melaksanakan pengawasan koperasi dalam aspek penerapan kepatuhan, pemeriksaan kelembagaan, pemeriksaan usaha simpan pinjam, penilaian kesehatan usaha simpan pinjam, dan penerapan sanksi",
+      "Menyusun kebijakan nasional terkait perkembangan koperasi di Indonesia",
+      "Mengelola dana simpan pinjam koperasi untuk meningkatkan kesejahteraan anggota",
+      "Membantu pemerintah daerah dalam membentuk unit-unit usaha baru berbasis koperasi",
+    ],
+    answer: 2,
+    sub: "BAB II Pasal 3"
+  },
+  {
+    question: "Berapa target angka kredit minimal tahunan untuk jenjang jabatan Pengawas Koperasi Ahli Pertama?",
+    options: [
+      "12.5 Angka Kredit",
+      "25 Angka Kredit",
+      "37.5 Angka Kredit",
+      "50 Angka Kredit",
+      "Tidak ada target angka kredit minimal untuk jenjang ini",
+    ],
+    answer: 1,
+    sub: "BAB VIII Pasal 20 Ayat (1)"
+  },
+  {
+    question: "Apa ketentuan mengenai pelaksanaan tugas satu tingkat di atas jenjang jabatan Pengawas Koperasi jika volume beban tugasnya melebihi kebutuhan?",
+    options: [
+      "Angka kredit ditetapkan sebesar 100% dari setiap butir kegiatan yang dilakukan",
+      "Angka kredit ditetapkan sebesar 80% dari setiap butir kegiatan yang dilakukan",
+      "Angka kredit ditetapkan sebesar 50% dari setiap butir kegiatan yang dilakukan",
+      "Tidak diberikan angka kredit karena tidak sesuai jenjang jabatan resmi",
+      "Angka kredit hanya diberikan jika disetujui oleh Presiden RI secara tertulis",
+    ],
+    answer: 2,
+    sub: "BAB III Pasal 9 Ayat (1)"
+  },
+  {
+    question: "Apa saja komponen uji kompetensi bagi Jabatan Fungsional Pengawas Koperasi?",
+    options: [
+      "Kompetensi teknis dan kompetensi sosial budaya saja",
+      "Kompetensi teknis dan kompetensi manajerial saja",
+      "Kompetensi teknis, kompetensi manajerial, dan kompetensi sosial kultural sesuai jenjang jabatan masing-masing",
+      "Kompetensi manajerial dan kompetensi sosial budaya tanpa kompetensi teknis khusus",
+      "Hanya kompetensi teknis sesuai bidang pekerjaan fungsionalnya tanpa aspek lain",
+    ],
+    answer: 3,
+    sub: "BAB VI Pasal 18"
+  },
+  {
+    question: "Apa yang dimaksud dengan 'Pemeriksaan Koperasi' menurut Peraturan BKN Nomor 10 Tahun 2019?",
+    options: [
+      "Kegiatan mencari data untuk meningkatkan kinerja koperasi",
+      "Serangkaian kegiatan mencari, mengumpulkan, dan mengolah data untuk membuktikan ada atau tidak adanya pelanggaran atas peraturan perundang-undangan",
+      "Proses evaluasi tahunan terhadap laporan keuangan koperasi",
+      "Pengawasan administratif terhadap operasional koperasi",
+      "Audit internal yang dilakukan oleh anggota koperasi sendiri",
+    ],
+    answer: 2,
+    sub: "BAB I Pasal 1 Ayat (10)"
+  },
+  {
+    question: "Siapa yang bertanggung jawab langsung kepada Pengawas Koperasi di instansi pemerintah?",
+    options: [
+      "Pejabat Tinggi Madya",
+      "Pejabat Administrator atau Pejabat Pengawas sesuai kebutuhan instansi",
+      "Menteri Koperasi dan UKM",
+      "Kepala Badan Kepegawaian Negara",
+      "Ketua Koperasi yang diawasi",
+    ],
+    answer: 2,
+    sub: "BAB II Pasal 2 Ayat (3)"
+  },
+  {
+    question: "Apa saja unsur utama kegiatan Jabatan Fungsional Pengawas Koperasi yang dapat dinilai angka kreditnya?",
+    options: [
+      "Pendidikan formal, perencanaan pengawasan koperasi, pengawasan koperasi, pembinaan sistem pengawasan koperasi, dan pengembangan profesi",
+      "Pendidikan formal dan pelatihan teknis saja",
+      "Hanya pendidikan formal dan pengawasan koperasi",
+      "Pengembangan profesi tanpa unsur pendidikan formal",
+      "Pelatihan teknis dan seminar koperasi tanpa unsur lainnya",
+    ],
+    answer: 1,
+    sub: "BAB III Pasal 7 Ayat (1)"
+  },
+  {
+    question: "Apa syarat usia maksimal untuk PNS yang akan diangkat menjadi Pengawas Koperasi Ahli Madya melalui perpindahan dari jabatan lain?",
+    options: [
+      "50 tahun",
+      "53 tahun",
+      "55 tahun",
+      "60 tahun",
+      "Tidak ada batas usia maksimal",
+    ],
+    answer: 3,
+    sub: "BAB V Pasal 15 Ayat (1) Huruf h"
+  },
+  {
+    question: "Apa ketentuan angka kredit bagi Pengawas Koperasi yang melaksanakan tugas satu tingkat di atas jenjang jabatannya?",
+    options: [
+      "100% dari angka kredit setiap butir kegiatan",
+      "80% dari angka kredit setiap butir kegiatan",
+      "50% dari angka kredit setiap butir kegiatan",
+      "Tidak diberikan angka kredit karena tidak sesuai jenjang jabatan resmi",
+      "Angka kredit hanya diberikan jika disetujui oleh Presiden RI secara tertulis",
+    ],
+    answer: 2,
+    sub: "BAB III Pasal 9 Ayat (1)"
+  },
+  {
+    question: "Apa tujuan utama dari pelaksanaan uji kompetensi bagi Jabatan Fungsional Pengawas Koperasi?",
+    options: [
+      "Menilai kemampuan teknis saja",
+      "Menentukan kelayakan kenaikan pangkat tanpa mempertimbangkan kompetensi lainnya",
+      "Mengukur kompetensi teknis, manajerial, dan sosial kultural sesuai jenjang jabatan masing-masing",
+      "Meningkatkan jumlah anggota koperasi yang diawasi secara langsung oleh pejabat terkait",
+      "Memberikan pelatihan tambahan kepada anggota koperasi terkait pengelolaan usaha simpan pinjam",
+    ],
+    answer: 3,
+    sub: "BAB VI Pasal 18"
+  },
+  {
+    question: "Apa definisi 'Angka Kredit Kumulatif' dalam konteks Jabatan Fungsional Pengawas Koperasi?",
+    options: [
+      "Jumlah nilai dari seluruh kegiatan yang dilakukan selama satu tahun kerja",
+      "Akumulasi nilai angka kredit minimal yang harus dicapai sebagai syarat kenaikan pangkat atau jabatan",
+      "Nilai total dari pendidikan formal tanpa mempertimbangkan unsur lainnya",
+      "Skor penilaian kinerja tahunan berdasarkan laporan atasan langsung",
+      "Jumlah nilai yang diperoleh dari unsur penunjang saja selama masa kerja tertentu",
+    ],
+    answer: 2,
+    sub: "BAB I Pasal 1 Ayat (16)"
+  },
+  {
+    question: "Apa saja unsur penunjang yang dapat dinilai dalam Jabatan Fungsional Pengawas Koperasi?",
+    options: [
+      "Pendidikan formal dan pelatihan teknis saja",
+      "Keanggotaan dalam organisasi profesi, peran serta dalam seminar, dan penghargaan/tanda jasa di bidang pengawasan koperasi",
+      "Hanya keanggotaan dalam organisasi profesi tanpa unsur lainnya",
+      "Penyusunan laporan tahunan koperasi tanpa keterlibatan langsung dalam pengawasan koperasi itu sendiri",
+      "Semua kegiatan administrasi di luar lingkup pengawasan koperasi dianggap sebagai unsur penunjang secara otomatis",
+    ],
+    answer: 2,
+    sub: "BAB III Pasal 7 Ayat (2)"
+  },
+  {
+    question: "Apa syarat minimal pendidikan bagi PNS untuk dapat diangkat menjadi Pengawas Koperasi melalui penyesuaian/inpassing?",
+    options: [
+      "SMA/sederajat dari jurusan apa saja dengan pengalaman kerja minimal lima tahun di bidang koperasi",
+      "Diploma III bidang ekonomi atau hukum dengan pengalaman kerja minimal dua tahun di bidang perkoperasian",
+      "Sarjana (S-1) atau Diploma IV bidang manajemen, ekonomi, akuntansi, atau hukum dengan pengalaman kerja minimal dua tahun di bidang perkoperasian",
+      "Magister (S-2) bidang ekonomi atau hukum dengan pengalaman kerja minimal lima tahun di instansi pemerintah pusat atau daerah terkait koperasi",
+      "Tidak ada syarat pendidikan khusus untuk proses inpassing ini karena hanya mempertimbangkan pengalaman kerja sebelumnya.",
+    ],
+    answer: 3,
+    sub: "BAB V Pasal 16 Ayat (1)"
+  },
+  {
+    question: "'SKP' dalam konteks Jabatan Fungsional Pengawas Koperasi adalah singkatan dari apa?",
+    options: [
+      "'Sasaran Kerja Pegawai', yaitu rencana kerja dan target yang akan dicapai oleh seorang PNS selama satu tahun berjalan.",
+      "'Sistem Kerja Pegawai', yaitu pedoman kerja harian bagi PNS dalam melaksanakan tugasnya.",
+      "'Standar Kompetensi Pegawai', yaitu tolok ukur kemampuan teknis seorang PNS.",
+      "'Strategi Kerja Pegawai', yaitu rencana strategis instansi pemerintah terkait tugas jabatan fungsional.",
+      "'Survei Kepuasan Pegawai', yaitu evaluasi tahunan terhadap kinerja PNS berdasarkan penilaian atasan langsung.",
+    ],
+    answer: 1,
+    sub: "BAB I Pasal 1 Ayat (14)"
+  },
+  {
+    question: "Apa yang dimaksud dengan 'Tim Penilai Kinerja Jabatan Fungsional Pengawas Koperasi' dalam Peraturan BKN Nomor 10 Tahun 2019?",
+    options: [
+      "Tim yang dibentuk untuk mengawasi kinerja koperasi secara langsung",
+      "Tim yang bertugas mengevaluasi hasil kerja Pengawas Koperasi dan membantu menilai keselarasan tugas dengan SKP",
+      "Kelompok kerja yang merancang program pelatihan untuk Pengawas Koperasi",
+      "Komite yang bertanggung jawab atas pengangkatan dan pemberhentian Pengawas Koperasi",
+      "Unit khusus yang mengelola administrasi jabatan fungsional di instansi pemerintah",
+    ],
+    answer: 2,
+    sub: "BAB I Pasal 1 Ayat (17)"
+  },
+  {
+    question: "Apa saja jenjang jabatan dalam Jabatan Fungsional Pengawas Koperasi menurut Peraturan BKN Nomor 10 Tahun 2019?",
+    options: [
+      "Ahli Pertama, Ahli Muda, Ahli Madya, dan Ahli Utama",
+      "Ahli Muda, Ahli Madya, Ahli Senior, dan Ahli Utama",
+      "Ahli Pertama, Ahli Madya, Ahli Senior, dan Ahli Utama",
+      "Ahli Muda, Ahli Madya, Ahli Utama, dan Ahli Spesialis",
+      "Ahli Pertama, Ahli Muda, dan Ahli Senior saja",
+    ],
+    answer: 1,
+    sub: "BAB II Pasal 4 Ayat (2)"
+  },
+  {
+    question: "Apa tugas utama dari Jabatan Fungsional Pengawas Koperasi sebagaimana diatur dalam Peraturan BKN Nomor 10 Tahun 2019?",
+    options: [
+      "Menyusun kebijakan nasional terkait koperasi",
+      "Melaksanakan pengawasan koperasi dalam aspek penerapan kepatuhan, pemeriksaan kelembagaan, pemeriksaan usaha simpan pinjam, penilaian kesehatan usaha simpan pinjam, dan penerapan sanksi",
+      "Mengelola dana simpan pinjam koperasi untuk kesejahteraan anggota",
+      "Memberikan pelatihan kepada anggota koperasi terkait pengelolaan keuangan",
+      "Membantu pemerintah daerah membentuk unit-unit usaha baru berbasis koperasi",
+    ],
+    answer: 2,
+    sub: "BAB II Pasal 3"
+  },
+  {
+    question: "Apa syarat minimal pendidikan untuk diangkat menjadi Pengawas Koperasi melalui pengangkatan pertama?",
+    options: [
+      "SMA/sederajat dari jurusan apa saja",
+      "Diploma III bidang ekonomi atau hukum saja",
+      "Sarjana (S-1) atau Diploma IV bidang manajemen, ekonomi, akuntansi atau hukum",
+      "Magister (S-2) bidang ekonomi atau hukum dengan pengalaman kerja minimal lima tahun",
+      "Tidak ada syarat pendidikan khusus untuk pengangkatan pertama",
+    ],
+    answer: 3,
+    sub: "BAB V Pasal 14 Ayat (1)"
+  },
+  {
+    question: "Apa ketentuan angka kredit bagi Pengawas Koperasi yang melaksanakan tugas satu tingkat di atas jenjang jabatannya?",
+    options: [
+      "100% dari angka kredit setiap butir kegiatan",
+      "80% dari angka kredit setiap butir kegiatan",
+      "50% dari angka kredit setiap butir kegiatan",
+      "Tidak diberikan angka kredit karena tidak sesuai jenjang jabatan resmi",
+      "Angka kredit hanya diberikan jika disetujui oleh Presiden RI secara tertulis",
+    ],
+    answer: 2,
+    sub: "BAB III Pasal 9 Ayat (1)"
+  },
+  {
+    question: "Apa tujuan utama uji kompetensi bagi Jabatan Fungsional Pengawas Koperasi?",
+    options: [
+      "Menilai kemampuan teknis saja",
+      "Menentukan kelayakan kenaikan pangkat tanpa mempertimbangkan kompetensi lainnya",
+      "Mengukur kompetensi teknis, manajerial, dan sosial kultural sesuai jenjang jabatan masing-masing",
+      "Meningkatkan jumlah anggota koperasi yang diawasi secara langsung oleh pejabat terkait",
+      "Memberikan pelatihan tambahan kepada anggota koperasi terkait pengelolaan usaha simpan pinjam",
+    ],
+    answer: 3,
+    sub: "BAB VI Pasal 18"
+  },
+  {
+    question: "'SKP' dalam konteks Jabatan Fungsional Pengawas Koperasi adalah singkatan dari apa?",
+    options: [
+      "'Sasaran Kerja Pegawai', yaitu rencana kerja dan target yang akan dicapai oleh seorang PNS selama satu tahun berjalan.",
+      "'Sistem Kerja Pegawai', yaitu pedoman kerja harian bagi PNS dalam melaksanakan tugasnya.",
+      "'Standar Kompetensi Pegawai', yaitu tolok ukur kemampuan teknis seorang PNS.",
+      "'Strategi Kerja Pegawai', yaitu rencana strategis instansi pemerintah terkait tugas jabatan fungsional.",
+      "'Survei Kepuasan Pegawai', yaitu evaluasi tahunan terhadap kinerja PNS berdasarkan penilaian atasan langsung.",
+    ],
+    answer: 1,
+    sub: "BAB I Pasal 1 Ayat (14)"
+  },
+  {
+    question: "Apa saja unsur utama kegiatan Jabatan Fungsional Pengawas Koperasi yang dapat dinilai angka kreditnya?",
+    options: [
+      "Pendidikan formal dan pelatihan teknis saja",
+      "Perencanaan pengawasan koperasi; pengawasan koperasi; pembinaan sistem pengawasan; dan pengembangan profesi.",
+      "Hanya pendidikan formal dan pengawasan koperasi tanpa unsur lainnya",
+      "Pengembangan profesi tanpa unsur pendidikan formal lainnya.",
+      "Pelatihan teknis dan seminar koperasi tanpa unsur lainnya.",
+    ],
+    answer: 2,
+    sub: "BAB III Pasal 7 Ayat (1)"
+  },
+  {
+    question: "'Angka Kredit Kumulatif' adalah...",
+    options: [
+      "...jumlah nilai dari seluruh kegiatan yang dilakukan selama satu tahun kerja.",
+      "...akumulasi nilai angka kredit minimal yang harus dicapai sebagai syarat kenaikan pangkat atau jabatan.",
+      "...nilai total dari pendidikan formal tanpa mempertimbangkan unsur lainnya.",
+      "...skor penilaian kinerja tahunan berdasarkan laporan atasan langsung.",
+      "...jumlah nilai yang diperoleh dari unsur penunjang saja selama masa kerja tertentu.",
+    ],
+    answer: 2,
+    sub: "BAB I Pasal 1 Ayat (16)"
+  },
+];
   
