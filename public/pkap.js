@@ -1268,5 +1268,232 @@ const questions = [
     answer: 2,
     sub: "BAB I Pasal 1 Ayat (16)"
   },
+  {
+    question: "Apa definisi 'Pengawasan Koperasi' menurut Permenkop Nomor 9 Tahun 2020?",
+    options: [
+      "Kegiatan yang dilakukan untuk meningkatkan jumlah anggota koperasi",
+      "Kegiatan yang dilakukan oleh pengawas koperasi untuk melakukan pemeriksaan kesehatan dan/atau penerapan sanksi terhadap koperasi sesuai ketentuan peraturan perundang-undangan",
+      "Proses evaluasi tahunan terhadap laporan keuangan koperasi",
+      "Pengawasan administratif terhadap operasional koperasi",
+      "Audit internal yang dilakukan oleh anggota koperasi sendiri",
+    ],
+    answer: 2,
+    sub: "Permenkop Nomor 9 Tahun 2020, BAB I Pasal 1 Ayat (2)"
+  },
+  {
+    question: "Apa yang dimaksud dengan 'Kertas Kerja Pemeriksaan Kesehatan Koperasi (KKPKK)' dalam Permenkop Nomor 9 Tahun 2020?",
+    options: [
+      "Pedoman pemeriksaan yang memuat data tercatat dan dokumen selama pemeriksaan berlangsung",
+      "Laporan hasil audit keuangan tahunan koperasi",
+      "Dokumen administrasi untuk pengajuan pinjaman koperasi",
+      "Catatan keuangan anggota koperasi",
+      "Surat keputusan pembentukan koperasi baru",
+    ],
+    answer: 1,
+    sub: "Permenkop Nomor 9 Tahun 2020, BAB I Pasal 1 Ayat (8)"
+  },
+  {
+    question: "Menurut Permenkop Nomor 9 Tahun 2020, siapa yang bertanggung jawab atas pengawasan koperasi dengan wilayah keanggotaan lintas daerah provinsi?",
+    options: [
+      "Bupati/Wali Kota",
+      "Gubernur",
+      "Menteri Koperasi dan Usaha Kecil dan Menengah",
+      "Deputi Pengawasan Koperasi",
+      "Kepala Perangkat Daerah Provinsi",
+    ],
+    answer: 3,
+    sub: "Permenkop Nomor 9 Tahun 2020, BAB II Pasal 2 Ayat (3) Huruf a"
+  },
+  {
+    question: "Apa saja klasifikasi usaha koperasi (KUK) berdasarkan Permenkop Nomor 9 Tahun 2020?",
+    options: [
+      "KUK berdasarkan jumlah anggota saja",
+      "KUK berdasarkan jumlah modal sendiri saja",
+      "KUK berdasarkan jumlah anggota, modal sendiri, dan/atau aset koperasi",
+      "KUK berdasarkan jenis usaha simpan pinjam atau non-simpan pinjam saja",
+      "KUK berdasarkan wilayah operasional koperasi saja",
+    ],
+    answer: 3,
+    sub: "Permenkop Nomor 9 Tahun 2020, BAB III Pasal 4 Ayat (3)"
+  },
+  {
+    question: "Apa syarat minimal jumlah anggota untuk klasifikasi usaha koperasi tingkat KUK-4?",
+    options: [
+      "Lebih dari 5.000 orang",
+      "Lebih dari 9.000 orang",
+      "Lebih dari 35.000 orang",
+      "Kurang dari 35.000 orang",
+      "Tidak ada batasan jumlah anggota untuk KUK-4",
+    ],
+    answer: 3,
+    sub: "Permenkop Nomor 9 Tahun 2020, BAB III Pasal 4 Ayat (3) Huruf d"
+  },
+  {
+    question: "Apa saja jenis pelaksanaan pengawasan koperasi sebagaimana diatur dalam Permenkop Nomor 9 Tahun 2020?",
+    options: [
+      "Pengawasan internal dan eksternal",
+      "Pengawasan langsung dan tidak langsung",
+      "Pengawasan rutin dan sewaktu-waktu",
+      "Pengawasan administratif dan keuangan",
+      "Pengawasan teknis dan manajerial",
+    ],
+    answer: 3,
+    sub: "Permenkop Nomor 9 Tahun 2020, BAB IV Pasal 7 Ayat (1)"
+  },
+  {
+    question: "'Pengawasan rutin' dapat dilakukan secara langsung (on-site) atau tidak langsung (off-site). Apa yang dimaksud dengan pengawasan tidak langsung (off-site)?",
+    options: [
+      "Pemeriksaan dokumen dan laporan tertulis yang wajib disampaikan oleh koperasi secara berkala kepada Deputi/Kepala Perangkat Daerah",
+      "Pemeriksaan fisik kantor koperasi tanpa pemberitahuan sebelumnya",
+      "Evaluasi kinerja koperasi melalui wawancara dengan pengurusnya secara langsung di lapangan",
+      "Audit internal oleh anggota koperasi sendiri tanpa melibatkan pihak eksternal",
+      "Pemeriksaan aset dan modal koperasi di lokasi usaha secara mendadak",
+    ],
+    answer: 1,
+    sub: "Permenkop Nomor 9 Tahun 2020, BAB IV Pasal 8 Ayat (3)"
+  },
+  {
+    question: "'Laporan Hasil Pemeriksaan Kesehatan Koperasi (LHPKK)' berisi dokumen laporan tertulis hasil pemeriksaan kesehatan koperasi. Apa saja tingkat kesehatan yang dapat ditetapkan dalam LHPKK?",
+    options: [
+      "'Sehat', 'cukup sehat', 'tidak sehat', atau 'dibubarkan'",
+      "'Sehat', 'cukup sehat', 'dalam pengawasan', atau 'dalam pengawasan khusus'",
+      "'Baik', 'cukup baik', 'kurang baik', atau 'buruk'",
+      "'Memuaskan', 'cukup memuaskan', atau 'tidak memuaskan'",
+      "'Layak', 'tidak layak', atau 'layak bersyarat'",
+    ],
+    answer: 2,
+    sub: "Permenkop Nomor 9 Tahun 2020, BAB V Pasal 15 Ayat (2)"
+  },
+  {
+    question: "Apa tujuan utama pengawasan koperasi sebagaimana diatur dalam Permenkop Nomor 9 Tahun 2020?",
+    options: [
+      "Meningkatkan jumlah anggota koperasi",
+      "Menjamin koperasi beroperasi sesuai asas kekeluargaan",
+      "Memastikan kepatuhan koperasi terhadap peraturan perundang-undangan dan meningkatkan tingkat kesehatan koperasi",
+      "Membantu koperasi dalam menyusun laporan keuangan tahunan",
+      "Mengembangkan sistem informasi koperasi berbasis teknologi",
+    ],
+    answer: 3,
+    sub: "BAB I Pasal 1 Ayat (2)"
+  },
+  {
+    question: "Menurut Permenkop Nomor 9 Tahun 2020, apa yang menjadi objek pengawasan koperasi?",
+    options: [
+      "Hanya koperasi simpan pinjam",
+      "Koperasi primer dan sekunder, baik usaha simpan pinjam maupun non-simpan pinjam",
+      "Koperasi dengan aset lebih dari Rp500 juta",
+      "Semua badan usaha yang berbasis anggota",
+      "Hanya koperasi yang berada di wilayah lintas provinsi",
+    ],
+    answer: 2,
+    sub: "BAB III Pasal 4 Ayat (1) dan (2)"
+  },
+  {
+    question: "Apa kriteria klasifikasi usaha koperasi (KUK) tingkat 3 menurut Permenkop Nomor 9 Tahun 2020?",
+    options: [
+      "Jumlah anggota lebih dari 5.000 orang, modal sendiri lebih dari Rp250 juta hingga Rp15 miliar, atau aset lebih dari Rp2,5 miliar hingga Rp100 miliar",
+      "Jumlah anggota lebih dari 9.000 orang hingga paling banyak 35.000 orang, modal sendiri lebih dari Rp15 miliar hingga Rp40 miliar, atau aset lebih dari Rp100 miliar hingga Rp500 miliar",
+      "Jumlah anggota lebih dari 35.000 orang, modal sendiri lebih dari Rp40 miliar, atau aset lebih dari Rp500 miliar",
+      "Jumlah anggota paling banyak 5.000 orang, modal sendiri paling banyak Rp250 juta, atau aset paling banyak Rp2,5 miliar",
+      "Tidak ada kriteria khusus untuk KUK tingkat 3",
+    ],
+    answer: 2,
+    sub: "BAB III Pasal 4 Ayat (3) Huruf c"
+  },
+  {
+    question: "'Pengawasan sewaktu-waktu' dapat dilakukan berdasarkan beberapa kondisi. Apa saja kondisi tersebut?",
+    options: [
+      "Perintah pejabat berwenang, laporan masyarakat resmi yang dapat dipertanggungjawabkan, atau permasalahan koperasi yang memerlukan penanganan khusus",
+      "Permintaan langsung dari anggota koperasi atau pengurus koperasi tanpa syarat tambahan",
+      "Hasil audit keuangan tahunan koperasi yang menunjukkan surplus besar",
+      "Kebutuhan untuk meningkatkan jumlah anggota koperasi secara mendadak",
+      "Masalah internal koperasi yang dilaporkan oleh pengurus tanpa bukti pendukung",
+    ],
+    answer: 1,
+    sub: "BAB IV Pasal 9"
+  },
+  {
+    question: "Apa saja dokumen minimal yang harus disampaikan oleh koperasi dalam pengawasan tidak langsung (off-site)?",
+    options: [
+      "Laporan keuangan tahunan saja",
+      "Perubahan anggaran dasar/rumah tangga, laporan pertanggungjawaban tahunan pengurus/pengawas, dan rencana kerja serta anggaran pendapatan dan belanja koperasi",
+      "Dokumen terkait pembukaan cabang baru dan laporan audit eksternal saja",
+      "Hanya laporan hasil rapat anggota tahunan (RAT)",
+      "Semua dokumen terkait operasional harian koperasi tanpa batasan tertentu",
+    ],
+    answer: 2,
+    sub: "BAB IV Pasal 8 Ayat (4)"
+  },
+  {
+    question: "'Laporan Hasil Pemeriksaan Kesehatan Koperasi (LHPKK)' memuat hasil pemeriksaan kesehatan koperasi. Apa saja tingkat kesehatan yang dapat diberikan?",
+    options: [
+      "'Baik', 'cukup baik', 'kurang baik', atau 'buruk'",
+      "'Sehat', 'cukup sehat', 'dalam pengawasan', atau 'dalam pengawasan khusus'",
+      "'Memuaskan', 'cukup memuaskan', atau 'tidak memuaskan'",
+      "'Layak', 'tidak layak', atau 'layak bersyarat'",
+      "'Normal', 'tidak normal', atau 'dalam pemantauan khusus'",
+    ],
+    answer: 2,
+    sub: "BAB V Pasal 15 Ayat (2)"
+  },
+  {
+    question: "'Kertas Kerja Pemeriksaan Kesehatan Koperasi (KKPKK)' digunakan dalam pemeriksaan kesehatan koperasi. Apa saja aspek utama yang dinilai dalam KKPKK?",
+    options: [
+      "Tata kelola, profil risiko, kinerja keuangan, dan permodalan",
+      "Jumlah anggota, laporan keuangan tahunan, dan aset tetap",
+      "Manajemen sumber daya manusia dan kepatuhan terhadap prinsip syariah saja",
+      "Laporan audit eksternal dan laporan rapat anggota tahunan (RAT)",
+      "Pengembangan teknologi informasi dalam operasional koperasi",
+    ],
+    answer: 1,
+    sub: "BAB IV Pasal 13 Ayat (2)"
+  },
+  {
+    question: "'Tingkat kesehatan dalam pengawasan khusus' pada LHPKK akan ditindaklanjuti dengan sanksi administratif. Apa jenis sanksi administratif berat yang dapat dikenakan?",
+    options: [
+      "Surat teguran pertama dan kedua",
+      "Penurunan tingkat kesehatan koperasi secara berkala",
+      "Pembatasan kegiatan usaha seperti penerimaan simpanan baru atau pembukaan cabang baru",
+      "Pencabutan izin usaha atau pembubaran koperasi",
+      "Penundaan pelaksanaan rapat anggota tahunan (RAT)",
+    ],
+    answer: 4,
+    sub: "BAB V Pasal 24 Huruf c"
+  },
+  {
+    question: "Menurut Pasal 13 Permenkop Nomor 9 Tahun 2020, Kertas Kerja Pemeriksaan Kesehatan Koperasi (KKPKK) digunakan sebagai pedoman dalam pelaksanaan pemeriksaan kesehatan koperasi. KKPKK meliputi beberapa aspek utama yang harus dinilai secara komprehensif. Apa saja aspek utama tersebut, dan bagaimana penerapan prinsip syariah ditambahkan dalam KKPKK untuk koperasi berbasis syariah?",
+    options: [
+      "Aspek utama meliputi tata kelola, profil risiko, kinerja keuangan, dan permodalan. Penerapan prinsip syariah ditambahkan dengan menilai kepatuhan terhadap fatwa Dewan Syariah Nasional.",
+      "Aspek utama meliputi tata kelola, manajemen sumber daya manusia, laporan keuangan, dan pengembangan usaha. Prinsip syariah diterapkan melalui audit eksternal oleh lembaga syariah independen.",
+      "Aspek utama meliputi kelembagaan koperasi, manajemen risiko, evaluasi aset tetap, dan kesinambungan usaha. Prinsip syariah ditambahkan dengan melakukan penilaian terhadap akad-akad transaksi syariah.",
+      "Aspek utama meliputi tata kelola, profil risiko, kinerja keuangan, dan permodalan. Prinsip syariah diterapkan melalui penilaian penerapan akad-akad syariah dan pengawasan Dewan Pengawas Syariah.",
+      "Aspek utama meliputi laporan keuangan koperasi, jumlah anggota aktif, dan aset koperasi. Prinsip syariah diterapkan melalui audit tahunan oleh Dewan Syariah Nasional.",
+    ],
+    answer: 4,
+    sub: "Permenkop Nomor 9 Tahun 2020, BAB IV Pasal 13 Ayat (2) dan (3)"
+  },
+  {
+    question: "Dalam Permenkop Nomor 9 Tahun 2020 Pasal 24 disebutkan bahwa sanksi administratif dapat dikenakan kepada koperasi yang melanggar ketentuan peraturan perundang-undangan. Sanksi administratif ini dikategorikan menjadi tiga jenis berdasarkan tingkat pelanggaran yang dilakukan. Jelaskan masing-masing kategori sanksi administratif tersebut beserta contoh penerapannya pada kasus nyata.",
+    options: [
+      "Sanksi ringan berupa surat teguran untuk pelanggaran administratif kecil; sanksi sedang berupa pembatasan kegiatan usaha atau pembekuan izin usaha; sanksi berat berupa pencabutan izin usaha atau pembubaran koperasi. Contohnya adalah pembatasan penerimaan anggota baru untuk koperasi yang gagal menyelenggarakan Rapat Anggota Tahunan (RAT).",
+      "Sanksi ringan berupa teguran lisan; sanksi sedang berupa denda administratif; sanksi berat berupa pembekuan seluruh kegiatan usaha koperasi. Contohnya adalah pembekuan izin usaha bagi koperasi yang tidak melaporkan perubahan anggaran dasar.",
+      "Sanksi ringan berupa surat peringatan pertama; sanksi sedang berupa pengurangan modal koperasi; sanksi berat berupa pengambilalihan seluruh aset koperasi oleh pemerintah daerah. Contohnya adalah pencabutan izin usaha bagi koperasi yang tidak memiliki laporan keuangan selama tiga tahun berturut-turut.",
+      "Sanksi ringan berupa teguran tertulis; sanksi sedang berupa pengurangan jumlah anggota aktif; sanksi berat berupa pembubaran koperasi secara paksa. Contohnya adalah pembatasan pinjaman baru bagi koperasi yang memiliki rasio kredit bermasalah tinggi.",
+      "Sanksi ringan berupa surat teguran hingga dua kali; sanksi sedang berupa penurunan tingkat kesehatan koperasi; sanksi berat berupa pencabutan status badan hukum koperasi. Contohnya adalah pengurangan tingkat kesehatan bagi koperasi yang gagal memenuhi kewajiban pajak.",
+    ],
+    answer: 1,
+    sub: "Permenkop Nomor 9 Tahun 2020, BAB V Pasal 24"
+  },
+  {
+    question: "Pasal 8 Permenkop Nomor 9 Tahun 2020 mengatur tentang pengawasan rutin terhadap koperasi yang dapat dilakukan secara langsung (on-site) maupun tidak langsung (off-site). Jelaskan perbedaan antara pengawasan langsung dan tidak langsung serta dokumen apa saja yang wajib disampaikan oleh koperasi dalam pengawasan tidak langsung?",
+    options: [
+      "Pengawasan langsung dilakukan di lokasi fisik koperasi untuk memeriksa fasilitas dan dokumen operasional secara langsung. Pengawasan tidak langsung dilakukan melalui analisis dokumen seperti laporan keuangan tahunan dan rencana kerja koperasi.",
+      "Pengawasan langsung mencakup wawancara dengan anggota koperasi di lokasi tertentu, sedangkan pengawasan tidak langsung hanya mencakup evaluasi data elektronik tanpa pemeriksaan dokumen fisik.",
+      "Pengawasan langsung dilakukan oleh tim independen di bawah kementerian terkait, sementara pengawasan tidak langsung dilakukan oleh auditor internal koperasi menggunakan data internal saja.",
+      "Pengawasan langsung mencakup pemeriksaan fisik kantor cabang koperasi tanpa pemberitahuan terlebih dahulu, sedangkan pengawasan tidak langsung hanya mencakup analisis data keuangan tanpa interaksi dengan pengurus koperasi.",
+      "Pengawasan langsung berfokus pada evaluasi aset tetap di lapangan, sedangkan pengawasan tidak langsung mencakup audit eksternal terhadap laporan tahunan koperasi.",
+    ],
+    answer: 1,
+    sub: "Permenkop Nomor 9 Tahun 2020, BAB IV Pasal 8 Ayat (1-4)"
+  },
 ];
-  
