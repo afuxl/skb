@@ -126,8 +126,7 @@ const questions = [
       "Badan usaha yang beranggotakan individu atau badan hukum koperasi",
       "Badan usaha yang beranggotakan pemerintah",
       "Badan usaha yang beranggotakan masyarakat umum",
-      "Badan usaha yang beranggotakan orang seorang atau badan hukum Koperasi dengan melandaskan kegiatannya berdasarkan prinsip Koperasi sekaligus sebagai gerakan ekonomi rakyat yang berdasar atas asas kekeluargaan"[^2^][2]
-    ],
+      "Badan usaha yang beranggotakan orang seorang atau badan hukum Koperasi dengan melandaskan kegiatannya berdasarkan prinsip Koperasi sekaligus sebagai gerakan ekonomi rakyat yang berdasar atas asas kekeluargaan"
     answer: 5,
     sub: "Peraturan Menteri Koperasi dan Usaha Kecil dan Menengah Nomor 09 Tahun 2018"
   },
@@ -136,9 +135,9 @@ const questions = [
     options: [
       "Sejumlah uang yang wajib dibayarkan kepada koperasi setiap bulan",
       "Sejumlah uang yang dapat diambil kembali kapan saja",
-      "Sejumlah uang yang wajib dibayarkan kepada koperasi pada saat masuk menjadi anggota, yang tidak dapat diambil kembali selama yang bersangkutan masih menjadi anggota",[^3^][3]
+      "Sejumlah uang yang wajib dibayarkan kepada koperasi pada saat masuk menjadi anggota, yang tidak dapat diambil kembali selama yang bersangkutan masih menjadi anggota",
       "Sejumlah uang yang diberikan sebagai hibah kepada koperasi",
-      "Sejumlah uang yang wajib dibayarkan kepada koperasi pada saat masuk menjadi anggota, yang tidak dapat diambil kembali selama yang bersangkutan masih menjadi anggota"[^3^][3]
+      "Sejumlah uang yang wajib dibayarkan kepada koperasi pada saat masuk menjadi anggota, yang tidak dapat diambil kembali selama yang bersangkutan masih menjadi anggota"
     ],
     answer: 5,
     sub: "Peraturan Menteri Koperasi dan Usaha Kecil dan Menengah Nomor 09 Tahun 2018"
@@ -146,11 +145,11 @@ const questions = [
   {
     question: "Apa yang dimaksud dengan Dana Cadangan dalam peraturan ini?",
     options: [
-      "Sejumlah uang yang diperoleh dari penyisihan hasil usaha setelah pajak yang dimaksudkan untuk memupuk modal sendiri dan menutup kerugian koperasi bila diperlukan",[^4^][4]
+      "Sejumlah uang yang diperoleh dari penyisihan hasil usaha setelah pajak yang dimaksudkan untuk memupuk modal sendiri dan menutup kerugian koperasi bila diperlukan",
       "Sejumlah uang yang diperoleh dari pinjaman bank",
       "Sejumlah uang yang diperoleh dari sumbangan anggota",
       "Sejumlah uang yang diperoleh dari penjualan aset koperasi",
-      "Sejumlah uang yang diperoleh dari penyisihan hasil usaha setelah pajak yang dimaksudkan untuk memupuk modal sendiri dan menutup kerugian koperasi bila diperlukan"[^4^][4]
+      "Sejumlah uang yang diperoleh dari penyisihan hasil usaha setelah pajak yang dimaksudkan untuk memupuk modal sendiri dan menutup kerugian koperasi bila diperlukan"
     ],
     answer: 5,
     sub: "Peraturan Menteri Koperasi dan Usaha Kecil dan Menengah Nomor 09 Tahun 2018"
