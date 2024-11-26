@@ -770,15 +770,15 @@ const questions = [
   {
     question: "'Penyiaran berbasis digital' menjadi tren utama saat ini. Sebutkan tiga keuntungan penyiaran berbasis digital dibandingkan penyiaran tradisional serta bagaimana keuntungan-keuntungan tersebut dapat dimanfaatkan oleh seorang Asisten Teknisi Siaran Pemula?",
     options: [
-      "'Aksesibilitas global', 'interaktivitas', dan 'penghematan biaya'. Aksesibilitas memungkinkan jangkauan audiens lebih luas tanpa batas geografis;, interaktivitas memungkinkan keterlibatan penonton secara real-time;, sedangkan penghematan biaya berkaitan dengan penggunaan infrastruktur digital dibandingkan analog.";
+      "'Aksesibilitas global', 'interaktivitas', dan 'penghematan biaya'. Aksesibilitas memungkinkan jangkauan audiens lebih luas tanpa batas geografis;, interaktivitas memungkinkan keterlibatan penonton secara real-time;, sedangkan penghematan biaya berkaitan dengan penggunaan infrastruktur digital dibandingkan analog.",
       
-       "'Kualitas gambar tinggi', 'kemudahan analisis data', dan 'kemampuan streaming on-demand'. Kualitas gambar tinggi meningkatkan pengalaman menonton;, kemudahan analisis data memungkinkan evaluasi performa program;, sedangkan kemampuan streaming on-demand memberi fleksibilitas kepada pemirsa.";
+       "'Kualitas gambar tinggi', 'kemudahan analisis data', dan 'kemampuan streaming on-demand'. Kualitas gambar tinggi meningkatkan pengalaman menonton;, kemudahan analisis data memungkinkan evaluasi performa program;, sedangkan kemampuan streaming on-demand memberi fleksibilitas kepada pemirsa.",
        
-       "'Fleksibilitas waktu', 'penggunaan teknologi canggih', dan 'kemampuan monetisasi'. Fleksibilitas waktu memberi pilihan kepada pemirsa;, penggunaan teknologi canggih memungkinkan inovasi;, sedangkan kemampuan monetisasi membuka peluang pendapatan baru.";
+       "'Fleksibilitas waktu', 'penggunaan teknologi canggih', dan 'kemampuan monetisasi'. Fleksibilitas waktu memberi pilihan kepada pemirsa;, penggunaan teknologi canggih memungkinkan inovasi;, sedangkan kemampuan monetisasi membuka peluang pendapatan baru.",
        
-       "'Integrasi multimedia', 'kemudahan kolaborasi', dan 'peningkatan engagement'. Integrasi multimedia memperkaya konten;, kemudahan kolaborasi mempermudah kerja tim;, sedangkan peningkatan engagement mendorong loyalitas audiens.";
+       "'Integrasi multimedia', 'kemudahan kolaborasi', dan 'peningkatan engagement'. Integrasi multimedia memperkaya konten;, kemudahan kolaborasi mempermudah kerja tim;, sedangkan peningkatan engagement mendorong loyalitas audiens.",
        
-       "'Penggunaan algoritma cerdas', 'akses data real-time', dan 'kemampuan personalisasi'. Penggunaan algoritma cerdas meningkatkan relevansi konten;, akses data real-time memungkinkan respons cepat;, sedangkan kemampuan personalisasi menciptakan pengalaman unik bagi setiap pengguna.";
+       "'Penggunaan algoritma cerdas', 'akses data real-time', dan 'kemampuan personalisasi'. Penggunaan algoritma cerdas meningkatkan relevansi konten;, akses data real-time memungkinkan respons cepat;, sedangkan kemampuan personalisasi menciptakan pengalaman unik bagi setiap pengguna.",
       
      ],
      answer: 1,
@@ -787,15 +787,15 @@ const questions = [
    {
      question: "'Evaluasi program' adalah langkah penting setelah pelaksanaan sebuah program siaran. Sebutkan tiga metode evaluasi program yang umum digunakan oleh seorang Asisten Teknisi Siaran Pemula beserta keuntungan masing-masing metode dalam konteks peningkatan kualitas siarannya selanjutnya.", 
      options:[
-       "'Survei penonton', 'analisis rating', dan 'focus group discussion'. Survei memberikan data kuantitatif tentang kepuasan penonton;, analisis rating menunjukkan popularitas program;, sedangkan focus group discussion memberi wawasan mendalam tentang persepsi penonton.";
+       "'Survei penonton', 'analisis rating', dan 'focus group discussion'. Survei memberikan data kuantitatif tentang kepuasan penonton;, analisis rating menunjukkan popularitas program;, sedangkan focus group discussion memberi wawasan mendalam tentang persepsi penonton.",
        
-       "'Wawancara narasumber', 'analisis kompetitor', dan 'observasi langsung'. Wawancara memberi perspektif dari pihak terkait;, analisis kompetitor membantu memahami posisi pasar;, sedangkan observasi langsung menangkap dinamika lapangan.";
+       "'Wawancara narasumber', 'analisis kompetitor', dan 'observasi langsung'. Wawancara memberi perspektif dari pihak terkait;, analisis kompetitor membantu memahami posisi pasar;, sedangkan observasi langsung menangkap dinamika lapangan.",
        
-       "'Analisis SWOT', 'pemetaan stakeholder', dan 'benchmarking'. Analisis SWOT membantu mengidentifikasi kekuatan/kekurangan;, pemetaan stakeholder menunjukkan hubungan penting;, sedangkan benchmarking membandingkan performa dengan standar industri.";
+       "'Analisis SWOT', 'pemetaan stakeholder', dan 'benchmarking'. Analisis SWOT membantu mengidentifikasi kekuatan/kekurangan;, pemetaan stakeholder menunjukkan hubungan penting;, sedangkan benchmarking membandingkan performa dengan standar industri.",
        
-       "'Pengumpulan feedback online', 'diskusi panel', dan 'analisis tren'. Pengumpulan feedback online memberi data real-time;, diskusi panel melibatkan banyak perspektif;, sedangkan analisis tren menunjukkan pola perilaku penonton.";
+       "'Pengumpulan feedback online', 'diskusi panel', dan 'analisis tren'. Pengumpulan feedback online memberi data real-time;, diskusi panel melibatkan banyak perspektif;, sedangkan analisis tren menunjukkan pola perilaku penonton.",
        
-       "'Penyusunan laporan akhir', 'presentasi hasil evaluasi', dan 'diskusi hasil evaluasi'. Penyusunan laporan akhir merangkum temuan;, presentasi hasil evaluasi menyampaikan informasi kepada tim;, diskusi hasil evaluasi membahas langkah selanjutnya.";
+       "'Penyusunan laporan akhir', 'presentasi hasil evaluasi', dan 'diskusi hasil evaluasi'. Penyusunan laporan akhir merangkum temuan;, presentasi hasil evaluasi menyampaikan informasi kepada tim;, diskusi hasil evaluasi membahas langkah selanjutnya.",
      ],
      answer :1,
      sub :("Materi Pokok Seleksi Kompetensi Bidang Asisten Teknisi Siaran Pemula")
