@@ -6,22 +6,22 @@ const questions = [
       "Peraturan Pemerintah Nomor 4 Tahun 1994",
       "Peraturan Presiden Nomor 62 Tahun 2015",
       "Peraturan Menteri Koperasi Nomor 08/Per/M.KUKM/IX/2015",
-      "Undang-Undang Nomor 25 Tahun 1992"[^4^][4]
+      "Undang-Undang Nomor 25 Tahun 1992"
     ],
     answer: 5,
-    sub: "Penyelenggaraan dan Pembinaan Perkoperasian"[^6^][6]
+    sub: "Penyelenggaraan dan Pembinaan Perkoperasian"
   },
   {
     question: "Apa yang dimaksud dengan Koperasi Primer?",
     options: [
-      "Koperasi yang didirikan oleh badan hukum Koperasi",[^1^][1]
-      "Koperasi yang menjalankan usaha simpan pinjam",[^2^][2]
-      "Koperasi yang didirikan oleh dan beranggotakan orang perseorangan",[^8^][8]
-      "Koperasi yang menjalankan usaha pelayanan jasa",[^3^][3]
-      "Koperasi yang menjalankan usaha pengadaan sarana produksi"[^9^][9]
+      "Koperasi yang didirikan oleh badan hukum Koperasi",
+      "Koperasi yang menjalankan usaha simpan pinjam",
+      "Koperasi yang didirikan oleh dan beranggotakan orang perseorangan",
+      "Koperasi yang menjalankan usaha pelayanan jasa",
+      "Koperasi yang menjalankan usaha pengadaan sarana produksi"
     ],
     answer: 3,
-    sub: "Penyelenggaraan dan Pembinaan Perkoperasian"[^6^][6]
+    sub: "Penyelenggaraan dan Pembinaan Perkoperasian"
   },
   {
     question: "Apa yang dimaksud dengan Simpanan Pokok?",
@@ -33,19 +33,19 @@ const questions = [
       "Simpanan yang wajib dibayarkan pada saat masuk menjadi anggota"
     ],
     answer: 5,
-    sub: "Penyelenggaraan dan Pembinaan Perkoperasian"[^6^][6]
+    sub: "Penyelenggaraan dan Pembinaan Perkoperasian"
   },
   {
     question: "Apa yang dimaksud dengan Dana Cadangan?",
     options: [
       "Dana yang diperoleh dari hibah",
-      "Dana yang digunakan untuk modal penyertaan",[^10^][10]
+      "Dana yang digunakan untuk modal penyertaan",
       "Dana yang diperoleh dari simpanan wajib",
       "Dana yang digunakan untuk menutup kerugian koperasi",
       "Dana yang diperoleh dari penyisihan hasil usaha setelah pajak"
     ],
     answer: 5,
-    sub: "Penyelenggaraan dan Pembinaan Perkoperasian"[^6^][6]
+    sub: "Penyelenggaraan dan Pembinaan Perkoperasian"
   },
   {
     question: "Apa yang dimaksud dengan Rapat Anggota?",
@@ -54,34 +54,34 @@ const questions = [
       "Rapat yang diadakan oleh pengawas koperasi",
       "Rapat yang diadakan oleh Dewan Pengawas Syariah",
       "Rapat yang diadakan oleh anggota koperasi",
-      "Rapat yang memegang kekuasaan tertinggi dalam koperasi"[^11^][11]
+      "Rapat yang memegang kekuasaan tertinggi dalam koperasi"
     ],
     answer: 5,
-    sub: "Penyelenggaraan dan Pembinaan Perkoperasian"[^6^][6]
+    sub: "Penyelenggaraan dan Pembinaan Perkoperasian"
   },
   {
-    question: "Apa yang dimaksud dengan Koperasi Sekunder?",[^1^][1]
+    question: "Apa yang dimaksud dengan Koperasi Sekunder?",
     options: [
-      "Koperasi yang didirikan oleh dan beranggotakan orang perseorangan",[^8^][8]
-      "Koperasi yang menjalankan usaha simpan pinjam",[^2^][2]
-      "Koperasi yang didirikan oleh dan beranggotakan badan hukum Koperasi",[^1^][1][^5^][5]
-      "Koperasi yang menjalankan usaha pelayanan jasa",[^3^][3]
-      "Koperasi yang menjalankan usaha pengadaan sarana produksi"[^9^][9]
+      "Koperasi yang didirikan oleh dan beranggotakan orang perseorangan",
+      "Koperasi yang menjalankan usaha simpan pinjam",
+      "Koperasi yang didirikan oleh dan beranggotakan badan hukum Koperasi",
+      "Koperasi yang menjalankan usaha pelayanan jasa",
+      "Koperasi yang menjalankan usaha pengadaan sarana produksi"
     ],
     answer: 3,
-    sub: "Penyelenggaraan dan Pembinaan Perkoperasian"[^6^][6]
+    sub: "Penyelenggaraan dan Pembinaan Perkoperasian"
   },
   {
     question: "Apa yang dimaksud dengan Hibah?",
     options: [
-      "Pemberian dengan sukarela dengan mengalihkan hak atas uang dan/atau barang kepada koperasi",[^12^][12]
+      "Pemberian dengan sukarela dengan mengalihkan hak atas uang dan/atau barang kepada koperasi",
       "Pemberian dengan syarat tertentu kepada koperasi",
       "Pemberian yang wajib dibayarkan oleh anggota koperasi",
       "Pemberian yang diperoleh dari hasil usaha koperasi",
       "Pemberian yang digunakan untuk modal penyertaan"
     ],
     answer: 1,
-    sub: "Penyelenggaraan dan Pembinaan Perkoperasian"[^6^][6]
+    sub: "Penyelenggaraan dan Pembinaan Perkoperasian"
   },
   {
     question: "Apa yang dimaksud dengan Simpanan Wajib?",
@@ -93,7 +93,7 @@ const questions = [
       "Simpanan yang wajib dibayarkan pada saat masuk menjadi anggota"
     ],
     answer: 2,
-    sub: "Penyelenggaraan dan Pembinaan Perkoperasian"[^6^][6]
+    sub: "Penyelenggaraan dan Pembinaan Perkoperasian"
   },
   {
     question: "Apa yang dimaksud dengan Modal Penyertaan?",
@@ -101,23 +101,23 @@ const questions = [
       "Modal yang diperoleh dari hibah",
       "Modal yang digunakan untuk menutup kerugian koperasi",
       "Modal yang diperoleh dari simpanan wajib",
-      "Modal yang digunakan untuk modal penyertaan",[^10^][10]
-      "Modal yang ditanamkan oleh pemodal untuk menambah dan memperkuat struktur permodalan koperasi"[^13^][13]
+      "Modal yang digunakan untuk modal penyertaan",
+      "Modal yang ditanamkan oleh pemodal untuk menambah dan memperkuat struktur permodalan koperasi"
     ],
     answer: 5,
-    sub: "Penyelenggaraan dan Pembinaan Perkoperasian"[^6^][6]
+    sub: "Penyelenggaraan dan Pembinaan Perkoperasian"
   },
   {
     question: "Apa yang dimaksud dengan Obligasi Koperasi?",
     options: [
-      "Instrumen utang dalam bentuk surat berharga yang digunakan untuk keperluan pembiayaan investasi",[^14^][14]
+      "Instrumen utang dalam bentuk surat berharga yang digunakan untuk keperluan pembiayaan investasi",
       "Instrumen utang yang diperoleh dari simpanan wajib",
       "Instrumen utang yang digunakan untuk menutup kerugian koperasi",
       "Instrumen utang yang diperoleh dari hibah",
       "Instrumen utang yang digunakan untuk modal penyertaan"
     ],
     answer: 1,
-    sub: "Penyelenggaraan dan Pembinaan Perkoperasian"[^6^][6]
+    sub: "Penyelenggaraan dan Pembinaan Perkoperasian"
   },
   {
     question: "Apa yang dimaksud dengan Koperasi dalam Peraturan Menteri Koperasi dan Usaha Kecil dan Menengah Nomor 09 Tahun 2018?",
@@ -129,7 +129,7 @@ const questions = [
       "Badan usaha yang beranggotakan orang seorang atau badan hukum Koperasi dengan melandaskan kegiatannya berdasarkan prinsip Koperasi sekaligus sebagai gerakan ekonomi rakyat yang berdasar atas asas kekeluargaan"[^2^][2]
     ],
     answer: 5,
-    sub: "Peraturan Menteri Koperasi dan Usaha Kecil dan Menengah Nomor 09 Tahun 2018"[^1^][1]
+    sub: "Peraturan Menteri Koperasi dan Usaha Kecil dan Menengah Nomor 09 Tahun 2018"
   },
   {
     question: "Apa yang dimaksud dengan Simpanan Pokok dalam peraturan ini?",
@@ -141,7 +141,7 @@ const questions = [
       "Sejumlah uang yang wajib dibayarkan kepada koperasi pada saat masuk menjadi anggota, yang tidak dapat diambil kembali selama yang bersangkutan masih menjadi anggota"[^3^][3]
     ],
     answer: 5,
-    sub: "Peraturan Menteri Koperasi dan Usaha Kecil dan Menengah Nomor 09 Tahun 2018"[^1^][1]
+    sub: "Peraturan Menteri Koperasi dan Usaha Kecil dan Menengah Nomor 09 Tahun 2018"
   },
   {
     question: "Apa yang dimaksud dengan Dana Cadangan dalam peraturan ini?",
@@ -153,7 +153,7 @@ const questions = [
       "Sejumlah uang yang diperoleh dari penyisihan hasil usaha setelah pajak yang dimaksudkan untuk memupuk modal sendiri dan menutup kerugian koperasi bila diperlukan"[^4^][4]
     ],
     answer: 5,
-    sub: "Peraturan Menteri Koperasi dan Usaha Kecil dan Menengah Nomor 09 Tahun 2018"[^1^][1]
+    sub: "Peraturan Menteri Koperasi dan Usaha Kecil dan Menengah Nomor 09 Tahun 2018"
   },
   {
     question: "Apa yang dimaksud dengan Rapat Anggota dalam peraturan ini?",
@@ -162,10 +162,10 @@ const questions = [
       "Rapat yang diadakan oleh pengawas koperasi",
       "Rapat yang diadakan oleh anggota koperasi untuk membahas kegiatan koperasi",
       "Rapat yang diadakan oleh pemerintah untuk membahas koperasi",
-      "Rapat yang diadakan oleh anggota koperasi yang memegang kekuasaan tertinggi dalam koperasi"[^6^][6]
+      "Rapat yang diadakan oleh anggota koperasi yang memegang kekuasaan tertinggi dalam koperasi"
     ],
     answer: 5,
-    sub: "Peraturan Menteri Koperasi dan Usaha Kecil dan Menengah Nomor 09 Tahun 2018"[^1^][1]
+    sub: "Peraturan Menteri Koperasi dan Usaha Kecil dan Menengah Nomor 09 Tahun 2018"
   },
   {
     question: "Apa yang dimaksud dengan Koperasi Sekunder dalam peraturan ini?",
@@ -174,10 +174,10 @@ const questions = [
       "Koperasi yang didirikan oleh perusahaan",
       "Koperasi yang didirikan oleh individu",
       "Koperasi yang didirikan oleh masyarakat umum",
-      "Koperasi yang didirikan oleh dan beranggotakan badan hukum Koperasi"[^7^][7][^5^][5]
+      "Koperasi yang didirikan oleh dan beranggotakan badan hukum Koperasi"
     ],
     answer: 5,
-    sub: "Peraturan Menteri Koperasi dan Usaha Kecil dan Menengah Nomor 09 Tahun 2018"[^1^][1]
+    sub: "Peraturan Menteri Koperasi dan Usaha Kecil dan Menengah Nomor 09 Tahun 2018"
   },
   {
     question: "Apakah yang dimaksud dengan prinsip 'kebebasan dan otonomi' dalam koperasi?",
