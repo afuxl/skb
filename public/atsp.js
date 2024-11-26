@@ -658,6 +658,312 @@ const questions = [
         ],
         answer: 2,
         sub: "PP No. 11 Tahun 2005 tentang Penyelenggaraan Penyiaran Lembaga Penyiaran Publik"
-      }
-    ];
-    
+      },
+  {
+    question: "Salah satu tugas Asisten Teknisi Siaran Pemula adalah memahami proses produksi siaran. Sebutkan dan jelaskan lima tahapan utama dalam proses produksi siaran, serta peran penting yang dimainkan oleh Asisten Teknisi di setiap tahapan tersebut.",
+    options: [
+      "Tahapan pra-produksi, produksi, pasca-produksi, distribusi, dan evaluasi. Asisten Teknisi berperan dalam persiapan alat, pengaturan set, pengambilan gambar, editing, dan analisis hasil siaran.",
+      "Tahapan perencanaan, pengambilan gambar, penyuntingan, distribusi, dan promosi. Asisten Teknisi bertanggung jawab untuk merencanakan konten, mengoperasikan kamera, menyunting video, mendistribusikan konten, dan mempromosikan siaran.",
+      "Tahapan pengembangan konsep, pengambilan gambar, penyuntingan audio-visual, distribusi media sosial, dan analisis audiens. Asisten Teknisi terlibat dalam setiap langkah untuk memastikan kualitas teknis.",
+      "Tahapan ideasi, pengambilan gambar langsung, editing video, publikasi online, dan feedback dari penonton. Asisten Teknisi membantu dalam semua aspek teknis untuk memastikan siaran berjalan lancar.",
+      "Tahapan perencanaan konten, pengaturan peralatan teknis, pengambilan gambar langsung di lapangan, editing akhir video, dan penayangan di platform media. Asisten Teknisi berkontribusi di semua tahap untuk menjaga kualitas siaran.",
+    ],
+    answer: 0,
+    sub: "Materi Pokok Seleksi Kompetensi Bidang Asisten Teknisi Siaran Pemula"
+  },
+  {
+    question: "Dalam dunia penyiaran, pemahaman tentang perangkat keras sangat penting. Sebutkan tiga jenis perangkat keras yang umum digunakan dalam produksi siaran langsung dan jelaskan fungsi serta tantangan penggunaannya di lapangan.",
+    options: [
+      "Kamera video untuk merekam gambar; mixer audio untuk mengatur suara; dan transmitter untuk mengirim sinyal. Tantangan termasuk pengaturan teknis yang rumit dan risiko gangguan sinyal.",
+      "Laptop untuk editing video; microphone untuk menangkap suara; dan lampu studio untuk pencahayaan. Tantangan termasuk kesulitan dalam pengeditan waktu nyata dan pengaturan pencahayaan yang tepat.",
+      "Kamera DSLR untuk kualitas gambar tinggi; perangkat lunak editing untuk pasca produksi; dan monitor untuk melihat tayangan langsung. Tantangan termasuk kebutuhan akan pengetahuan teknis mendalam dan perangkat lunak yang kompleks.",
+      "Perangkat streaming untuk menyampaikan konten secara online; tripod untuk stabilitas kamera; dan sistem audio portable untuk mobilitas. Tantangan termasuk koneksi internet yang tidak stabil dan pengaturan perangkat di lokasi berbeda.",
+      "Mixer video untuk menggabungkan berbagai sumber video; microphone nirkabel untuk kebebasan bergerak; dan sistem distribusi sinyal untuk menjangkau audiens luas. Tantangan termasuk sinkronisasi audio-video yang tepat dan manajemen sumber daya di lapangan.",
+    ],
+    answer: 0,
+    sub: "Materi Pokok Seleksi Kompetensi Bidang Asisten Teknisi Siaran Pemula"
+  },
+  {
+    question: "Asisten Teknisi Siaran Pemula juga harus memahami prinsip dasar audio-visual. Diskusikan tiga prinsip dasar audio-visual yang harus dikuasai oleh seorang teknisi siaran serta bagaimana penerapannya dapat mempengaruhi kualitas siaran secara keseluruhan.",
+    options: [
+      "Prinsip komposisi visual yang baik; penggunaan warna yang tepat; dan keseimbangan audio. Penerapan prinsip ini dapat meningkatkan daya tarik visual siaran serta memastikan suara jelas dan seimbang.",
+      "Prinsip pencahayaan yang baik; penggunaan efek suara; dan transisi antar adegan. Penerapan prinsip ini dapat menciptakan suasana yang tepat bagi pemirsa serta menjaga kontinuitas cerita dalam siaran.",
+      "Prinsip kecepatan frame; penggunaan grafik animasi; dan pemilihan musik latar. Penerapan prinsip ini dapat meningkatkan dinamika siaran serta menarik perhatian pemirsa dengan elemen visual yang menarik.",
+      "Prinsip narasi visual; penggunaan teknik pengambilan gambar; dan penyesuaian suara latar. Penerapan prinsip ini dapat membantu menyampaikan pesan dengan lebih efektif kepada pemirsa.",
+      "Prinsip penggunaan teknologi terbaru; integrasi media sosial; dan interaktivitas dengan audiens. Penerapan prinsip ini dapat meningkatkan keterlibatan pemirsa serta memperluas jangkauan siaran.",
+    ],
+    answer: 0,
+    sub: "Materi Pokok Seleksi Kompetensi Bidang Asisten Teknisi Siaran Pemula"
+  },
+  {
+    question: "Keselamatan kerja adalah aspek penting dalam industri penyiaran. Sebutkan tiga prosedur keselamatan kerja yang harus diterapkan oleh Asisten Teknisi Siaran Pemula saat bekerja di lokasi siaran langsung serta potensi risiko jika prosedur tersebut tidak diterapkan dengan baik.",
+    options: [
+      "Penggunaan alat pelindung diri (APD), pematuhan terhadap instruksi keamanan listrik, dan penanganan peralatan berat dengan benar. Risiko meliputi cedera fisik akibat kecelakaan kerja atau kebakaran.",
+      "Menghindari penggunaan kabel panjang tanpa pelindung, menjaga area kerja tetap bersih dari barang-barang tidak terpakai, serta memastikan semua peralatan terpasang dengan baik sebelum digunakan. Risiko termasuk terjadinya korsleting listrik atau kecelakaan akibat barang berserakan.",
+      "Hanya menggunakan peralatan standar tanpa modifikasi apapun, tidak berbagi peralatan pribadi dengan orang lain selama proses siaran berlangsung serta selalu melakukan pemeriksaan peralatan sebelum digunakan. Risiko termasuk kerusakan alat atau cedera akibat penggunaan alat yang tidak sesuai standar.",
+      "Memastikan semua anggota tim mengenakan pakaian formal saat siaran berlangsung agar terlihat profesional di depan kamera, menjaga area kerja tetap terang benderang agar memudahkan pekerjaan teknis serta menghindari penggunaan perangkat elektronik saat siaran berlangsung agar tidak terjadi gangguan teknis. Risiko termasuk gangguan visual bagi penonton atau kebingungan di lapangan jika terjadi masalah teknis mendadak.",
+      "Menerapkan sistem rotasi tugas di antara anggota tim agar tidak ada satu orang pun yang terlalu lama berada di area berbahaya selama proses syuting berlangsung, membatasi akses ke area berbahaya bagi orang luar agar tidak terjadi insiden serta melakukan simulasi keadaan darurat secara berkala agar semua anggota tim siap menghadapi situasi darurat kapan saja. Risiko termasuk kurangnya kesiapan menghadapi situasi darurat atau kebingungan saat terjadi insiden mendesak di lapangan.",
+    ],
+    answer: 0,
+    sub: "Materi Pokok Seleksi Kompetensi Bidang Asisten Teknisi Siaran Pemula"
+  },
+  {
+    question: "Dalam konteks penyiaran digital saat ini, seorang Asisten Teknisi Siaran Pemula harus memahami berbagai platform distribusi konten. Sebutkan tiga platform distribusi konten digital yang populer saat ini beserta kelebihan masing-masing platform dalam konteks penyiaran langsung.",
+    options: [
+      "YouTube Live karena jangkauannya yang luas; Facebook Live karena kemampuan interaksi langsung dengan audiens; Twitch karena fokus pada konten gaming dengan komunitas aktif.",
+      "Instagram Live karena kemudahan aksesnya bagi pengguna smartphone; TikTok Live karena format video pendeknya yang menarik perhatian cepat; LinkedIn Live karena fokus pada profesionalisme dalam penyampaian konten bisnis.",
+      "Zoom karena fitur interaksi tatap muka secara langsung dengan audiens kecil; Skype karena kemampuannya dalam panggilan video grup; Google Meet karena integrasinya dengan aplikasi Google lainnya seperti Google Calendar.",
+      "Vimeo Live karena kualitas streaming tinggi tanpa iklan mengganggu; DLive karena berbasis blockchain sehingga memberikan imbalan kepada pembuat konten secara adil; Periscope karena kemudahan berbagi ke Twitter secara langsung.",
+      "Rumble karena kebebasan berekspresi tanpa sensor ketat dari platform lain; Bigo Live karena fitur monetisasi bagi streamer populer; Dailymotion karena dukungan terhadap berbagai format video tanpa batasan waktu tayang.",
+    ],
+    answer: 0,
+    sub: "Materi Pokok Seleksi Kompetensi Bidang Asisten Teknisi Siaran Pemula"
+  },
+  {
+    question: "Salah satu tantangan besar bagi Asisten Teknisi Siaran Pemula adalah menghadapi masalah teknis selama siaran langsung. Diskusikan tiga jenis masalah teknis umum yang sering terjadi selama siaran langsung beserta langkah-langkah pencegahan atau solusi cepat yang dapat diterapkan oleh seorang teknisi di lapangan.",
+    options: [
+      "Masalah sinyal lemah dapat dicegah dengan melakukan pengecekan lokasi sebelum siaran dimulai serta menggunakan amplifier sinyal jika diperlukan. Jika terjadi masalah saat siaran berlangsung, segera lakukan switch ke sumber cadangan jika tersedia.",
+      "Kualitas audio buruk sering disebabkan oleh mikrofon rusak atau posisi mikrofon yang salah. Pencegahan dilakukan dengan memeriksa semua peralatan audio sebelum siaran dimulai dan jika terjadi masalah saat live broadcast, segera gunakan mikrofon cadangan atau atur ulang posisi mikrofon hingga mendapatkan suara terbaik.",
+      "Gambar kabur bisa disebabkan oleh lensa kotor atau setting kamera yang salah. Pencegahan dilakukan dengan rutin membersihkan lensa kamera sebelum digunakan serta melakukan uji coba setting kamera sebelum tayang langsung. Jika terjadi masalah saat tayang langsung, segera lakukan zoom out atau ganti kamera jika memungkinkan.",
+      "Gangguan dari lingkungan sekitar seperti suara bising dari luar studio dapat dicegah dengan melakukan isolasi suara pada ruangan sebelum tayang atau menggunakan mikrofon directional saat syuting langsung di luar ruangan. Jika gangguan terjadi saat tayang berlangsung, gunakan teknik editing audio pasca-produksi jika memungkinkan atau coba atur ulang posisi mikrofon agar lebih fokus pada pembicara.",
+      "Keterlambatan dalam transisi antar segmen dapat disebabkan oleh kurangnya koordinasi antara tim produksi. Pencegahan dilakukan dengan melakukan briefing sebelum tayang agar semua anggota tim mengetahui alur acara serta jika terjadi masalah saat tayang langsung segera lakukan improvisasi sambil menunggu segmen berikutnya siap ditayangkan.",
+    ],
+    answer: 0,
+    sub: "Materi Pokok Seleksi Kompetensi Bidang Asisten Teknisi Siaran Pemula"
+  },
+  {
+    question: "Asisten Teknisi Siaran Pemula juga harus memiliki kemampuan analisis terhadap hasil siarannya sendiri. Apa saja indikator kinerja utama (KPI) yang perlu dianalisis setelah sebuah acara selesai ditayangkan? Jelaskan bagaimana setiap indikator tersebut dapat memberikan wawasan tentang performa acara tersebut.",
+    options: [
+      "Jumlah penonton live stream sebagai indikator utama keberhasilan acara secara real-time; tingkat interaksi audiens seperti komentar atau likes sebagai ukuran keterlibatan penonton selama acara berlangsung; durasi tonton rata-rata sebagai indikasi seberapa menarik konten tersebut bagi audiens sepanjang acara disiarkan.",
+      "Jumlah share di media sosial sebagai ukuran seberapa banyak acara tersebut dibicarakan setelah tayang; jumlah unduhan konten rekaman sebagai ukuran popularitas acara setelah selesai ditayangkan; feedback positif dari survei penonton sebagai ukuran kepuasan audiens terhadap isi acara secara keseluruhan.",
+      "Jumlah iklan terjual selama acara sebagai ukuran monetisasi acara tersebut; jumlah sponsor yang terlibat sebagai indikator keberhasilan kerjasama bisnis dalam penyiaran acara tersebut; jumlah artikel berita tentang acara sebagai ukuran dampak media terhadap reputasi acara tersebut setelah tayang.",
+      "Tingkat konversi dari promosi produk selama acara sebagai ukuran efektivitas pemasaran melalui media siar; jumlah permintaan informasi lebih lanjut tentang produk/layanan terkait setelah acara sebagai indikator minat audiens terhadap tawaran produk/layanan tersebut setelah tayang;",
+      "Jumlah reaksi negatif dari audiens sebagai indikator potensi masalah dalam penyampaian konten selama acara berlangsung; jumlah permintaan maaf dari pihak penyelenggara kepada penonton sebagai ukuran responsibilitas atas kesalahan selama tayang berlangsung;",
+    ],
+    answer: 0,
+    sub: "Materi Pokok Seleksi Kompetensi Bidang Asisten Teknisi Siaran Pemula"
+  },
+  {
+    question: "Dalam era digital saat ini, seorang Asisten Teknisi Siaran Pemula perlu memahami pentingnya media sosial dalam mendukung kegiatan siarannya. Sebutkan tiga strategi penggunaan media sosial yang efektif untuk mempromosikan program siaran serta bagaimana strategi tersebut dapat meningkatkan keterlibatan audiens?",
+    options: [
+      "Menggunakan teaser video pendek sebelum acara disiarkan untuk menarik perhatian audiens serta membuat hashtag khusus agar penonton bisa berdiskusi tentang program di media sosial selama tayang berlangsung;",
+      "Mengadakan kuis atau giveaway melalui akun media sosial resmi terkait program yang akan disiarkan guna meningkatkan interaksi dengan audiens sebelum tayangnya program;",
+      "Membuat polling terkait topik-topik menarik sebelum program dimulai agar penonton merasa dilibatkan dalam proses kreatif program;",
+      "Menggunakan live streaming di platform media sosial selama sesi tanya jawab pasca-acara agar pemirsa bisa berinteraksi langsung dengan pembicara;",
+      "Semua jawaban benar;",
+    ],
+    answer: 4,
+    sub: "Materi Pokok Seleksi Kompetensi Bidang Asisten Teknisi Siaran Pemula"
+  },
+  {
+    question: "'Kreativitas' merupakan salah satu aspek penting bagi seorang Asisten Teknisi Siaran Pemula dalam menciptakan konten menarik. Diskusikan dua cara kreatif dalam menyajikan informasi kepada pemirsa melalui media siar serta dampaknya terhadap pengalaman menonton pemirsa secara keseluruhan.",
+    options: [
+      "'Menggunakan grafik animasi interaktif' untuk menjelaskan data kompleks secara visual sehingga lebih mudah dipahami oleh pemirsa sambil 'menghadirkan narasumber ahli' secara live untuk memberikan perspektif tambahan sehingga meningkatkan kredibilitas informasi;",
+      "'Menggunakan format dokumenter' dalam menyajikan berita terkini agar lebih mendalam sambil 'menghadirkan elemen cerita' sehingga pemirsa merasa terhubung emosional dengan topik bahasan;",
+      "'Menyajikan berita melalui segmen talk show' agar lebih dinamis sambil 'membuat segmen khusus' tentang kisah inspiratif dari tokoh masyarakat sehingga mendorong partisipasi aktif dari penonton;",
+      "'Menerapkan pendekatan gamifikasi' pada kuis interaktif sambil 'melibatkan influencer' untuk memperluas jangkauan audiens sehingga menciptakan buzz positif tentang program;",
+      "'Menggunakan teknik storytelling' dalam setiap segmen sambil 'membagikan tips praktis' terkait topik bahasan sehingga memberikan nilai tambah kepada pemirsa;",
+    ],
+    answer: 0,
+    sub: "Materi Pokok Seleksi Kompetensi Bidang Asisten Teknisi Siaran Pemula"
+  },
+  {
+    question: "'Penyiaran berbasis digital' menjadi tren utama saat ini. Sebutkan tiga keuntungan penyiaran berbasis digital dibandingkan penyiaran tradisional serta bagaimana keuntungan-keuntungan tersebut dapat dimanfaatkan oleh seorang Asisten Teknisi Siaran Pemula?",
+    options: [
+      "'Aksesibilitas global', 'interaktivitas', dan 'penghematan biaya'. Aksesibilitas memungkinkan jangkauan audiens lebih luas tanpa batas geografis;, interaktivitas memungkinkan keterlibatan penonton secara real-time;, sedangkan penghematan biaya berkaitan dengan penggunaan infrastruktur digital dibandingkan analog.";
+      
+       "'Kualitas gambar tinggi', 'kemudahan analisis data', dan 'kemampuan streaming on-demand'. Kualitas gambar tinggi meningkatkan pengalaman menonton;, kemudahan analisis data memungkinkan evaluasi performa program;, sedangkan kemampuan streaming on-demand memberi fleksibilitas kepada pemirsa.";
+       
+       "'Fleksibilitas waktu', 'penggunaan teknologi canggih', dan 'kemampuan monetisasi'. Fleksibilitas waktu memberi pilihan kepada pemirsa;, penggunaan teknologi canggih memungkinkan inovasi;, sedangkan kemampuan monetisasi membuka peluang pendapatan baru.";
+       
+       "'Integrasi multimedia', 'kemudahan kolaborasi', dan 'peningkatan engagement'. Integrasi multimedia memperkaya konten;, kemudahan kolaborasi mempermudah kerja tim;, sedangkan peningkatan engagement mendorong loyalitas audiens.";
+       
+       "'Penggunaan algoritma cerdas', 'akses data real-time', dan 'kemampuan personalisasi'. Penggunaan algoritma cerdas meningkatkan relevansi konten;, akses data real-time memungkinkan respons cepat;, sedangkan kemampuan personalisasi menciptakan pengalaman unik bagi setiap pengguna.";
+      
+     ],
+     answer: 0,
+     sub: "Materi Pokok Seleksi Kompetensi Bidang Asisten Teknisi Siaran Pemula"
+   },
+   {
+     question: "'Evaluasi program' adalah langkah penting setelah pelaksanaan sebuah program siaran. Sebutkan tiga metode evaluasi program yang umum digunakan oleh seorang Asisten Teknisi Siaran Pemula beserta keuntungan masing-masing metode dalam konteks peningkatan kualitas siarannya selanjutnya.", 
+     options:[
+       "'Survei penonton', 'analisis rating', dan 'focus group discussion'. Survei memberikan data kuantitatif tentang kepuasan penonton;, analisis rating menunjukkan popularitas program;, sedangkan focus group discussion memberi wawasan mendalam tentang persepsi penonton.";
+       
+       "'Wawancara narasumber', 'analisis kompetitor', dan 'observasi langsung'. Wawancara memberi perspektif dari pihak terkait;, analisis kompetitor membantu memahami posisi pasar;, sedangkan observasi langsung menangkap dinamika lapangan.";
+       
+       "'Analisis SWOT', 'pemetaan stakeholder', dan 'benchmarking'. Analisis SWOT membantu mengidentifikasi kekuatan/kekurangan;, pemetaan stakeholder menunjukkan hubungan penting;, sedangkan benchmarking membandingkan performa dengan standar industri.";
+       
+       "'Pengumpulan feedback online', 'diskusi panel', dan 'analisis tren'. Pengumpulan feedback online memberi data real-time;, diskusi panel melibatkan banyak perspektif;, sedangkan analisis tren menunjukkan pola perilaku penonton.";
+       
+       "'Penyusunan laporan akhir', 'presentasi hasil evaluasi', dan 'diskusi hasil evaluasi'. Penyusunan laporan akhir merangkum temuan;, presentasi hasil evaluasi menyampaikan informasi kepada tim;, diskusi hasil evaluasi membahas langkah selanjutnya.";
+     ],
+     answer :0,
+     sub :("Materi Pokok Seleksi Kompetensi Bidang Asisten Teknisi Siaran Pemula")
+   },
+  {
+    question: "Dalam konteks jabatan Asisten Teknisi Siaran Pemula, salah satu tugas utama adalah memahami dan menerapkan prinsip dasar siaran. Sebutkan dan jelaskan tiga prinsip dasar siaran yang harus dikuasai oleh seorang Asisten Teknisi Siaran Pemula, serta bagaimana penerapannya dalam situasi nyata di lapangan.",
+    options: [
+      "Prinsip keandalan, prinsip kreativitas, dan prinsip efisiensi. Keandalan memastikan siaran tidak terganggu, kreativitas dalam penyampaian konten, dan efisiensi dalam penggunaan sumber daya.",
+      "Prinsip legalitas, prinsip etika, dan prinsip inovasi. Legalitas berkaitan dengan kepatuhan terhadap regulasi, etika dalam penyampaian informasi, dan inovasi dalam teknologi siaran.",
+      "Prinsip teknis, prinsip estetika, dan prinsip interaktivitas. Prinsip teknis mencakup penguasaan alat siar, estetika berkaitan dengan kualitas visual dan audio, serta interaktivitas untuk melibatkan pemirsa.",
+      "Prinsip akurasi, prinsip transparansi, dan prinsip partisipasi. Akurasi memastikan informasi yang disiarkan benar, transparansi dalam proses produksi siaran, dan partisipasi untuk melibatkan audiens.",
+      "Prinsip komunikasi efektif, prinsip pemecahan masalah, dan prinsip kolaborasi. Komunikasi efektif penting untuk menyampaikan pesan dengan jelas, pemecahan masalah untuk mengatasi kendala teknis, dan kolaborasi antar tim untuk hasil maksimal.",
+    ],
+    answer: 1,
+    sub: "Materi Pokok Seleksi Kompetensi Bidang Asisten Teknisi Siaran Pemula"
+  },
+  {
+    question: "Salah satu aspek penting dalam pekerjaan Asisten Teknisi Siaran Pemula adalah pemahaman tentang peralatan siar. Sebutkan tiga jenis peralatan yang umum digunakan dalam siaran langsung dan jelaskan fungsi masing-masing peralatan tersebut serta tantangan yang mungkin dihadapi saat penggunaannya.",
+    options: [
+      "Kamera video untuk merekam gambar; mixer audio untuk mengatur suara; dan transmitter untuk mengirim sinyal. Tantangan termasuk pengaturan teknis yang rumit dan risiko gangguan sinyal.",
+      "Laptop untuk editing video; microphone untuk menangkap suara; dan lampu studio untuk pencahayaan. Tantangan termasuk kesulitan dalam pengeditan waktu nyata dan pengaturan pencahayaan yang tepat.",
+      "Kamera DSLR untuk kualitas gambar tinggi; perangkat lunak editing untuk pasca produksi; dan monitor untuk melihat tayangan langsung. Tantangan termasuk kebutuhan akan pengetahuan teknis mendalam dan perangkat lunak yang kompleks.",
+      "Perangkat streaming untuk menyampaikan konten secara online; tripod untuk stabilitas kamera; dan sistem audio portable untuk mobilitas. Tantangan termasuk koneksi internet yang tidak stabil dan pengaturan perangkat di lokasi berbeda.",
+      "Mixer video untuk menggabungkan berbagai sumber video; microphone nirkabel untuk kebebasan bergerak; dan sistem distribusi sinyal untuk menjangkau audiens luas. Tantangan termasuk sinkronisasi audio-video yang tepat dan manajemen sumber daya di lapangan.",
+    ],
+    answer: 0,
+    sub: "Materi Pokok Seleksi Kompetensi Bidang Asisten Teknisi Siaran Pemula"
+  },
+  {
+    question: "Dalam proses produksi siaran, seorang Asisten Teknisi Siaran Pemula harus mampu bekerja sama dengan tim. Diskusikan pentingnya kolaborasi dalam tim produksi siaran serta bagaimana komunikasi yang efektif dapat meningkatkan hasil siaran secara keseluruhan.",
+    options: [
+      "Kolaborasi memungkinkan pembagian tugas yang efisien; komunikasi efektif membantu menghindari kesalahpahaman sehingga setiap anggota tim dapat berkontribusi secara optimal.",
+      "Kolaborasi tidak terlalu penting karena setiap anggota dapat bekerja secara individu; komunikasi hanya diperlukan saat ada masalah besar.",
+      "Kolaborasi menciptakan persaingan di antara anggota tim; komunikasi sering kali menyebabkan kebingungan alih-alih meningkatkan hasil.",
+      "Kolaborasi hanya penting pada tahap awal produksi; komunikasi efektif tidak terlalu berpengaruh pada hasil akhir siaran.",
+      "Kolaborasi membantu menciptakan ide-ide baru; namun komunikasi sering kali dianggap sebagai formalitas yang tidak perlu di lapangan.",
+    ],
+    answer: 0,
+    sub: "Materi Pokok Seleksi Kompetensi Bidang Asisten Teknisi Siaran Pemula"
+  },
+  {
+    question: "Asisten Teknisi Siaran Pemula juga harus memahami prosedur keselamatan kerja di studio atau lokasi siaran. Sebutkan tiga prosedur keselamatan kerja yang harus diterapkan selama proses siaran langsung serta potensi risiko jika prosedur tersebut dilanggar.",
+    options: [
+      "Penggunaan alat pelindung diri (APD), pematuhan terhadap instruksi keamanan listrik, dan penanganan peralatan berat dengan benar. Risiko meliputi cedera fisik akibat kecelakaan kerja atau kebakaran.",
+      "Menghindari penggunaan kabel panjang, menjaga area kerja tetap bersih, dan memastikan semua peralatan terpasang dengan baik. Risiko termasuk terjadinya korsleting listrik atau kecelakaan akibat barang berserakan.",
+      "Hanya menggunakan peralatan standar tanpa modifikasi, tidak berbagi peralatan pribadi dengan orang lain, serta selalu melakukan pemeriksaan peralatan sebelum digunakan. Risiko termasuk kerusakan alat atau cedera akibat penggunaan alat yang tidak sesuai standar.",
+      "Memastikan semua anggota tim mengenakan pakaian formal saat siaran, menjaga area kerja tetap terang benderang, serta menghindari penggunaan perangkat elektronik saat siaran. Risiko termasuk gangguan visual bagi penonton atau kebingungan di lapangan.",
+      "Menerapkan sistem rotasi tugas di antara anggota tim, membatasi akses ke area berbahaya bagi orang luar, serta melakukan simulasi keadaan darurat secara berkala. Risiko termasuk kurangnya kesiapan menghadapi situasi darurat atau kebingungan saat terjadi insiden.",
+    ],
+    answer: 0,
+    sub: "Materi Pokok Seleksi Kompetensi Bidang Asisten Teknisi Siaran Pemula"
+  },
+  {
+    question: "Salah satu tantangan yang dihadapi oleh Asisten Teknisi Siaran Pemula adalah memastikan kualitas siaran tetap terjaga di tengah gangguan teknis. Sebutkan dan jelaskan tiga jenis gangguan teknis yang umum terjadi selama siaran langsung, serta langkah-langkah yang dapat diambil untuk mengatasi masalah tersebut secara efektif.",
+    options: [
+      "Gangguan sinyal, masalah audio, dan kesalahan pengaturan kamera. Untuk mengatasi gangguan sinyal, pastikan semua perangkat terhubung dengan baik dan gunakan repeater jika perlu. Masalah audio dapat diatasi dengan memeriksa koneksi mikrofon dan menggunakan alat pemroses suara. Kesalahan pengaturan kamera dapat diperbaiki dengan melakukan kalibrasi sebelum siaran.",
+      "Keterlambatan dalam pengambilan gambar, noise latar belakang, dan kesalahan dalam transisi antar segmen. Keterlambatan dapat diatasi dengan melakukan rehearsal sebelum siaran. Noise latar belakang dapat diminimalkan dengan menggunakan mikrofon directional. Kesalahan transisi dapat diperbaiki dengan penggunaan software editing pasca-produksi.",
+      "Kualitas gambar buruk, suara tidak sinkron, dan kehilangan sinyal. Kualitas gambar buruk dapat diperbaiki dengan mengecek lensa dan pengaturan pencahayaan. Suara tidak sinkron perlu diatasi dengan menyesuaikan pengaturan audio di mixer. Kehilangan sinyal dapat diatasi dengan memeriksa semua kabel dan koneksi.",
+      "Kesalahan dalam pengaturan lighting, penggunaan alat yang tidak sesuai, dan masalah bandwidth internet. Kesalahan lighting dapat diatasi dengan melakukan uji coba pencahayaan sebelum siaran. Penggunaan alat yang tidak sesuai harus dicegah dengan memastikan semua peralatan telah disetujui sebelumnya. Masalah bandwidth internet dapat diatasi dengan menggunakan koneksi cadangan.",
+      "Perangkat keras rusak, kurangnya persiapan teknis, dan masalah komunikasi antar tim. Perangkat keras rusak harus segera diganti atau diperbaiki. Kurangnya persiapan teknis dapat diatasi dengan melakukan briefing sebelum siaran. Masalah komunikasi antar tim harus diselesaikan dengan penggunaan alat komunikasi yang efektif.",
+    ],
+    answer: 0,
+    sub: "Materi Pokok Seleksi Kompetensi Bidang Asisten Teknisi Siaran Pemula"
+  },
+  {
+    question: "Dalam penyiaran, penting bagi Asisten Teknisi Siaran Pemula untuk memahami aspek hukum terkait hak cipta. Sebutkan tiga hal penting yang harus diperhatikan terkait hak cipta dalam penyiaran serta konsekuensi hukum yang mungkin timbul jika tidak mematuhi ketentuan tersebut.",
+    options: [
+      "Memastikan semua konten yang digunakan memiliki izin; memberikan kredit kepada pemilik hak cipta; dan menyimpan catatan penggunaan konten. Konsekuensi hukum termasuk denda tinggi, tuntutan hukum dari pemilik hak cipta, dan penghentian siaran.",
+      "Menggunakan konten publik tanpa izin; tidak mencantumkan sumber; dan mengabaikan peraturan internasional tentang hak cipta. Konsekuensi hukum termasuk penjara, kehilangan lisensi siaran, dan kerugian finansial bagi stasiun.",
+      "Membeli lisensi untuk semua konten; menggunakan musik bebas royalti; dan menghindari penggunaan logo merek tanpa izin. Konsekuensi hukum termasuk penarikan konten dari platform digital dan reputasi buruk bagi stasiun.",
+      "Menggunakan konten dari media sosial tanpa izin; mencantumkan nama pembuat konten; dan mengabaikan ketentuan fair use. Konsekuensi hukum termasuk denda administratif, tuntutan ganti rugi dari pemilik konten, dan risiko reputasi negatif.",
+      "Menggunakan karya seni tanpa izin; tidak memberikan atribusi kepada pencipta; dan menggunakan konten yang dilindungi tanpa lisensi. Konsekuensi hukum termasuk tuntutan pidana, denda besar, dan larangan beroperasi bagi stasiun penyiaran.",
+    ],
+    answer: 0,
+    sub: "Materi Pokok Seleksi Kompetensi Bidang Asisten Teknisi Siaran Pemula"
+  },
+  {
+    question: "Asisten Teknisi Siaran Pemula harus mampu beradaptasi dengan perkembangan teknologi baru dalam dunia penyiaran. Sebutkan tiga teknologi terbaru dalam bidang penyiaran serta bagaimana teknologi tersebut dapat meningkatkan kualitas siaran secara keseluruhan.",
+    options: [
+      "Teknologi streaming 4K untuk kualitas gambar lebih tinggi; penggunaan drone untuk pengambilan gambar dari sudut pandang unik; dan teknologi augmented reality (AR) untuk menambah elemen visual menarik dalam siaran.",
+      "Penggunaan kamera DSLR untuk video berkualitas tinggi; teknologi audio digital untuk suara lebih jernih; dan software editing berbasis cloud untuk kolaborasi lebih efisien antara tim produksi.",
+      "Teknologi virtual reality (VR) untuk pengalaman imersif bagi audiens; penggunaan sistem transmisi nirkabel untuk mobilitas lebih besar saat syuting; serta aplikasi mobile untuk interaksi langsung dengan penonton selama siaran.",
+      "Sistem manajemen konten berbasis AI untuk analisis performa siaran; penggunaan alat pemantau media sosial untuk feedback real-time dari audiens; serta teknologi blockchain untuk transparansi dalam distribusi konten.",
+      "Semua jawaban benar karena setiap teknologi baru memberikan keunggulan kompetitif dalam meningkatkan kualitas produksi siaran.",
+    ],
+    answer: 0,
+    sub: "Materi Pokok Seleksi Kompetensi Bidang Asisten Teknisi Siaran Pemula"
+  },
+  {
+    question: "Dalam situasi darurat selama siaran langsung, seorang Asisten Teknisi Siaran Pemula harus siap menghadapi berbagai kemungkinan. Sebutkan tiga langkah darurat yang harus dilakukan jika terjadi masalah teknis besar selama siaran langsung serta bagaimana langkah-langkah ini dapat meminimalkan dampak negatif pada audiens.",
+    options: [
+      "Segera beralih ke sumber cadangan jika tersedia; menjaga komunikasi terbuka dengan tim produksi melalui radio atau interkom; dan memberi tahu audiens tentang situasi sambil meminta maaf atas gangguan yang terjadi.",
+      "Menghentikan siaran secepatnya hingga masalah teratasi; meminta bantuan dari pihak luar jika diperlukan; serta mengabaikan audiens sampai situasi kembali normal.",
+      "Mencoba memperbaiki masalah sambil tetap tayang tanpa memberi tahu audiens tentang gangguan; menggunakan humor untuk mengalihkan perhatian penonton dari masalah teknis;",
+      "Mengalihkan tayangan ke program lain tanpa pemberitahuan sebelumnya kepada audiens; menunggu hingga masalah teratasi sebelum melanjutkan tayangan;",
+      "Menyiapkan skrip darurat sebelumnya sehingga bisa dibaca saat terjadi masalah; meminta audiens untuk bersabar sambil memperbaiki masalah;",
+    ],
+    answer: 0,
+    sub: "Materi Pokok Seleksi Kompetensi Bidang Asisten Teknisi Siaran Pemula"
+  },
+  {
+    question: "Asisten Teknisi Siaran Pemula perlu memahami pentingnya feedback dari audiens setelah acara ditayangkan. Sebutkan tiga metode efektif untuk mengumpulkan feedback dari audiens serta bagaimana informasi tersebut dapat digunakan untuk meningkatkan kualitas acara berikutnya.",
+    options: [
+      "'Survei online' setelah acara selesai untuk mendapatkan data kuantitatif tentang kepuasan penonton;, 'diskusi kelompok' dengan beberapa penonton terpilih untuk mendapatkan wawasan kualitatif;, serta 'media sosial' sebagai platform interaksi langsung yang memungkinkan audiens memberikan komentar secara real-time.";
+      
+       "'Polling' selama acara berlangsung;, 'komentar langsung' melalui fitur chat pada platform streaming;, serta 'survei pasca-acara' yang dikirim melalui email.";
+       
+       "'Analisis rating' acara berdasarkan jumlah penonton;, 'feedback dari sponsor' mengenai respons pasar;, serta 'komentar dari kritikus media' sebagai ukuran kualitas tayangan.";
+       
+       "'Wawancara narasumber' setelah acara;, 'analisis data media sosial' mengenai reaksi audiens;, serta 'pengumpulan data rating' sebagai indikator popularitas.";
+       
+       "'Penyebaran kuesioner' melalui email;, 'diskusi terbuka' di forum komunitas;, serta 'tanya jawab langsung' di media sosial setelah acara.";
+      
+     ],
+     answer: 0,
+     sub: "Materi Pokok Seleksi Kompetensi Bidang Asisten Teknisi Siaran Pemula"
+   },
+   {
+     question: "'Penyampaian informasi secara efektif' adalah kunci keberhasilan seorang Asisten Teknisi Siaran Pemula dalam menyampaikan pesan kepada pemirsa. Diskusikan tiga teknik komunikasi efektif yang harus diterapkan oleh seorang teknisi selama proses penyiaran serta bagaimana teknik-teknik ini dapat meningkatkan keterlibatan pemirsa.",
+     options:[
+       "'Penggunaan bahasa tubuh yang positif', 'penyampaian pesan secara jelas', dan 'mendengarkan aktif'. Bahasa tubuh positif menarik perhatian audiens;, penyampaian pesan jelas mencegah kebingungan;, mendengarkan aktif menunjukkan bahwa pembicara menghargai audiens.";
+       
+       "'Penggunaan humor', 'penyampaian informasi secara ringkas', dan 'menggunakan contoh konkret'. Humor membuat acara lebih menarik;, penyampaian ringkas menjaga perhatian;, contoh konkret membantu pemirsa memahami konteks.";
+       
+       "'Membuat eye contact', 'menggunakan nada suara bervariasi', dan 'mengajukan pertanyaan retoris'. Eye contact menciptakan kedekatan;, nada suara bervariasi menjaga minat;, pertanyaan retoris merangsang pemikiran kritis.";
+       
+       "'Menjaga kecepatan bicara', 'menggunakan alat bantu visual', dan 'melibatkan audiens dalam diskusi'. Kecepatan bicara mempengaruhi pemahaman;, alat bantu visual memperjelas informasi;, keterlibatan audiens meningkatkan interaksi.";
+       
+       "'Menghindari jargon teknis', 'menggunakan analogi sederhana', dan 'memberikan ringkasan di akhir'. Menghindari jargon membuat informasi lebih mudah dipahami;, analogi membantu menjelaskan konsep sulit;, ringkasan memperkuat ingatan pemirsa.";
+       
+     ],
+     answer :0,
+     sub :("Materi Pokok Seleksi Kompetensi Bidang Asisten Teknisi Siaran Pemula")
+   },
+   {
+     question: "'Manajemen waktu' sangat penting dalam dunia penyiaran agar semua segmen acara berjalan sesuai jadwal. Sebutkan tiga teknik manajemen waktu yang efektif bagi seorang Asisten Teknisi Siaran Pemula serta bagaimana penerapan teknik-teknik tersebut dapat mempengaruhi kelancaran siaran secara keseluruhan.", 
+     options:[
+       "'Penyusunan jadwal rinci sebelum acara dimulai', 'penetapan waktu buffer antara segmen', dan 'penggunaan timer selama siaran'. Jadwal rinci membantu semua anggota tim mengetahui tugas mereka;, waktu buffer mencegah keterlambatan segmen berikutnya;, timer menjaga setiap segmen tetap pada jalurnya.";
+       
+       "'Membuat daftar tugas harian', 'menghindari multitasking saat live', dan 'melakukan evaluasi waktu setelah acara'. Daftar tugas membantu fokus pada prioritas;, menghindari multitasking mencegah kesalahan saat live;', evaluasi waktu membantu perbaikan ke depan.";
+       
+       "'Menetapkan deadline ketat', 'berkomunikasi terus-menerus dengan tim', dan 'menggunakan perangkat lunak manajemen proyek'. Deadline ketat mendorong disiplin waktu;, komunikasi menjaga semua orang berada pada halaman yang sama;', perangkat lunak membantu melacak kemajuan.";
+       
+       "'Melakukan briefing sebelum acara', 'mengatur ulang jadwal jika diperlukan', dan 'menerapkan sistem rotasi tugas'. Briefing memastikan semua orang siap;, penyesuaian jadwal fleksibel terhadap situasi mendesak;', rotasi tugas mencegah kejenuhan anggota tim.";
+       
+       "'Menggunakan aplikasi pengingat', 'membagi tugas besar menjadi bagian kecil', dan 'memprioritaskan tugas berdasarkan urgensi'. Aplikasi pengingat membantu menjaga fokus pada deadline;, pembagian tugas membuat pekerjaan lebih mudah dikelola;', prioritas memastikan hal-hal penting diselesaikan terlebih dahulu.";
+      
+     ],
+     answer :0,
+     sub :("Materi Pokok Seleksi Kompetensi Bidang Asisten Teknisi Siaran Pemula")
+   },
+   {
+     question: "'Kreativitas' merupakan salah satu aspek penting bagi seorang Asisten Teknisi Siaran Pemula dalam menciptakan konten menarik. Diskusikan dua cara kreatif dalam menyajikan informasi kepada pemirsa melalui media siar serta dampaknya terhadap pengalaman menonton pemirsa secara keseluruhan.", 
+     options:[
+       "'Menggunakan grafik animasi interaktif' untuk menjelaskan data kompleks secara visual sehingga lebih mudah dipahami oleh pemirsa sambil 'menghadirkan narasumber ahli' secara live untuk memberikan perspektif tambahan sehingga meningkatkan kredibilitas informasi;";
+       
+       "'Menggunakan format dokumenter' dalam menyajikan berita terkini agar lebih mendalam sambil 'menghadirkan elemen cerita' sehingga pemirsa merasa terhubung emosional dengan topik bahasan;";
+       
+       "'Menyajikan berita melalui segmen talk show' agar lebih dinamis sambil 'membuat segmen khusus' tentang kisah inspiratif dari tokoh masyarakat sehingga mendorong partisipasi aktif dari penonton;";
+       
+       "'Menerapkan pendekatan gamifikasi' pada kuis interaktif sambil 'melibatkan influencer' untuk memperluas jangkauan audiens sehingga menciptakan buzz positif tentang program;";
+       
+       "'Menggunakan teknik storytelling' dalam setiap segmen sambil 'membagikan tips praktis' terkait topik bahasan sehingga memberikan nilai tambah kepada pemirsa;";
+      
+     ],
+     answer :0,
+     sub :("Materi Pokok Seleksi Kompetensi Bidang Asisten Teknisi Siaran Pemula")
+   }
+];
+
+
