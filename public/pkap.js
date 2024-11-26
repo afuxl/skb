@@ -1,182 +1,183 @@
 const questions = [
   {
-    question: "Pengawasan terhadap koperasi dilakukan untuk memastikan koperasi:",
+    question: "Apa yang menjadi dasar hukum utama dalam penyelenggaraan dan pembinaan perkoperasian?",
     options: [
-      "Memperoleh laba sebesar-besarnya",
-      "Beroperasi sesuai prinsip-prinsip koperasi",
-      "Membayar pajak tepat waktu",
-      "Memperluas jaringan usaha",
-      "Mendapatkan pinjaman dari pemerintah",
-    ],
-    answer: 2,
-    sub: "-",
-  },
-  {
-    question: "Apa yang dimaksud dengan prinsip keanggotaan sukarela dan terbuka dalam koperasi?",
-    options: [
-      "Semua orang harus bergabung dengan koperasi",
-      "Koperasi hanya menerima anggota yang memiliki modal besar",
-      "Koperasi menerima anggota tanpa memandang jenis kelamin, sosial, ras, atau agama",
-      "Keanggotaan hanya terbuka untuk penduduk setempat",
-      "Anggota wajib bekerja penuh waktu untuk koperasi",
-    ],
-    answer: 3,
-    sub: "-",
-  },
-  {
-    question: "Salah satu tugas utama pengawas koperasi adalah:",
-    options: [
-      "Mengelola operasi harian koperasi",
-      "Membuat laporan keuangan koperasi",
-      "Melakukan audit internal terhadap kegiatan koperasi",
-      "Menjalin kerjasama dengan pihak luar",
-      "Menyusun rencana bisnis koperasi",
-    ],
-    answer: 3,
-    sub: "-",
-  },
-  {
-    question: "Apakah tujuan dari pendidikan dan pelatihan dalam prinsip koperasi?",
-    options: [
-      "Meningkatkan keuntungan koperasi",
-      "Meningkatkan kemampuan anggota dalam mengelola koperasi",
-      "Mengurangi biaya operasional koperasi",
-      "Menambah jumlah anggota koperasi",
-      "Memperluas pasar koperasi",
-    ],
-    answer: 2,
-    sub: "-",
-  },
-  {
-    question: "Manakah dari berikut ini yang bukan termasuk dalam prinsip-prinsip koperasi?",
-    options: [
-      "Keanggotaan sukarela dan terbuka",
-      "Pengendalian oleh anggota secara demokratis",
-      "Partisipasi ekonomi anggota",
-      "Monopoli pasar",
-      "Kebebasan dan otonomi",
-    ],
-    answer: 4,
-    sub: "-",
-  },
-  {
-    question: "Prinsip 'kerja sama antar koperasi' bertujuan untuk:",
-    options: [
-      "Memperbesar keuntungan masing-masing koperasi",
-      "Membentuk monopoli di sektor usaha tertentu",
-      "Menguatkan posisi koperasi di dalam ekonomi nasional dan internasional",
-      "Menurunkan biaya produksi",
-      "Mengurangi jumlah koperasi yang ada",
-    ],
-    answer: 3,
-    sub: "-",
-  },
-  {
-    question: "Pengendalian oleh anggota secara demokratis dalam koperasi berarti:",
-    options: [
-      "Setiap anggota memiliki satu suara dalam pengambilan keputusan",
-      "Keputusan diambil oleh pengurus tanpa konsultasi anggota",
-      "Anggota dengan modal besar memiliki lebih banyak suara",
-      "Anggota dipilih oleh pengurus koperasi",
-      "Semua keputusan diambil oleh manajer koperasi",
-    ],
-    answer: 1,
-    sub: "-",
-  },
-  {
-    question: "Apakah yang dimaksud dengan 'partisipasi ekonomi anggota' dalam prinsip koperasi?",
-    options: [
-      "Anggota mendapatkan bagian laba berdasarkan modal yang disetorkan",
-      "Anggota berpartisipasi dalam aktivitas sosial koperasi",
-      "Anggota berpartisipasi dalam keputusan politik koperasi",
-      "Anggota berpartisipasi dalam kerja sama antar koperasi",
-      "Anggota memberikan kontribusi modal dan menerima manfaat secara adil",
+      "Undang-Undang Nomor 23 Tahun 2014",
+      "Peraturan Pemerintah Nomor 4 Tahun 1994",
+      "Peraturan Presiden Nomor 62 Tahun 2015",
+      "Peraturan Menteri Koperasi Nomor 08/Per/M.KUKM/IX/2015",
+      "Undang-Undang Nomor 25 Tahun 1992"[^4^][4]
     ],
     answer: 5,
-    sub: "-",
+    sub: "Penyelenggaraan dan Pembinaan Perkoperasian"[^6^][6]
   },
   {
-    question: "Manakah dari berikut ini yang merupakan manfaat dari pengawasan koperasi yang baik?",
+    question: "Apa yang dimaksud dengan Koperasi Primer?",
     options: [
-      "Meningkatkan keuntungan pengurus",
-      "Mengurangi pengawasan pemerintah",
-      "Menjamin keberlanjutan koperasi dan perlindungan terhadap anggota",
-      "Menekan biaya produksi",
-      "Mengurangi jumlah anggota koperasi",
+      "Koperasi yang didirikan oleh badan hukum Koperasi",[^1^][1]
+      "Koperasi yang menjalankan usaha simpan pinjam",[^2^][2]
+      "Koperasi yang didirikan oleh dan beranggotakan orang perseorangan",[^8^][8]
+      "Koperasi yang menjalankan usaha pelayanan jasa",[^3^][3]
+      "Koperasi yang menjalankan usaha pengadaan sarana produksi"[^9^][9]
     ],
     answer: 3,
-    sub: "-",
+    sub: "Penyelenggaraan dan Pembinaan Perkoperasian"[^6^][6]
   },
   {
-    question: "Pengawasan terhadap keuangan koperasi bertujuan untuk:",
+    question: "Apa yang dimaksud dengan Simpanan Pokok?",
     options: [
-      "Mengurangi pajak yang harus dibayar koperasi",
-      "Memastikan penggunaan dana koperasi sesuai dengan anggaran",
-      "Meningkatkan keuntungan pengurus koperasi",
-      "Menurunkan harga barang di koperasi",
-      "Mempercepat proses pinjaman anggota",
+      "Simpanan yang dapat diambil kapan saja",
+      "Simpanan yang wajib dibayar anggota dalam waktu tertentu",
+      "Simpanan yang diperoleh dari penyisihan hasil usaha",
+      "Simpanan yang diberikan secara sukarela",
+      "Simpanan yang wajib dibayarkan pada saat masuk menjadi anggota"
+    ],
+    answer: 5,
+    sub: "Penyelenggaraan dan Pembinaan Perkoperasian"[^6^][6]
+  },
+  {
+    question: "Apa yang dimaksud dengan Dana Cadangan?",
+    options: [
+      "Dana yang diperoleh dari hibah",
+      "Dana yang digunakan untuk modal penyertaan",[^10^][10]
+      "Dana yang diperoleh dari simpanan wajib",
+      "Dana yang digunakan untuk menutup kerugian koperasi",
+      "Dana yang diperoleh dari penyisihan hasil usaha setelah pajak"
+    ],
+    answer: 5,
+    sub: "Penyelenggaraan dan Pembinaan Perkoperasian"[^6^][6]
+  },
+  {
+    question: "Apa yang dimaksud dengan Rapat Anggota?",
+    options: [
+      "Rapat yang diadakan oleh pengurus koperasi",
+      "Rapat yang diadakan oleh pengawas koperasi",
+      "Rapat yang diadakan oleh Dewan Pengawas Syariah",
+      "Rapat yang diadakan oleh anggota koperasi",
+      "Rapat yang memegang kekuasaan tertinggi dalam koperasi"[^11^][11]
+    ],
+    answer: 5,
+    sub: "Penyelenggaraan dan Pembinaan Perkoperasian"[^6^][6]
+  },
+  {
+    question: "Apa yang dimaksud dengan Koperasi Sekunder?",[^1^][1]
+    options: [
+      "Koperasi yang didirikan oleh dan beranggotakan orang perseorangan",[^8^][8]
+      "Koperasi yang menjalankan usaha simpan pinjam",[^2^][2]
+      "Koperasi yang didirikan oleh dan beranggotakan badan hukum Koperasi",[^1^][1][^5^][5]
+      "Koperasi yang menjalankan usaha pelayanan jasa",[^3^][3]
+      "Koperasi yang menjalankan usaha pengadaan sarana produksi"[^9^][9]
+    ],
+    answer: 3,
+    sub: "Penyelenggaraan dan Pembinaan Perkoperasian"[^6^][6]
+  },
+  {
+    question: "Apa yang dimaksud dengan Hibah?",
+    options: [
+      "Pemberian dengan sukarela dengan mengalihkan hak atas uang dan/atau barang kepada koperasi",[^12^][12]
+      "Pemberian dengan syarat tertentu kepada koperasi",
+      "Pemberian yang wajib dibayarkan oleh anggota koperasi",
+      "Pemberian yang diperoleh dari hasil usaha koperasi",
+      "Pemberian yang digunakan untuk modal penyertaan"
+    ],
+    answer: 1,
+    sub: "Penyelenggaraan dan Pembinaan Perkoperasian"[^6^][6]
+  },
+  {
+    question: "Apa yang dimaksud dengan Simpanan Wajib?",
+    options: [
+      "Simpanan yang dapat diambil kapan saja",
+      "Simpanan yang wajib dibayar anggota dalam waktu tertentu",
+      "Simpanan yang diperoleh dari penyisihan hasil usaha",
+      "Simpanan yang diberikan secara sukarela",
+      "Simpanan yang wajib dibayarkan pada saat masuk menjadi anggota"
     ],
     answer: 2,
-    sub: "-",
+    sub: "Penyelenggaraan dan Pembinaan Perkoperasian"[^6^][6]
   },
   {
-    question: "Audit internal dalam koperasi dilakukan oleh:",
+    question: "Apa yang dimaksud dengan Modal Penyertaan?",
     options: [
-      "Pengurus koperasi",
-      "Pemerintah",
-      "Anggota koperasi",
-      "Pengawas koperasi",
-      "Bank",
+      "Modal yang diperoleh dari hibah",
+      "Modal yang digunakan untuk menutup kerugian koperasi",
+      "Modal yang diperoleh dari simpanan wajib",
+      "Modal yang digunakan untuk modal penyertaan",[^10^][10]
+      "Modal yang ditanamkan oleh pemodal untuk menambah dan memperkuat struktur permodalan koperasi"[^13^][13]
     ],
-    answer: 4,
-    sub: "-",
+    answer: 5,
+    sub: "Penyelenggaraan dan Pembinaan Perkoperasian"[^6^][6]
   },
   {
-    question: "Dalam pengawasan koperasi, konflik kepentingan harus dihindari untuk:",
+    question: "Apa yang dimaksud dengan Obligasi Koperasi?",
     options: [
-      "Mengurangi biaya operasional koperasi",
-      "Meningkatkan keuntungan pribadi",
-      "Memastikan keputusan yang diambil adil dan tidak memihak",
-      "Mempercepat pengambilan keputusan",
-      "Memperbesar pengaruh pengurus koperasi",
+      "Instrumen utang dalam bentuk surat berharga yang digunakan untuk keperluan pembiayaan investasi",[^14^][14]
+      "Instrumen utang yang diperoleh dari simpanan wajib",
+      "Instrumen utang yang digunakan untuk menutup kerugian koperasi",
+      "Instrumen utang yang diperoleh dari hibah",
+      "Instrumen utang yang digunakan untuk modal penyertaan"
     ],
-    answer: 3,
-    sub: "-",
+    answer: 1,
+    sub: "Penyelenggaraan dan Pembinaan Perkoperasian"[^6^][6]
   },
   {
-    question: "Pengawas koperasi harus memiliki keterampilan berikut, kecuali:",
+    question: "Apa yang dimaksud dengan Koperasi dalam Peraturan Menteri Koperasi dan Usaha Kecil dan Menengah Nomor 09 Tahun 2018?",
     options: [
-      "Keterampilan audit",
-      "Pemahaman tentang regulasi koperasi",
-      "Keterampilan manajemen proyek",
-      "Kemampuan analisis keuangan",
-      "Integritas tinggi",
+      "Badan usaha yang beranggotakan perusahaan",
+      "Badan usaha yang beranggotakan individu atau badan hukum koperasi",
+      "Badan usaha yang beranggotakan pemerintah",
+      "Badan usaha yang beranggotakan masyarakat umum",
+      "Badan usaha yang beranggotakan orang seorang atau badan hukum Koperasi dengan melandaskan kegiatannya berdasarkan prinsip Koperasi sekaligus sebagai gerakan ekonomi rakyat yang berdasar atas asas kekeluargaan"[^2^][2]
     ],
-    answer: 3,
-    sub: "-",
-  },  {
-    question: "Apa yang dimaksud dengan transparansi dalam konteks koperasi?",
-    options: [
-      "Semua anggota harus mengungkapkan penghasilan pribadi mereka",
-      "Koperasi harus membuka semua informasi keuangan dan operasional kepada anggota",
-      "Pengurus koperasi harus menjalankan koperasi tanpa pengawasan",
-      "Hanya pengawas yang boleh mengakses informasi koperasi",
-      "Pengurus koperasi harus menutup informasi rahasia perusahaan",
-    ],
-    answer: 2,
-    sub: "-",
+    answer: 5,
+    sub: "Peraturan Menteri Koperasi dan Usaha Kecil dan Menengah Nomor 09 Tahun 2018"[^1^][1]
   },
   {
-    question: "Keterlibatan anggota dalam pengawasan koperasi dapat dilakukan dengan cara:",
+    question: "Apa yang dimaksud dengan Simpanan Pokok dalam peraturan ini?",
     options: [
-      "Membatasi informasi kepada anggota",
-      "Mendorong anggota untuk pasif dalam rapat",
-      "Mengajak anggota dalam rapat dan pengambilan keputusan",
-      "Menghapuskan hak suara anggota",
-      "Membiarkan pengurus mengambil semua keputusan",
+      "Sejumlah uang yang wajib dibayarkan kepada koperasi setiap bulan",
+      "Sejumlah uang yang dapat diambil kembali kapan saja",
+      "Sejumlah uang yang wajib dibayarkan kepada koperasi pada saat masuk menjadi anggota, yang tidak dapat diambil kembali selama yang bersangkutan masih menjadi anggota",[^3^][3]
+      "Sejumlah uang yang diberikan sebagai hibah kepada koperasi",
+      "Sejumlah uang yang wajib dibayarkan kepada koperasi pada saat masuk menjadi anggota, yang tidak dapat diambil kembali selama yang bersangkutan masih menjadi anggota"[^3^][3]
     ],
-    answer: 3,
-    sub: "-",
+    answer: 5,
+    sub: "Peraturan Menteri Koperasi dan Usaha Kecil dan Menengah Nomor 09 Tahun 2018"[^1^][1]
+  },
+  {
+    question: "Apa yang dimaksud dengan Dana Cadangan dalam peraturan ini?",
+    options: [
+      "Sejumlah uang yang diperoleh dari penyisihan hasil usaha setelah pajak yang dimaksudkan untuk memupuk modal sendiri dan menutup kerugian koperasi bila diperlukan",[^4^][4]
+      "Sejumlah uang yang diperoleh dari pinjaman bank",
+      "Sejumlah uang yang diperoleh dari sumbangan anggota",
+      "Sejumlah uang yang diperoleh dari penjualan aset koperasi",
+      "Sejumlah uang yang diperoleh dari penyisihan hasil usaha setelah pajak yang dimaksudkan untuk memupuk modal sendiri dan menutup kerugian koperasi bila diperlukan"[^4^][4]
+    ],
+    answer: 5,
+    sub: "Peraturan Menteri Koperasi dan Usaha Kecil dan Menengah Nomor 09 Tahun 2018"[^1^][1]
+  },
+  {
+    question: "Apa yang dimaksud dengan Rapat Anggota dalam peraturan ini?",
+    options: [
+      "Rapat yang diadakan oleh pengurus koperasi",
+      "Rapat yang diadakan oleh pengawas koperasi",
+      "Rapat yang diadakan oleh anggota koperasi untuk membahas kegiatan koperasi",
+      "Rapat yang diadakan oleh pemerintah untuk membahas koperasi",
+      "Rapat yang diadakan oleh anggota koperasi yang memegang kekuasaan tertinggi dalam koperasi"[^6^][6]
+    ],
+    answer: 5,
+    sub: "Peraturan Menteri Koperasi dan Usaha Kecil dan Menengah Nomor 09 Tahun 2018"[^1^][1]
+  },
+  {
+    question: "Apa yang dimaksud dengan Koperasi Sekunder dalam peraturan ini?",
+    options: [
+      "Koperasi yang didirikan oleh pemerintah",
+      "Koperasi yang didirikan oleh perusahaan",
+      "Koperasi yang didirikan oleh individu",
+      "Koperasi yang didirikan oleh masyarakat umum",
+      "Koperasi yang didirikan oleh dan beranggotakan badan hukum Koperasi"[^7^][7][^5^][5]
+    ],
+    answer: 5,
+    sub: "Peraturan Menteri Koperasi dan Usaha Kecil dan Menengah Nomor 09 Tahun 2018"[^1^][1]
   },
   {
     question: "Apakah yang dimaksud dengan prinsip 'kebebasan dan otonomi' dalam koperasi?",
