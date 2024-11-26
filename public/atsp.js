@@ -936,7 +936,7 @@ const questions = [
    {
      question: "'Kreativitas' merupakan salah satu aspek penting bagi seorang Asisten Teknisi Siaran Pemula dalam menciptakan konten menarik. Diskusikan dua cara kreatif dalam menyajikan informasi kepada pemirsa melalui media siar serta dampaknya terhadap pengalaman menonton pemirsa secara keseluruhan.", 
      options:[
-       "'Menggunakan grafik animasi interaktif' untuk menjelaskan data kompleks secara visual sehingga lebih mudah dipahami oleh pemirsa sambil 'menghadirkan narasumber ahli' secara live untuk memberikan perspektif tambahan sehingga meningkatkan kredibilitas informasi;";
+       "'Menggunakan grafik animasi interaktif' untuk menjelaskan data kompleks secara visual sehingga lebih mudah dipahami oleh pemirsa sambil 'menghadirkan narasumber ahli' secara live untuk memberikan perspektif tambahan sehingga meningkatkan kredibilitas informasi;",
        "'Menggunakan format dokumenter' dalam menyajikan berita terkini agar lebih mendalam sambil 'menghadirkan elemen cerita' sehingga pemirsa merasa terhubung emosional dengan topik bahasan;",
        "'Menyajikan berita melalui segmen talk show' agar lebih dinamis sambil 'membuat segmen khusus' tentang kisah inspiratif dari tokoh masyarakat sehingga mendorong partisipasi aktif dari penonton;",
        "'Menerapkan pendekatan gamifikasi' pada kuis interaktif sambil 'melibatkan influencer' untuk memperluas jangkauan audiens sehingga menciptakan buzz positif tentang program;",
