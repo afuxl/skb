@@ -668,7 +668,7 @@ const questions = [
       "Tahapan ideasi, pengambilan gambar langsung, editing video, publikasi online, dan feedback dari penonton. Asisten Teknisi membantu dalam semua aspek teknis untuk memastikan siaran berjalan lancar.",
       "Tahapan perencanaan konten, pengaturan peralatan teknis, pengambilan gambar langsung di lapangan, editing akhir video, dan penayangan di platform media. Asisten Teknisi berkontribusi di semua tahap untuk menjaga kualitas siaran.",
     ],
-    answer: 0,
+    answer: 1,
     sub: "Materi Pokok Seleksi Kompetensi Bidang Asisten Teknisi Siaran Pemula"
   },
   {
@@ -680,7 +680,7 @@ const questions = [
       "Perangkat streaming untuk menyampaikan konten secara online; tripod untuk stabilitas kamera; dan sistem audio portable untuk mobilitas. Tantangan termasuk koneksi internet yang tidak stabil dan pengaturan perangkat di lokasi berbeda.",
       "Mixer video untuk menggabungkan berbagai sumber video; microphone nirkabel untuk kebebasan bergerak; dan sistem distribusi sinyal untuk menjangkau audiens luas. Tantangan termasuk sinkronisasi audio-video yang tepat dan manajemen sumber daya di lapangan.",
     ],
-    answer: 0,
+    answer: 1,
     sub: "Materi Pokok Seleksi Kompetensi Bidang Asisten Teknisi Siaran Pemula"
   },
   {
@@ -692,7 +692,7 @@ const questions = [
       "Prinsip narasi visual; penggunaan teknik pengambilan gambar; dan penyesuaian suara latar. Penerapan prinsip ini dapat membantu menyampaikan pesan dengan lebih efektif kepada pemirsa.",
       "Prinsip penggunaan teknologi terbaru; integrasi media sosial; dan interaktivitas dengan audiens. Penerapan prinsip ini dapat meningkatkan keterlibatan pemirsa serta memperluas jangkauan siaran.",
     ],
-    answer: 0,
+    answer: 1,
     sub: "Materi Pokok Seleksi Kompetensi Bidang Asisten Teknisi Siaran Pemula"
   },
   {
@@ -704,7 +704,7 @@ const questions = [
       "Memastikan semua anggota tim mengenakan pakaian formal saat siaran berlangsung agar terlihat profesional di depan kamera, menjaga area kerja tetap terang benderang agar memudahkan pekerjaan teknis serta menghindari penggunaan perangkat elektronik saat siaran berlangsung agar tidak terjadi gangguan teknis. Risiko termasuk gangguan visual bagi penonton atau kebingungan di lapangan jika terjadi masalah teknis mendadak.",
       "Menerapkan sistem rotasi tugas di antara anggota tim agar tidak ada satu orang pun yang terlalu lama berada di area berbahaya selama proses syuting berlangsung, membatasi akses ke area berbahaya bagi orang luar agar tidak terjadi insiden serta melakukan simulasi keadaan darurat secara berkala agar semua anggota tim siap menghadapi situasi darurat kapan saja. Risiko termasuk kurangnya kesiapan menghadapi situasi darurat atau kebingungan saat terjadi insiden mendesak di lapangan.",
     ],
-    answer: 0,
+    answer: 1,
     sub: "Materi Pokok Seleksi Kompetensi Bidang Asisten Teknisi Siaran Pemula"
   },
   {
@@ -716,7 +716,7 @@ const questions = [
       "Vimeo Live karena kualitas streaming tinggi tanpa iklan mengganggu; DLive karena berbasis blockchain sehingga memberikan imbalan kepada pembuat konten secara adil; Periscope karena kemudahan berbagi ke Twitter secara langsung.",
       "Rumble karena kebebasan berekspresi tanpa sensor ketat dari platform lain; Bigo Live karena fitur monetisasi bagi streamer populer; Dailymotion karena dukungan terhadap berbagai format video tanpa batasan waktu tayang.",
     ],
-    answer: 0,
+    answer: 1,
     sub: "Materi Pokok Seleksi Kompetensi Bidang Asisten Teknisi Siaran Pemula"
   },
   {
@@ -728,7 +728,7 @@ const questions = [
       "Gangguan dari lingkungan sekitar seperti suara bising dari luar studio dapat dicegah dengan melakukan isolasi suara pada ruangan sebelum tayang atau menggunakan mikrofon directional saat syuting langsung di luar ruangan. Jika gangguan terjadi saat tayang berlangsung, gunakan teknik editing audio pasca-produksi jika memungkinkan atau coba atur ulang posisi mikrofon agar lebih fokus pada pembicara.",
       "Keterlambatan dalam transisi antar segmen dapat disebabkan oleh kurangnya koordinasi antara tim produksi. Pencegahan dilakukan dengan melakukan briefing sebelum tayang agar semua anggota tim mengetahui alur acara serta jika terjadi masalah saat tayang langsung segera lakukan improvisasi sambil menunggu segmen berikutnya siap ditayangkan.",
     ],
-    answer: 0,
+    answer: 1,
     sub: "Materi Pokok Seleksi Kompetensi Bidang Asisten Teknisi Siaran Pemula"
   },
   {
@@ -740,7 +740,7 @@ const questions = [
       "Tingkat konversi dari promosi produk selama acara sebagai ukuran efektivitas pemasaran melalui media siar; jumlah permintaan informasi lebih lanjut tentang produk/layanan terkait setelah acara sebagai indikator minat audiens terhadap tawaran produk/layanan tersebut setelah tayang;",
       "Jumlah reaksi negatif dari audiens sebagai indikator potensi masalah dalam penyampaian konten selama acara berlangsung; jumlah permintaan maaf dari pihak penyelenggara kepada penonton sebagai ukuran responsibilitas atas kesalahan selama tayang berlangsung;",
     ],
-    answer: 0,
+    answer: 1,
     sub: "Materi Pokok Seleksi Kompetensi Bidang Asisten Teknisi Siaran Pemula"
   },
   {
@@ -752,7 +752,7 @@ const questions = [
       "Menggunakan live streaming di platform media sosial selama sesi tanya jawab pasca-acara agar pemirsa bisa berinteraksi langsung dengan pembicara;",
       "Semua jawaban benar;",
     ],
-    answer: 4,
+    answer: 5,
     sub: "Materi Pokok Seleksi Kompetensi Bidang Asisten Teknisi Siaran Pemula"
   },
   {
@@ -764,7 +764,7 @@ const questions = [
       "'Menerapkan pendekatan gamifikasi' pada kuis interaktif sambil 'melibatkan influencer' untuk memperluas jangkauan audiens sehingga menciptakan buzz positif tentang program;",
       "'Menggunakan teknik storytelling' dalam setiap segmen sambil 'membagikan tips praktis' terkait topik bahasan sehingga memberikan nilai tambah kepada pemirsa;",
     ],
-    answer: 0,
+    answer: 1,
     sub: "Materi Pokok Seleksi Kompetensi Bidang Asisten Teknisi Siaran Pemula"
   },
   {
@@ -781,7 +781,7 @@ const questions = [
        "'Penggunaan algoritma cerdas', 'akses data real-time', dan 'kemampuan personalisasi'. Penggunaan algoritma cerdas meningkatkan relevansi konten;, akses data real-time memungkinkan respons cepat;, sedangkan kemampuan personalisasi menciptakan pengalaman unik bagi setiap pengguna.";
       
      ],
-     answer: 0,
+     answer: 1,
      sub: "Materi Pokok Seleksi Kompetensi Bidang Asisten Teknisi Siaran Pemula"
    },
    {
@@ -797,7 +797,7 @@ const questions = [
        
        "'Penyusunan laporan akhir', 'presentasi hasil evaluasi', dan 'diskusi hasil evaluasi'. Penyusunan laporan akhir merangkum temuan;, presentasi hasil evaluasi menyampaikan informasi kepada tim;, diskusi hasil evaluasi membahas langkah selanjutnya.";
      ],
-     answer :0,
+     answer :1,
      sub :("Materi Pokok Seleksi Kompetensi Bidang Asisten Teknisi Siaran Pemula")
    },
   {
@@ -821,7 +821,7 @@ const questions = [
       "Perangkat streaming untuk menyampaikan konten secara online; tripod untuk stabilitas kamera; dan sistem audio portable untuk mobilitas. Tantangan termasuk koneksi internet yang tidak stabil dan pengaturan perangkat di lokasi berbeda.",
       "Mixer video untuk menggabungkan berbagai sumber video; microphone nirkabel untuk kebebasan bergerak; dan sistem distribusi sinyal untuk menjangkau audiens luas. Tantangan termasuk sinkronisasi audio-video yang tepat dan manajemen sumber daya di lapangan.",
     ],
-    answer: 0,
+    answer: 1,
     sub: "Materi Pokok Seleksi Kompetensi Bidang Asisten Teknisi Siaran Pemula"
   },
   {
@@ -833,7 +833,7 @@ const questions = [
       "Kolaborasi hanya penting pada tahap awal produksi; komunikasi efektif tidak terlalu berpengaruh pada hasil akhir siaran.",
       "Kolaborasi membantu menciptakan ide-ide baru; namun komunikasi sering kali dianggap sebagai formalitas yang tidak perlu di lapangan.",
     ],
-    answer: 0,
+    answer: 1,
     sub: "Materi Pokok Seleksi Kompetensi Bidang Asisten Teknisi Siaran Pemula"
   },
   {
@@ -845,7 +845,7 @@ const questions = [
       "Memastikan semua anggota tim mengenakan pakaian formal saat siaran, menjaga area kerja tetap terang benderang, serta menghindari penggunaan perangkat elektronik saat siaran. Risiko termasuk gangguan visual bagi penonton atau kebingungan di lapangan.",
       "Menerapkan sistem rotasi tugas di antara anggota tim, membatasi akses ke area berbahaya bagi orang luar, serta melakukan simulasi keadaan darurat secara berkala. Risiko termasuk kurangnya kesiapan menghadapi situasi darurat atau kebingungan saat terjadi insiden.",
     ],
-    answer: 0,
+    answer: 1,
     sub: "Materi Pokok Seleksi Kompetensi Bidang Asisten Teknisi Siaran Pemula"
   },
   {
@@ -857,7 +857,7 @@ const questions = [
       "Kesalahan dalam pengaturan lighting, penggunaan alat yang tidak sesuai, dan masalah bandwidth internet. Kesalahan lighting dapat diatasi dengan melakukan uji coba pencahayaan sebelum siaran. Penggunaan alat yang tidak sesuai harus dicegah dengan memastikan semua peralatan telah disetujui sebelumnya. Masalah bandwidth internet dapat diatasi dengan menggunakan koneksi cadangan.",
       "Perangkat keras rusak, kurangnya persiapan teknis, dan masalah komunikasi antar tim. Perangkat keras rusak harus segera diganti atau diperbaiki. Kurangnya persiapan teknis dapat diatasi dengan melakukan briefing sebelum siaran. Masalah komunikasi antar tim harus diselesaikan dengan penggunaan alat komunikasi yang efektif.",
     ],
-    answer: 0,
+    answer: 1,
     sub: "Materi Pokok Seleksi Kompetensi Bidang Asisten Teknisi Siaran Pemula"
   },
   {
@@ -869,7 +869,7 @@ const questions = [
       "Menggunakan konten dari media sosial tanpa izin; mencantumkan nama pembuat konten; dan mengabaikan ketentuan fair use. Konsekuensi hukum termasuk denda administratif, tuntutan ganti rugi dari pemilik konten, dan risiko reputasi negatif.",
       "Menggunakan karya seni tanpa izin; tidak memberikan atribusi kepada pencipta; dan menggunakan konten yang dilindungi tanpa lisensi. Konsekuensi hukum termasuk tuntutan pidana, denda besar, dan larangan beroperasi bagi stasiun penyiaran.",
     ],
-    answer: 0,
+    answer: 1,
     sub: "Materi Pokok Seleksi Kompetensi Bidang Asisten Teknisi Siaran Pemula"
   },
   {
@@ -881,7 +881,7 @@ const questions = [
       "Sistem manajemen konten berbasis AI untuk analisis performa siaran; penggunaan alat pemantau media sosial untuk feedback real-time dari audiens; serta teknologi blockchain untuk transparansi dalam distribusi konten.",
       "Semua jawaban benar karena setiap teknologi baru memberikan keunggulan kompetitif dalam meningkatkan kualitas produksi siaran.",
     ],
-    answer: 0,
+    answer: 1,
     sub: "Materi Pokok Seleksi Kompetensi Bidang Asisten Teknisi Siaran Pemula"
   },
   {
@@ -893,7 +893,7 @@ const questions = [
       "Mengalihkan tayangan ke program lain tanpa pemberitahuan sebelumnya kepada audiens; menunggu hingga masalah teratasi sebelum melanjutkan tayangan;",
       "Menyiapkan skrip darurat sebelumnya sehingga bisa dibaca saat terjadi masalah; meminta audiens untuk bersabar sambil memperbaiki masalah;",
     ],
-    answer: 0,
+    answer: 1,
     sub: "Materi Pokok Seleksi Kompetensi Bidang Asisten Teknisi Siaran Pemula"
   },
   {
@@ -910,7 +910,7 @@ const questions = [
        "'Penyebaran kuesioner' melalui email;, 'diskusi terbuka' di forum komunitas;, serta 'tanya jawab langsung' di media sosial setelah acara.";
       
      ],
-     answer: 0,
+     answer: 1,
      sub: "Materi Pokok Seleksi Kompetensi Bidang Asisten Teknisi Siaran Pemula"
    },
    {
@@ -927,7 +927,7 @@ const questions = [
        "'Menghindari jargon teknis', 'menggunakan analogi sederhana', dan 'memberikan ringkasan di akhir'. Menghindari jargon membuat informasi lebih mudah dipahami;, analogi membantu menjelaskan konsep sulit;, ringkasan memperkuat ingatan pemirsa.";
        
      ],
-     answer :0,
+     answer :1,
      sub :("Materi Pokok Seleksi Kompetensi Bidang Asisten Teknisi Siaran Pemula")
    },
    {
@@ -944,7 +944,7 @@ const questions = [
        "'Menggunakan aplikasi pengingat', 'membagi tugas besar menjadi bagian kecil', dan 'memprioritaskan tugas berdasarkan urgensi'. Aplikasi pengingat membantu menjaga fokus pada deadline;, pembagian tugas membuat pekerjaan lebih mudah dikelola;', prioritas memastikan hal-hal penting diselesaikan terlebih dahulu.";
       
      ],
-     answer :0,
+     answer :1,
      sub :("Materi Pokok Seleksi Kompetensi Bidang Asisten Teknisi Siaran Pemula")
    },
    {
@@ -961,7 +961,7 @@ const questions = [
        "'Menggunakan teknik storytelling' dalam setiap segmen sambil 'membagikan tips praktis' terkait topik bahasan sehingga memberikan nilai tambah kepada pemirsa;";
       
      ],
-     answer :0,
+     answer :1,
      sub :("Materi Pokok Seleksi Kompetensi Bidang Asisten Teknisi Siaran Pemula")
    }
 ];
