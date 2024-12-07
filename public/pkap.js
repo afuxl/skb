@@ -180,101 +180,132 @@ const questions = [
     sub: "Peraturan Menteri Koperasi dan Usaha Kecil dan Menengah Nomor 09 Tahun 2018"
   },
   {
-    question: "Apakah yang dimaksud dengan prinsip 'kebebasan dan otonomi' dalam koperasi?",
+    question: "Apa yang menjadi dasar hukum utama dalam penyelenggaraan dan pembinaan perkoperasian?",
     options: [
-      "Koperasi bebas beroperasi tanpa mengikuti hukum",
-      "Koperasi bebas mengambil pinjaman tanpa persetujuan anggota",
-      "Koperasi beroperasi secara mandiri dan dikelola oleh anggotanya sendiri",
-      "Anggota koperasi bebas untuk menjual saham mereka kapan saja",
-      "Koperasi harus selalu mendapatkan izin dari pemerintah sebelum beroperasi",
+      "Undang-Undang Nomor 23 Tahun 2014",
+      "Peraturan Pemerintah Nomor 4 Tahun 1994",
+      "Peraturan Presiden Nomor 62 Tahun 2015",
+      "Peraturan Menteri Koperasi Nomor 08/Per/M.KUKM/IX/2015",
+      "Undang-Undang Nomor 25 Tahun 1992"
     ],
-    answer: 3,
-    sub: "-",
+    answer: 5,
+    sub: "Penyelenggaraan dan Pembinaan Perkoperasian"
   },
   {
-    question: "Salah satu indikator keberhasilan pengawasan koperasi adalah:",
+    question: "Apa tujuan utama dari Surat Koperasi dan UKM Nomor 9 Tahun 2020?",
     options: [
-      "Penurunan jumlah anggota koperasi",
-      "Peningkatan profit pengurus koperasi",
-      "Transparansi dan akuntabilitas keuangan yang tinggi",
-      "Berkurangnya rapat anggota",
-      "Meningkatnya biaya operasional",
+      "Meningkatkan kualitas koperasi",
+      "Mengatur tata cara pendirian koperasi",
+      "Menyusun pedoman pengelolaan koperasi",
+      "Mendukung pengembangan UKM",
+      "Semua jawaban benar"
     ],
-    answer: 3,
-    sub: "-",
+    answer: 5,
+    sub: "Tujuan Surat Koperasi dan UKM"
   },
   {
-    question: "Salah satu tantangan utama dalam pengawasan koperasi adalah:",
+    question: "Siapa yang berwenang untuk melakukan pengawasan terhadap koperasi sesuai dengan Surat Koperasi dan UKM Nomor 9 Tahun 2020?",
     options: [
-      "Kurangnya pengurus koperasi",
-      "Banyaknya persaingan dari perusahaan swasta",
-      "Kurangnya partisipasi anggota dalam pengawasan",
-      "Sulitnya mendapatkan izin dari pemerintah",
-      "Terlalu banyaknya laba yang diperoleh koperasi",
+      "Kementerian Koperasi dan UKM",
+      "Badan Pusat Statistik",
+      "Dinas Koperasi Daerah",
+      "Kementerian Dalam Negeri",
+      "Semua jawaban salah"
+    ],
+    answer: 1,
+    sub: "Pengawasan Koperasi"
+  },
+
+  {
+    question: "Apa yang dimaksud dengan koperasi menurut Surat Koperasi dan UKM Nomor 9 Tahun 2020?",
+    options: [
+      "Badan usaha yang dimiliki oleh pemerintah",
+      "Badan usaha yang berorientasi pada profit",
+      "Badan usaha yang dikelola secara bersama oleh anggotanya",
+      "Badan usaha yang didirikan oleh individu",
+      "Badan usaha yang tidak memiliki tujuan sosial"
     ],
     answer: 3,
-    sub: "-",
+    sub: "Definisi Koperasi"
   },
+
   {
-    question: "Untuk menjaga integritas dalam pengawasan koperasi, pengawas harus:",
+    question: "Apa saja prinsip dasar koperasi yang harus dipatuhi menurut Surat Koperasi dan UKM Nomor 9 Tahun 2020?",
     options: [
-      "Mendapatkan keuntungan dari koperasi",
-      "Memiliki hubungan dekat dengan pengurus",
-      "Tidak memiliki konflik kepentingan",
-      "Hanya bekerja paruh waktu",
-      "Menghindari pelatihan dan pendidikan lebih lanjut",
+      "Keanggotaan terbuka, pengelolaan demokratis, dan partisipasi ekonomi anggota",
+      "Keanggotaan tertutup, pengelolaan sentralistik, dan keuntungan maksimal",
+      "Keanggotaan berdasarkan status sosial, pengelolaan oleh pemerintah, dan subsidi",
+      "Pengelolaan oleh satu orang, keuntungan dibagikan secara merata, dan tidak ada partisipasi anggota",
+      "Semua jawaban salah"
     ],
-    answer: 3,
-    sub: "-",
+    answer: 1,
+    sub: "Prinsip Dasar Koperasi"
   },
   {
-    question: "Prinsip koperasi yang mengutamakan 'kepedulian terhadap komunitas' bertujuan untuk:",
+    question: "Apa yang menjadi fokus utama dalam pengawasan koperasi berdasarkan Surat Koperasi dan UKM Nomor 9 Tahun 2020?",
     options: [
-      "Memaksimalkan keuntungan koperasi",
-      "Menjalankan kegiatan sosial yang bermanfaat bagi masyarakat sekitar",
-      "Mengurangi jumlah anggota koperasi",
-      "Meningkatkan biaya operasional",
-      "Menutup koperasi yang tidak menguntungkan",
+      "Peningkatan jumlah anggota koperasi",
+      "Kepatuhan terhadap peraturan perundang-undangan",
+      "Pengelolaan keuangan koperasi",
+      "Penyediaan fasilitas bagi anggota",
+      "Pemasaran produk koperasi"
     ],
     answer: 2,
-    sub: "-",
+    sub: "Fokus Pengawasan Koperasi"
   },
+
   {
-    question: "Untuk memastikan keberlanjutan koperasi, pengawas harus:",
+    question: "Salah satu prinsip koperasi adalah keanggotaan yang bersifat terbuka. Apa makna dari prinsip ini?",
     options: [
-      "Menutup rapat anggota",
-      "Menyembunyikan laporan keuangan",
-      "Melakukan audit rutin dan memberikan laporan kepada anggota",
-      "Menghindari komunikasi dengan anggota",
-      "Memusatkan kekuasaan pada pengurus",
+      "Hanya individu tertentu yang dapat bergabung",
+      "Setiap orang memiliki hak untuk menjadi anggota",
+      "Keanggotaan dibatasi oleh usia",
+      "Keanggotaan hanya untuk kelompok tertentu",
+      "Keanggotaan bersifat eksklusif"
+    ],
+    answer: 2,
+    sub: "Prinsip Koperasi"
+  },
+
+  {
+    question: "Apa yang dimaksud dengan 'partisipasi ekonomi anggota' dalam konteks koperasi?",
+    options: [
+      "Anggota tidak terlibat dalam pengambilan keputusan",
+      "Anggota memiliki hak suara dalam rapat umum",
+      "Anggota berkontribusi secara finansial dan mendapatkan imbal hasil",
+      "Anggota hanya dapat menggunakan produk koperasi",
+      "Anggota tidak memiliki kewajiban finansial"
     ],
     answer: 3,
-    sub: "-",
+    sub: "Partisipasi Ekonomi Anggota"
+  },
+
+  {
+    question: "Dalam Surat Koperasi dan UKM Nomor 9 Tahun 2020, apa yang menjadi syarat untuk mendirikan koperasi?",
+    options: [
+      "Minimal lima orang sebagai pendiri",
+      "Persetujuan dari pemerintah daerah",
+      "Memiliki modal awal yang besar",
+      "Berdasarkan rekomendasi dari asosiasi koperasi",
+      "Harus terdaftar di lembaga pendidikan"
+    ],
+    answer: 1,
+    sub: "Syarat Pendirian Koperasi"
+  },
+
+  {
+    question: "Apa saja jenis kegiatan yang dapat dilakukan oleh koperasi menurut Surat Koperasi dan UKM Nomor 9 Tahun 2020?",
+    options: [
+      "Kegiatan sosial dan ekonomi",
+      "Hanya kegiatan ekonomi",
+      "Kegiatan pendidikan dan pelatihan",
+      "Kegiatan investasi di luar negeri",
+      "Semua jawaban benar"
+    ],
+    answer: 1,
+    sub: "Jenis Kegiatan Koperasi"
   },
   {
-    question: "Manakah yang bukan merupakan tanggung jawab pengawas koperasi?",
-    options: [
-      "Memastikan kepatuhan terhadap regulasi",
-      "Menjalankan operasi harian koperasi",
-      "Melakukan audit internal",
-      "Memberikan rekomendasi perbaikan",
-      "Menyusun laporan pengawasan",
-    ],
-    answer: 2,
-    sub: "-",
-  },
-  {
-    question: "Untuk meningkatkan efektivitas pengawasan, koperasi dapat:",
-    options: [
-      "Mengurangi jumlah rapat anggota",
-      "Menyediakan pelatihan bagi pengawas",
-      "Menyembunyikan laporan keuangan dari anggota",
-      "Mengurangi partisipasi anggota",
-      "Meningkatkan biaya keanggotaan",
-    ],
-    answer: 2,
-    sub: "-",
-  },  {
     question: "Pengawasan yang tidak efektif dapat mengakibatkan:",
     options: [
       "Peningkatan kepercayaan anggota",
@@ -287,76 +318,133 @@ const questions = [
     sub: "-",
   },
   {
-    question: "Dalam koperasi, prinsip 'kerja sama antar koperasi' bertujuan untuk:",
+    question: "Apa tujuan utama dari Undang-Undang Nomor 25 Tahun 1992 tentang Perkoperasian?",
     options: [
-      "Mengurangi persaingan antar koperasi",
-      "Meningkatkan keuntungan pengurus",
-      "Mendorong saling mendukung dan memperkuat satu sama lain",
-      "Menyembunyikan informasi dari anggota",
-      "Mengurangi jumlah koperasi yang ada",
+      "Meningkatkan kesejahteraan anggota koperasi",
+      "Mengatur pengelolaan perusahaan negara",
+      "Menyusun pedoman pengembangan UKM",
+      "Mendukung investasi asing",
+      "Mengatur pengelolaan sumber daya alam"
     ],
-    answer: 3,
-    sub: "-",
+    answer: 1,
+    sub: "Tujuan UU No. 25 Tahun 1992"
   },
+
   {
-    question: "Apa yang dimaksud dengan prinsip koperasi 'kemandirian'?",
+    question: "Apa yang dimaksud dengan koperasi menurut UU No. 25 Tahun 1992?",
     options: [
-      "Koperasi bergantung pada bantuan eksternal",
-      "Koperasi mengandalkan anggota untuk modal dan pengelolaan",
-      "Koperasi bergantung pada pemerintah untuk pengawasan",
-      "Koperasi bergantung pada bank untuk pendanaan",
-      "Koperasi tidak membutuhkan partisipasi anggota",
+      "Badan usaha yang dimiliki oleh pemerintah",
+      "Badan usaha yang dikelola secara bersama oleh anggotanya",
+      "Badan usaha yang berorientasi pada profit semata",
+      "Badan usaha yang didirikan oleh individu",
+      "Badan usaha yang tidak memiliki tujuan sosial"
     ],
     answer: 2,
-    sub: "-",
+    sub: "Definisi Koperasi"
   },
+
   {
-    question: "Apa tujuan dari pendidikan anggota dalam koperasi?",
+    question: "Salah satu prinsip dasar koperasi adalah keanggotaan terbuka. Apa makna dari prinsip ini?",
     options: [
-      "Membatasi partisipasi anggota dalam koperasi",
-      "Membuat anggota lebih memahami prinsip dan tujuan koperasi",
-      "Mengurangi pengetahuan anggota tentang koperasi",
-      "Menghindari pelatihan bagi anggota",
-      "Menyembunyikan informasi penting dari anggota",
+      "Hanya individu tertentu yang dapat bergabung",
+      "Setiap orang memiliki hak untuk menjadi anggota",
+      "Keanggotaan dibatasi oleh usia",
+      "Keanggotaan hanya untuk kelompok tertentu",
+      "Keanggotaan bersifat eksklusif"
     ],
     answer: 2,
-    sub: "-",
+    sub: "Prinsip Koperasi"
   },
+
   {
-    question: "Bagaimana pengawas koperasi dapat meningkatkan keterlibatan anggota dalam koperasi?",
+    question: "Apa yang menjadi dasar hukum utama bagi koperasi di Indonesia?",
     options: [
-      "Mengurangi jumlah rapat",
-      "Membatasi akses informasi keuangan",
-      "Menyediakan laporan keuangan yang transparan dan mudah diakses",
-      "Menyembunyikan laporan audit",
-      "Menghindari pelatihan bagi anggota koperasi",
+      "Undang-Undang Nomor 25 Tahun 1992",
+      "Peraturan Pemerintah Nomor 4 Tahun 1994",
+      "Peraturan Presiden Nomor 62 Tahun 2015",
+      "Undang-Undang Nomor 23 Tahun 2014",
+      "Semua jawaban benar"
+    ],
+    answer: 1,
+    sub: "Dasar Hukum Koperasi"
+  },
+
+  {
+    question: "Apa kewajiban koperasi dalam melaksanakan usahanya menurut UU No. 25 Tahun 1992?",
+    options: [
+      "Membagikan keuntungan secara merata kepada anggota",
+      "Menjaga kerahasiaan data anggota",
+      "Melaporkan kegiatan usaha kepada pemerintah daerah",
+      "Mengutamakan kepentingan individu di atas kepentingan bersama",
+      "Tidak perlu mematuhi peraturan perundang-undangan"
     ],
     answer: 3,
-    sub: "-",
+    sub: "Kewajiban Koperasi"
   },
+
   {
-    question: "Apa yang menjadi tujuan utama pengawasan dalam koperasi?",
+    question: "Siapa yang berwenang mengawasi koperasi sesuai dengan UU No. 25 Tahun 1992?",
     options: [
-      "Menurunkan jumlah anggota",
-      "Meningkatkan keuntungan pengurus koperasi",
-      "Menjaga agar koperasi beroperasi sesuai dengan peraturan dan prinsip koperasi",
-      "Mengurangi transparansi keuangan koperasi",
-      "Mengurangi partisipasi anggota dalam rapat",
+      "Kementerian Koperasi dan UKM",
+      "Dinas Koperasi Daerah",
+      "Badan Pusat Statistik",
+      "Kementerian Dalam Negeri",
+      "Semua jawaban salah"
     ],
-    answer: 3,
-    sub: "-",
+    answer: 1,
+    sub: "Pengawasan Koperasi"
   },
+
   {
-    question: "Apa yang harus dilakukan jika ditemukan ketidakpatuhan terhadap prinsip koperasi?",
+    question: "Apa yang dimaksud dengan 'sisa hasil usaha' dalam konteks koperasi?",
     options: [
-      "Mengabaikan masalah tersebut",
-      "Melakukan audit dan memberikan rekomendasi perbaikan",
-      "Membatasi hak suara anggota koperasi",
-      "Mengurangi transparansi dalam pengelolaan koperasi",
-      "Menurunkan jumlah anggota koperasi",
+      "Pendapatan dari penjualan produk koperasi",
+      "Keuntungan yang dibagikan kepada anggota setelah dikurangi biaya operasional",
+      "Dana cadangan untuk pengembangan koperasi",
+      "Modal awal yang disetor oleh anggota",
+      "Biaya operasional koperasi"
     ],
     answer: 2,
-    sub: "-",
+    sub: "'Sisa Hasil Usaha' dalam Koperasi"
+  },
+
+  {
+    question: "Apa saja jenis koperasi yang diatur dalam UU No. 25 Tahun 1992?",
+    options: [
+      "Koperasi simpan pinjam, koperasi produksi, dan koperasi konsumsi",
+      "Koperasi kredit, koperasi jasa, dan koperasi pertanian",
+      "Koperasi industri, koperasi perdagangan, dan koperasi pendidikan",
+      "Semua jawaban benar",
+      "Tidak ada jawaban yang benar"
+    ],
+    answer: 4,
+    sub: "Jenis Koperasi"
+  },
+
+  {
+    question: "Apa peran pemerintah dalam pengembangan koperasi menurut UU No. 25 Tahun 1992?",
+    options: [
+      "Menyediakan dana tanpa syarat untuk semua koperasi",
+      "Mengatur dan membina perkembangan koperasi agar lebih mandiri dan efisien",
+      "Menentukan harga jual produk koperasi secara langsung",
+      "Melarang pembentukan koperasi baru untuk menjaga persaingan sehat",
+      "Tidak ada peran pemerintah dalam hal ini"
+    ],
+    answer: 2,
+    sub: "Peran Pemerintah dalam Koperasi"
+  },
+
+  {
+    question: "'Koperasi' sebagai badan hukum memiliki ciri-ciri tertentu. Apa salah satu ciri tersebut?",
+    options: [
+      "'Koperasi' tidak memiliki anggota tetap.",
+      "'Koperasi' dikelola secara demokratis oleh anggotanya.",
+      "'Koperasi' hanya berorientasi pada keuntungan.",
+      "'Koperasi' tidak perlu melaporkan keuangannya.",
+      "'Koperasi' dapat didirikan oleh satu orang saja."
+    ],
+    answer: 2,
+    sub: "'Ciri-Ciri Koperasi'"
   },
   {
     question: "Apa yang dimaksud dengan pemeriksaan keuangan koperasi?",
