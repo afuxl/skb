@@ -223,21 +223,44 @@
             });
         }
 
-        // Mulai timer
-        function startTimer() {
-            const interval = setInterval(() => {
-                if (timerSeconds <= 0) {
-                    clearInterval(interval);
-                    endQuiz();
-                } else {
-                    timerSeconds--;
-                    const hours = Math.floor(timerSeconds / 3600);
-                    const minutes = Math.floor((timerSeconds % 3600) / 60);
-                    const seconds = timerSeconds % 60;
-                    timerElement.textContent = `${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
-                }
-            }, 1000);
+ // Variabel timer
+let timerSeconds = 5400; // 90 menit dalam detik
+let timerStart; // Waktu mulai timer
+
+// Ambil elemen timer
+const timerElement = document.getElementById('timer');
+
+// Fungsi untuk memulai timer
+function startTimer() {
+    // Simpan waktu mulai berdasarkan waktu lokal
+    const now = new Date();
+    timerStart = now.getTime();
+
+    // Hitung ulang setiap detik
+    const interval = setInterval(() => {
+        // Hitung sisa waktu berdasarkan selisih waktu sekarang dengan waktu mulai
+        const now = new Date();
+        const elapsedSeconds = Math.floor((now.getTime() - timerStart) / 1000);
+        const remainingSeconds = timerSeconds - elapsedSeconds;
+
+        if (remainingSeconds <= 0) {
+            clearInterval(interval); // Hentikan interval saat waktu habis
+            endQuiz(); // Panggil fungsi untuk mengakhiri kuis
+        } else {
+            // Format waktu menjadi HH:MM:SS atau MM:SS jika kurang dari 1 jam
+            const hours = Math.floor(remainingSeconds / 3600);
+            const minutes = Math.floor((remainingSeconds % 3600) / 60);
+            const seconds = remainingSeconds % 60;
+
+            if (hours > 0) {
+                timerElement.textContent = `${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
+            } else {
+                timerElement.textContent = `${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
+            }
         }
+    }, 1000);
+}
+
 
         // Perbarui progress bar
         function updateProgressBar() {
