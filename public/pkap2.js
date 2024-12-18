@@ -1078,5 +1078,126 @@ const questions = [
     ],
     "answer": 2,
     "sub": "Juknis Deputi Nomor 15 Tahun 2021"
+  },
+  {
+    "question": "Apa tujuan utama pengawasan koperasi berdasarkan Permenkop Nomor 9 Tahun 2020?",
+    "options": [
+      "Meningkatkan jumlah anggota koperasi",
+      "Mendorong koperasi untuk mencapai target SHU",
+      "Memantau perkembangan aset koperasi setiap tahun",
+      "Mengatur struktur organisasi koperasi secara berkala",
+      "Memastikan kepatuhan koperasi terhadap peraturan perundang-undangan"
+    ],
+    "answer": 5,
+    "sub": "Permenkop Nomor 9 Tahun 2020"
+  },
+  {
+    "question": "Apa yang menjadi kewenangan pemerintah daerah dalam pengawasan koperasi lintas kabupaten/kota di satu provinsi?",
+    "options": [
+      "Melakukan audit eksternal",
+      "Mengatur penggabungan koperasi",
+      "Melaksanakan pengawasan sesuai wilayah keanggotaan",
+      "Menyetujui anggaran dasar koperasi",
+      "Menetapkan sanksi administratif berat"
+    ],
+    "answer": 3,
+    "sub": "Permenkop Nomor 9 Tahun 2020"
+  },
+  {
+    "question": "Apa yang dimaksud dengan KKPKK dalam Permenkop Nomor 9 Tahun 2020?",
+    "options": [
+      "Kertas Kerja Pengawasan Koperasi",
+      "Kerangka Kinerja Pengelolaan Koperasi",
+      "Kriteria Keanggotaan dan Permodalan Koperasi",
+      "Kelompok Kerja Pembinaan Koperasi",
+      "Kertas Kerja Pemeriksaan Kesehatan Koperasi"
+    ],
+    "answer": 5,
+    "sub": "Permenkop Nomor 9 Tahun 2020"
+  },
+  {
+    "question": "Apa jenis sanksi administratif yang termasuk dalam kategori sanksi berat?",
+    "options": [
+      "Pemberian surat teguran pertama",
+      "Penurunan tingkat kesehatan koperasi",
+      "Pembekuan izin usaha koperasi",
+      "Pencabutan izin usaha atau pembubaran koperasi",
+      "Pembatasan jumlah anggota koperasi"
+    ],
+    "answer": 4,
+    "sub": "Permenkop Nomor 9 Tahun 2020"
+  },
+  {
+    "question": "Siapa yang berwenang menyusun dan menetapkan KKPKK?",
+    "options": [
+      "Menteri Koperasi dan UKM",
+      "Gubernur setempat",
+      "Pengurus koperasi yang diawasi",
+      "Tim pengawas koperasi daerah",
+      "Deputi bidang pengawasan koperasi",
+    ],
+    "answer": 5,
+    "sub": "Permenkop Nomor 9 Tahun 2020"
+  },
+  {
+    "question": "Apa komponen utama yang dinilai dalam KKPKK untuk koperasi simpan pinjam?",
+    "options": [
+      "Tata kelola, profil risiko, kinerja keuangan, dan permodalan",
+      "Jumlah anggota, total aset, dan SHU",
+      "Manajemen pengelolaan usaha koperasi",
+      "Penerapan prinsip koperasi dan manajemen keuangan",
+      "Evaluasi pengelolaan anggaran pendapatan koperasi"
+    ],
+    "answer": 1,
+    "sub": "Permenkop Nomor 9 Tahun 2020"
+  },
+  {
+    "question": "Koperasi yang memiliki lebih dari 35.000 anggota dengan aset lebih dari Rp 500 miliar dikategorikan dalam tingkat KUK berapa?",
+    "options": [
+      "KUK 1",
+      "KUK 2",
+      "KUK 3",
+      "KUK 4",
+      "KUK 5"
+    ],
+    "answer": 4,
+    "sub": "Permenkop Nomor 9 Tahun 2020"
+  },
+  {
+    "question": "Apa tahapan pertama dalam proses pengawasan koperasi secara langsung (on-site)?",
+    "options": [
+      "Menyampaikan surat tugas kepada pengurus koperasi",
+      "Mengumpulkan data dan informasi terkait koperasi",
+      "Melakukan pertemuan pendahuluan (entry meeting)",
+      "Melakukan klarifikasi hasil temuan",
+      "Menyusun Berita Acara Pemeriksaan Kesehatan Koperasi"
+    ],
+    "answer": 2,
+    "sub": "Permenkop Nomor 9 Tahun 2020"
+  },
+  {
+    "question": "Apa yang dimaksud dengan sanksi administratif berupa pembatasan kegiatan usaha?",
+    "options": [
+      "Pengurangan jumlah anggota koperasi",
+      "Penurunan tingkat kesehatan koperasi",
+      "Pembatasan penyaluran pinjaman baru atau penerimaan simpanan",
+      "Pencabutan izin operasional koperasi",
+      "Pemberian surat peringatan tertulis"
+    ],
+    "answer": 3,
+    "sub": "Permenkop Nomor 9 Tahun 2020"
+  },
+  {
+    "question": "Apabila koperasi tidak melaksanakan sanksi administratif sesuai jangka waktu yang ditetapkan, apa tindakan yang diambil?",
+    "options": [
+      "Diberikan perpanjangan waktu selama 3 bulan",
+      "Dilakukan pemeriksaan ulang oleh tim pengawas",
+      "Dikenakan sanksi administratif yang lebih berat",
+      "Koperasi dibekukan untuk sementara",
+      "Dilakukan audit keuangan oleh akuntan publik"
+    ],
+    "answer": 3,
+    "sub": "Permenkop Nomor 9 Tahun 2020"
   }
 ]
+
