@@ -959,7 +959,6 @@ const questions = [
     "answer": 3,
     "sub": "Permenkop Nomor 9 Tahun 2018"
   },
-  [
   {
     "question": "Apa tujuan utama pemeriksaan kesehatan koperasi berdasarkan Juknis Deputi Perkoperasian Nomor 15 Tahun 2021?",
     "options": [
@@ -1081,6 +1080,3 @@ const questions = [
     "sub": "Juknis Deputi Nomor 15 Tahun 2021"
   }
 ]
-
-
-
