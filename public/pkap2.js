@@ -872,7 +872,7 @@ const questions = [
       "5 koperasi primer atau sekunder",
       "6 koperasi primer atau sekunder"
     ],
-    "answer": 4,
+    "answer": 2,
     "sub": "Permenkop Nomor 9 Tahun 2018"
   },
   {
@@ -1076,7 +1076,7 @@ const questions = [
       "Pertumbuhan jumlah anggota koperasi aktif",
       "Rentabilitas usaha, likuiditas, dan efisiensi biaya operasional"
     ],
-    "answer": 2,
+    "answer": 5,
     "sub": "Juknis Deputi Nomor 15 Tahun 2021"
   },
   {
