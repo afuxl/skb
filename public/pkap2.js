@@ -435,12 +435,12 @@ const questions = [
     "question": "Dalam konteks profil risiko koperasi, manajemen risiko dinilai berdasarkan:",
     "options": [
       "Keberagaman produk koperasi",
-      "Efektivitas mitigasi risiko",
       "Jumlah aset koperasi",
       "Keanggotaan koperasi",
-      "Transparansi laporan keuangan"
+      "Transparansi laporan keuangan",
+      "Efektivitas mitigasi risiko"
     ],
-    "answer": 2,
+    "answer": 5,
     "sub": "Juknis Deputi Nomor 15 Tahun 2021"
   },
   {
@@ -579,25 +579,508 @@ const questions = [
     "question": "Apa komponen yang dinilai dalam manajemen risiko koperasi?",
     "options": [
       "Pengelolaan dana cadangan",
-      "Kemampuan mitigasi risiko dan pengendalian internal",
       "Jumlah aset dibandingkan kewajiban",
       "Tingkat SHU terhadap total pendapatan",
-      "Frekuensi pelaksanaan rapat pengurus"
+      "Frekuensi pelaksanaan rapat pengurus",
+      "Kemampuan mitigasi risiko dan pengendalian internal"
     ],
-    "answer": 2,
+    "answer": 5,
     "sub": "Juknis Deputi Nomor 15 Tahun 2021"
   },
   {
     "question": "Apa yang harus dilakukan koperasi jika hasil pemeriksaan menunjukkan status 'Kurang Sehat'?",
     "options": [
       "Mengajukan bantuan dana pemerintah",
-      "Melakukan perbaikan sesuai rekomendasi tim pengawas",
       "Mengganti pengurus koperasi",
       "Menghapus anggota tidak aktif",
+      "Mengurangi pinjaman koperasi",
+      "Melakukan perbaikan sesuai rekomendasi tim pengawas"
+    ],
+    "answer": 5,
+    "sub": "Juknis Deputi Nomor 15 Tahun 2021"
+  },
+  {
+    "question": "Apa komponen yang dinilai dalam kinerja usaha koperasi?",
+    "options": [
+      "Peningkatan jumlah pinjaman",
+      "Frekuensi rapat pengurus",
+      "Partisipasi anggota dalam RAT",
+      "Jumlah aset likuid",
+      "Efisiensi biaya operasional"
+    ],
+    "answer": 5,
+    "sub": "Juknis Deputi Nomor 15 Tahun 2021"
+  },
+  {
+    "question": "Sebuah koperasi memiliki SHU Rp 300 juta. Jika 40% digunakan untuk dana cadangan dan 30% untuk jasa usaha anggota, berapa jumlah dana untuk jasa usaha?",
+    "options": [
+      "Rp 60 juta",
+      "Rp 90 juta",
+      "Rp 120 juta",
+      "Rp 150 juta",
+      "Rp 180 juta"
+    ],
+    "answer": 3,
+    "sub": "Juknis Deputi Nomor 15 Tahun 2021"
+  },
+  {
+    "question": "Apa yang dimaksud dengan risiko kepatuhan dalam profil risiko koperasi?",
+    "options": [
+      "Risiko karena rendahnya aset produktif",
+      "Risiko karena penurunan partisipasi anggota",
+      "Risiko karena tidak tercapainya target SHU",
+      "Risiko akibat kelemahan dalam pengendalian internal",
+      "Risiko akibat pelanggaran terhadap aturan yang berlaku"
+    ],
+    "answer": 5,
+    "sub": "Juknis Deputi Nomor 15 Tahun 2021"
+  },
+  {
+    "question": "Dalam pemeriksaan kesehatan koperasi, apa tujuan dari rekomendasi perbaikan yang diberikan oleh Tim Pemeriksa?",
+    "options": [
+      "Meningkatkan jumlah anggota koperasi",
+      "Memastikan koperasi dapat meningkatkan SHU",
+      "Menyelesaikan semua kewajiban jangka pendek",
+      "Meningkatkan tata kelola dan kinerja koperasi",
+      "Mengurangi risiko inheren secara signifikan"
+    ],
+    "answer": 4,
+    "sub": "Juknis Deputi Nomor 15 Tahun 2021"
+  },
+  {
+    "question": "Jika koperasi memiliki total aset Rp 500 juta dan kewajiban Rp 200 juta, berapakah rasio kecukupan modal koperasi tersebut?",
+    "options": [
+      "50%",
+      "60%",
+      "80%",
+      "100%",
+      "120%"
+    ],
+    "answer": 3,
+    "sub": "Juknis Deputi Nomor 15 Tahun 2021"
+  },
+  {
+    "question": "Apa langkah pertama yang harus dilakukan koperasi dengan status 'Kurang Sehat'?",
+    "options": [
+      "Mengganti seluruh pengurus koperasi",
+      "Menyusun rencana aksi perbaikan",
+      "Mengajukan bantuan dari pemerintah",
+      "Menambah jumlah simpanan pokok",
+      "Menghapus anggota tidak aktif"
+    ],
+    "answer": 2,
+    "sub": "Juknis Deputi Nomor 15 Tahun 2021"
+  },
+  {
+    "question": "Apa kriteria tata kelola koperasi yang dikategorikan 'Sehat'?",
+    "options": [
+      "Memiliki lebih dari 100 anggota aktif",
+      "Frekuensi RAT mencapai 2 kali setahun",
+      "Kesesuaian prinsip koperasi dan dokumen legalitas lengkap",
+      "Peningkatan SHU sebesar 10% setiap tahun",
+      "Jumlah pinjaman tidak lebih dari 30% aset"
+    ],
+    "answer": 3,
+    "sub": "Juknis Deputi Nomor 15 Tahun 2021"
+  },
+  {
+    "question": "Dalam pengelolaan risiko koperasi, apa yang menjadi prioritas utama dalam mitigasi risiko operasional?",
+    "options": [
+      "Menurunkan biaya operasional",
+      "Meningkatkan efisiensi modal",
+      "Memperbaiki prosedur kerja",
+      "Menambah jumlah anggota koperasi",
       "Mengurangi pinjaman koperasi"
+    ],
+    "answer": 3,
+    "sub": "Juknis Deputi Nomor 15 Tahun 2021"
+  },
+  {
+    "question": "Apa indikator utama yang digunakan untuk menilai kesinambungan keuangan koperasi?",
+    "options": [
+      "Pertumbuhan aset dan ekuitas",
+      "Jumlah pinjaman koperasi",
+      "Frekuensi rapat pengurus",
+      "Tingkat partisipasi anggota",
+      "Kesesuaian laporan keuangan"
+    ],
+    "answer": 1,
+    "sub": "Juknis Deputi Nomor 15 Tahun 2021"
+  },
+  {
+    "question": "Dalam pemeriksaan kesehatan koperasi, koperasi dinyatakan 'Tidak Sehat' jika:",
+    "options": [
+      "Tidak memiliki simpanan wajib anggota",
+      "Risiko inheren tinggi dan mitigasi tidak memadai",
+      "Jumlah anggota kurang dari 50 orang",
+      "Tidak mencapai target SHU selama 2 tahun",
+      "Frekuensi RAT kurang dari 1 kali dalam 3 tahun"
+    ],
+    "answer": 2,
+    "sub": "Juknis Deputi Nomor 15 Tahun 2021"
+  },
+  {
+    "question": "Berdasarkan Permenkop Nomor 9 Tahun 2018, apa syarat minimal anggota untuk mendirikan koperasi primer?",
+    "options": [
+      "10 orang",
+      "15 orang",
+      "20 orang",
+      "25 orang",
+      "30 orang"
+    ],
+    "answer": 3,
+    "sub": "Permenkop Nomor 9 Tahun 2018"
+  },
+  {
+    "question": "Apa yang dimaksud dengan dana cadangan dalam koperasi?",
+    "options": [
+      "Dana untuk membayar pinjaman anggota",
+      "Dana yang digunakan untuk operasional sehari-hari",
+      "Dana dari penyisihan SHU untuk memupuk modal dan menutup kerugian",
+      "Dana untuk membayar pajak koperasi",
+      "Dana yang diperoleh dari hibah pemerintah"
+    ],
+    "answer": 3,
+    "sub": "Permenkop Nomor 9 Tahun 2018"
+  },
+  {
+    "question": "Sebuah koperasi memiliki total SHU sebesar Rp 400 juta. Jika 30% digunakan untuk dana cadangan, berapa jumlah yang disisihkan untuk dana cadangan?",
+    "options": [
+      "Rp 100 juta",
+      "Rp 120 juta",
+      "Rp 130 juta",
+      "Rp 140 juta",
+      "Rp 150 juta"
+    ],
+    "answer": 2,
+    "sub": "Permenkop Nomor 9 Tahun 2018"
+  },
+  {
+    "question": "Apa syarat pendirian koperasi sekunder menurut Permenkop Nomor 9 Tahun 2018?",
+    "options": [
+      "Didirikan oleh 2 koperasi primer",
+      "Didirikan oleh 3 koperasi primer",
+      "Didirikan oleh 3 badan hukum koperasi",
+      "Didirikan oleh 5 badan hukum koperasi",
+      "Didirikan oleh 10 koperasi primer"
+    ],
+    "answer": 3,
+    "sub": "Permenkop Nomor 9 Tahun 2018"
+  },
+  {
+    "question": "Apa kewenangan Rapat Anggota dalam perubahan anggaran dasar koperasi?",
+    "options": [
+      "Menetapkan jenis usaha koperasi",
+      "Menyusun laporan keuangan",
+      "Menetapkan perubahan anggaran dasar koperasi",
+      "Mengatur jumlah simpanan pokok",
+      "Mengelola aset koperasi"
+    ],
+    "answer": 3,
+    "sub": "Permenkop Nomor 9 Tahun 2018"
+  },
+  {
+    "question": "Apa yang menjadi syarat tambahan bagi koperasi simpan pinjam saat pendirian?",
+    "options": [
+      "Menyiapkan modal awal sebesar Rp 500 juta",
+      "Menyusun rencana kerja selama 1 tahun",
+      "Melampirkan rencana kegiatan usaha selama 3 tahun",
+      "Membayar pajak badan usaha koperasi",
+      "Menyiapkan lokasi operasional khusus"
+    ],
+    "answer": 3,
+    "sub": "Permenkop Nomor 9 Tahun 2018"
+  },
+  {
+    "question": "Apa alasan pembubaran koperasi oleh pemerintah sebagaimana diatur dalam Permenkop Nomor 9 Tahun 2018?",
+    "options": [
+      "Tidak mencapai target SHU",
+      "Tidak melakukan Rapat Anggota selama 3 tahun berturut-turut",
+      "Kehilangan lebih dari 50% anggota",
+      "Tidak menyetor simpanan pokok",
+      "Tidak menyerahkan laporan keuangan dalam 5 tahun"
+    ],
+    "answer": 2,
+    "sub": "Permenkop Nomor 9 Tahun 2018"
+  },
+  {
+    "question": "Apa yang dimaksud dengan koperasi dalam proses penyelesaian?",
+    "options": [
+      "Koperasi yang sedang melakukan perubahan anggaran dasar",
+      "Koperasi yang baru saja dibentuk",
+      "Koperasi yang sedang melaksanakan kegiatan usaha",
+      "Koperasi yang telah dibubarkan tetapi masih menyelesaikan kewajibannya",
+      "Koperasi yang sedang memperbaiki struktur organisasinya"
+    ],
+    "answer": 4,
+    "sub": "Permenkop Nomor 9 Tahun 2018"
+  },
+  {
+    "question": "Sebuah koperasi memiliki kewajiban Rp 250 juta dan total aset Rp 500 juta. Berapakah rasio kecukupan modal koperasi tersebut?",
+    "options": [
+      "25%",
+      "50%",
+      "75%",
+      "100%",
+      "125%"
+    ],
+    "answer": 2,
+    "sub": "Permenkop Nomor 9 Tahun 2018"
+  },
+  {
+    "question": "Apa syarat tambahan bagi koperasi simpan pinjam dan pembiayaan syariah saat pendirian?",
+    "options": [
+      "Harus memiliki rekomendasi dari MUI",
+      "Menyusun rencana kerja selama 2 tahun",
+      "Memiliki minimal 10 anggota pendiri",
+      "Menyediakan dana cadangan sebesar 10%",
+      "Menyerahkan laporan keuangan awal"
+    ],
+    "answer": 1,
+    "sub": "Permenkop Nomor 9 Tahun 2018"
+  },
+  {
+    "question": "Apa tujuan utama pembubaran koperasi oleh pemerintah sesuai Permenkop Nomor 9 Tahun 2018?",
+    "options": [
+      "Mengembalikan kepercayaan anggota terhadap koperasi",
+      "Meningkatkan efisiensi pengelolaan koperasi",
+      "Menjamin penyelesaian kewajiban koperasi kepada pihak terkait",
+      "Mendorong penggabungan koperasi yang lebih besar",
+      "Mengurangi jumlah koperasi yang tidak aktif"
+    ],
+    "answer": 3,
+    "sub": "Permenkop Nomor 9 Tahun 2018"
+  },
+  {
+    "question": "Apa kewajiban pengurus koperasi dalam mengelola laporan keuangan tahunan?",
+    "options": [
+      "Menyampaikan laporan ke instansi pembina",
+      "Memastikan laporan diaudit oleh pengawas koperasi",
+      "Menyusun laporan keuangan sesuai standar akuntansi",
+      "Memastikan laporan keuangan hanya disampaikan kepada pengurus",
+      "Menyampaikan laporan keuangan kepada anggota melalui Rapat Anggota"
+    ],
+    "answer": 5,
+    "sub": "Permenkop Nomor 9 Tahun 2018"
+  },
+  {
+    "question": "Berapa jumlah koperasi yang dibutuhkan untuk mendirikan koperasi sekunder?",
+    "options": [
+      "2 koperasi primer",
+      "3 koperasi primer",
+      "4 koperasi primer atau sekunder",
+      "5 koperasi primer atau sekunder",
+      "6 koperasi primer atau sekunder"
+    ],
+    "answer": 4,
+    "sub": "Permenkop Nomor 9 Tahun 2018"
+  },
+  {
+    "question": "Jika sebuah koperasi memiliki total aset Rp 1 miliar dan kewajiban Rp 600 juta, berapa rasio kecukupan modal koperasi tersebut?",
+    "options": [
+      "30%",
+      "40%",
+      "50%",
+      "60%",
+      "70%"
+    ],
+    "answer": 2,
+    "sub": "Permenkop Nomor 9 Tahun 2018"
+  },
+  {
+    "question": "Dalam konteks pendirian koperasi, apa yang menjadi syarat tambahan bagi koperasi simpan pinjam?",
+    "options": [
+      "Menyusun rencana kerja selama 1 tahun",
+      "Melampirkan laporan perkembangan anggota",
+      "Menyediakan dana cadangan sebesar 20%",
+      "Melampirkan rencana kegiatan usaha selama 3 tahun",
+      "Menyerahkan dokumen perjanjian pinjaman awal"
+    ],
+    "answer": 4,
+    "sub": "Permenkop Nomor 9 Tahun 2018"
+  },
+  {
+    "question": "Apa langkah pertama yang harus dilakukan pengurus koperasi setelah menerima keputusan pembubaran dari pemerintah?",
+    "options": [
+      "Menghentikan seluruh kegiatan usaha",
+      "Menyelesaikan kewajiban terhadap kreditur dan anggota",
+      "Mengajukan banding atas keputusan pembubaran",
+      "Menyusun laporan keuangan terakhir",
+      "Melakukan pengembalian aset kepada pemerintah"
+    ],
+    "answer": 2,
+    "sub": "Permenkop Nomor 9 Tahun 2018"
+  },
+  {
+    "question": "Apa tujuan utama dari penggabungan koperasi sebagaimana diatur dalam Permenkop Nomor 9 Tahun 2018?",
+    "options": [
+      "Meningkatkan jumlah anggota koperasi",
+      "Mengurangi beban operasional koperasi kecil",
+      "Menyatukan kekuatan ekonomi untuk efisiensi",
+      "Meningkatkan daya saing melalui konsolidasi usaha",
+      "Mempermudah akses pendanaan koperasi"
+    ],
+    "answer": 4,
+    "sub": "Permenkop Nomor 9 Tahun 2018"
+  },
+  {
+    "question": "Kapan koperasi diwajibkan menyusun laporan perubahan anggaran dasar?",
+    "options": [
+      "Setelah Rapat Anggota Tahunan berlangsung",
+      "Ketika koperasi akan mengajukan izin usaha baru",
+      "Saat terjadi perubahan struktur organisasi koperasi",
+      "Jika disetujui oleh Rapat Anggota Luar Biasa",
+      "Ketika jumlah anggota koperasi meningkat signifikan"
+    ],
+    "answer": 4,
+    "sub": "Permenkop Nomor 9 Tahun 2018"
+  },
+  {
+    "question": "Apa kewenangan instansi pembina dalam membina koperasi?",
+    "options": [
+      "Memberikan bantuan dana bagi koperasi bermasalah",
+      "Menyediakan pelatihan teknis untuk pengurus koperasi",
+      "Melakukan evaluasi dan pengawasan secara berkala",
+      "Menyetujui laporan keuangan koperasi",
+      "Mengatur penunjukan pengurus baru koperasi"
+    ],
+    "answer": 3,
+    "sub": "Permenkop Nomor 9 Tahun 2018"
+  },
+  {
+    "question": "Apa yang dimaksud dengan koperasi dalam proses penyelesaian?",
+    "options": [
+      "Koperasi yang baru dibentuk dan menunggu izin",
+      "Koperasi yang sedang dalam tahap restrukturisasi",
+      "Koperasi yang telah dibubarkan tetapi masih menyelesaikan kewajiban",
+      "Koperasi yang sedang menyusun laporan keuangan akhir",
+      "Koperasi yang telah bergabung dengan koperasi lain"
+    ],
+    "answer": 3,
+    "sub": "Permenkop Nomor 9 Tahun 2018"
+  },
+  [
+  {
+    "question": "Apa tujuan utama pemeriksaan kesehatan koperasi berdasarkan Juknis Deputi Perkoperasian Nomor 15 Tahun 2021?",
+    "options": [
+      "Menentukan status kesehatan koperasi",
+      "Menetapkan jumlah anggota yang aktif",
+      "Memaksimalkan keuntungan koperasi",
+      "Memastikan pembubaran koperasi bermasalah",
+      "Mengukur jumlah aset koperasi"
+    ],
+    "answer": 1,
+    "sub": "Juknis Deputi Nomor 15 Tahun 2021"
+  },
+  {
+    "question": "Berapa jumlah minimal anggota yang diperlukan untuk mendirikan koperasi primer menurut Permenkop UKM Nomor 9 Tahun 2018?",
+    "options": [
+      "5 orang",
+      "10 orang",
+      "15 orang",
+      "20 orang",
+      "25 orang"
+    ],
+    "answer": 4,
+    "sub": "Permenkop UKM Nomor 9 Tahun 2018"
+  },
+  {
+    "question": "Apa yang dimaksud dengan 'risiko kepatuhan' dalam pemeriksaan kesehatan koperasi?",
+    "options": [
+      "Risiko akibat lemahnya pengendalian keuangan",
+      "Risiko karena kurangnya partisipasi anggota",
+      "Risiko yang muncul akibat kerugian usaha",
+      "Risiko terkait jumlah anggota tidak aktif",
+      "Risiko karena ketidakpatuhan terhadap aturan yang berlaku"
+    ],
+    "answer": 5,
+    "sub": "Juknis Deputi Nomor 15 Tahun 2021"
+  },
+  {
+    "question": "Dalam konteks Permenkop UKM 9 Tahun 2018, apa sanksi administratif bagi koperasi yang tidak menyelenggarakan Rapat Anggota Tahunan (RAT) selama 3 tahun berturut-turut?",
+    "options": [
+      "Dikenakan denda oleh instansi pembina",
+      "Diberikan peringatan tertulis oleh pengawas",
+      "Dihapuskan izin badan hukumnya",
+      "Dikenakan pembatasan kegiatan usaha",
+      "Dibubarkan oleh pemerintah"
+    ],
+    "answer": 5,
+    "sub": "Permenkop UKM Nomor 9 Tahun 2018"
+  },
+  {
+    "question": "Jika sebuah koperasi memiliki SHU sebesar Rp 400 juta, dan 25% digunakan untuk dana cadangan, berapa jumlah dana cadangan yang disisihkan?",
+    "options": [
+      "Rp 80 juta",
+      "Rp 100 juta",
+      "Rp 120 juta",
+      "Rp 150 juta",
+      "Rp 160 juta"
+    ],
+    "answer": 1,
+    "sub": "Permenkop UKM Nomor 9 Tahun 2018"
+  },
+  {
+    "question": "Dalam Juknis Deputi, risiko operasional koperasi terjadi akibat:",
+    "options": [
+      "Pelanggaran terhadap ketentuan hukum yang berlaku",
+      "Ketidakseimbangan antara aset likuid dan kewajiban",
+      "Kegagalan proses internal, sumber daya manusia, atau sistem",
+      "Penurunan jumlah anggota yang signifikan",
+      "Ketidakmampuan pengurus dalam menyusun laporan keuangan"
+    ],
+    "answer": 3,
+    "sub": "Juknis Deputi Nomor 15 Tahun 2021"
+  },
+  {
+    "question": "Apa kewajiban utama pengurus koperasi dalam menyampaikan laporan keuangan tahunan menurut Permenkop UKM Nomor 9 Tahun 2018?",
+    "options": [
+      "Melaporkan kepada instansi pembina koperasi",
+      "Melakukan audit eksternal oleh akuntan publik",
+      "Menyusun laporan sesuai standar akuntansi internasional",
+      "Melaporkan secara berkala ke pengawas koperasi",
+      "Menyampaikan laporan keuangan kepada anggota dalam RAT"
+    ],
+    "answer": 5,
+    "sub": "Permenkop UKM Nomor 9 Tahun 2018"
+  },
+  {
+    "question": "Apa langkah pertama yang harus dilakukan koperasi setelah dinyatakan dalam status 'Kurang Sehat' berdasarkan Juknis Deputi?",
+    "options": [
+      "Mengajukan bantuan modal kepada pemerintah",
+      "Melakukan pembubaran koperasi",
+      "Menyusun dan melaksanakan rencana perbaikan",
+      "Meningkatkan jumlah anggota koperasi",
+      "Mengurangi biaya operasional"
+    ],
+    "answer": 3,
+    "sub": "Juknis Deputi Nomor 15 Tahun 2021"
+  },
+  {
+    "question": "Berapa jumlah koperasi yang diperlukan untuk mendirikan koperasi sekunder sesuai Permenkop UKM Nomor 9 Tahun 2018?",
+    "options": [
+      "2 koperasi primer",
+      "3 koperasi primer atau sekunder",
+      "5 koperasi primer atau sekunder",
+      "7 koperasi primer",
+      "10 koperasi primer"
+    ],
+    "answer": 2,
+    "sub": "Permenkop UKM Nomor 9 Tahun 2018"
+  },
+  {
+    "question": "Apa komponen utama dalam penilaian kinerja keuangan koperasi berdasarkan Juknis Deputi Nomor 15 Tahun 2021?",
+    "options": [
+      "Tingkat partisipasi anggota dalam RAT",
+      "Jumlah pinjaman yang diberikan kepada anggota",
+      "Frekuensi penyelenggaraan Rapat Anggota Luar Biasa",
+      "Pertumbuhan jumlah anggota koperasi aktif",
+      "Rentabilitas usaha, likuiditas, dan efisiensi biaya operasional"
     ],
     "answer": 2,
     "sub": "Juknis Deputi Nomor 15 Tahun 2021"
   }
 ]
+
+
 
